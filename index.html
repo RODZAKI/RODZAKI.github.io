@@ -6,7 +6,7 @@
   <title>DOMAINE{([8])}</title>
   <meta name="description" content="DOMAINE{([8])} — Quasantum realms and the transcendental novelty on the event horizon." />
 
-  <!-- Fonts: calligraphic for the hero inscription + grounded serif for the rest -->
+  <!-- Fonts: calligraphic hero + grounded serif -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Great+Vibes&display=swap" rel="stylesheet">
@@ -17,6 +17,10 @@
       --fg: #f2f0ea;
       --muted: rgba(242,240,234,.75);
       --hair: rgba(242,240,234,.18);
+
+      --paper: #f3efe6;           /* white plane */
+      --paperText: #141416;       /* text on the plane */
+      --paperMuted: rgba(20,20,22,.72);
 
       --serif: "IM Fell English", Georgia, "Times New Roman", serif;
       --smallcaps: "IM Fell English SC", Georgia, "Times New Roman", serif;
@@ -39,57 +43,32 @@
       text-rendering: optimizeLegibility;
     }
 
-    /* Hero */
+    /* HERO: full backdrop image */
     .hero{
-      min-height: 82vh;
-      display: grid;
-      align-items: center;
       position: relative;
+      min-height: 92vh;
       overflow: hidden;
       border-bottom: 1px solid var(--hair);
-      /* Replace this with your real hero image later if desired */
       background:
-        radial-gradient(1200px 700px at 70% 30%, rgba(255,255,255,.10), transparent 60%),
-        radial-gradient(900px 500px at 30% 70%, rgba(255,255,255,.08), transparent 55%),
-        linear-gradient(180deg, rgba(0,0,0,.40), rgba(0,0,0,.85));
+        linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.65)),
+        url("IMG_1554%20(1).PNG") center/cover no-repeat;
     }
 
-    /* Optional: if you later add a background image, uncomment and set URL */
-    /*
-    .hero::before{
-      content:"";
-      position:absolute; inset:0;
-      background: url("YOUR-HERO-IMAGE.jpg") center/cover no-repeat;
-      filter: contrast(1.03) saturate(.95);
-      transform: scale(1.02);
-      z-index: 0;
-      opacity: .55;
+    /* White plane band at the bottom of the hero */
+    .hero-plane{
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      background: var(--paper);
+      color: var(--paperText);
+      border-top: 1px solid rgba(0,0,0,.12);
+      box-shadow: 0 -12px 40px rgba(0,0,0,.35);
     }
-    .hero::after{
-      content:"";
-      position:absolute; inset:0;
-      background: linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.88));
-      z-index: 1;
-    }
-    */
 
-    .wrap{
-      width: 100%;
+    .hero-plane .wrap{
       max-width: var(--max);
       margin: 0 auto;
-      padding: calc(var(--pad) * 1.6) var(--pad);
-      position: relative;
-      z-index: 2; /* stays above optional overlays */
+      padding: calc(var(--pad) * 1.05) var(--pad);
       text-align: center;
-    }
-
-    .fringe{
-      font-family: var(--smallcaps);
-      letter-spacing: .13em;
-      font-size: clamp(11px, 1.6vw, 14px);
-      color: var(--muted);
-      text-transform: uppercase;
-      margin: 0 0 18px 0;
     }
 
     .inscription{
@@ -98,30 +77,41 @@
       font-size: clamp(44px, 7vw, 92px);
       line-height: 1.02;
       margin: 0;
-      color: var(--fg);
-      text-shadow: 0 10px 30px rgba(0,0,0,.55);
+      color: var(--paperText);
+      text-shadow: 0 1px 0 rgba(255,255,255,.35);
     }
 
     .inscription-sub{
-      margin-top: 14px;
+      margin-top: 10px;
       font-family: var(--smallcaps);
-      font-size: clamp(13px, 2.1vw, 18px);
+      font-size: clamp(13px, 2.0vw, 18px);
       letter-spacing: .22em;
       text-transform: uppercase;
-      color: rgba(242,240,234,.85);
+      color: rgba(20,20,22,.85);
+    }
+
+    .fringe{
+      margin-top: 12px;
+      font-family: var(--smallcaps);
+      letter-spacing: .12em;
+      font-size: clamp(11px, 1.6vw, 14px);
+      text-transform: uppercase;
+      color: var(--paperMuted);
     }
 
     .hero-rule{
-      margin: 26px auto 0;
-      width: min(560px, 86%);
+      margin: 18px auto 0;
+      width: min(620px, 90%);
       height: 1px;
-      background: linear-gradient(90deg, transparent, var(--hair), transparent);
+      background: linear-gradient(90deg, transparent, rgba(0,0,0,.22), transparent);
     }
 
-    /* Main content (revealed by scroll) */
+    /* CONTENT below hero */
     main{
       padding: calc(var(--pad) * 1.2) var(--pad) calc(var(--pad) * 2.2);
-      background: radial-gradient(900px 400px at 50% 0%, rgba(255,255,255,.05), transparent 60%);
+      background:
+        radial-gradient(900px 400px at 50% 0%, rgba(255,255,255,.05), transparent 60%),
+        var(--bg);
     }
 
     .content{
@@ -147,14 +137,13 @@
     .welcome{
       margin: 18px auto 0;
       max-width: 860px;
-      font-size: clamp(18px, 2.1vw, 22px); /* larger, welcoming */
+      font-size: clamp(18px, 2.1vw, 22px); /* welcoming size */
       line-height: 1.7;
       color: rgba(242,240,234,.92);
+      text-align: left;
     }
 
-    .welcome p{
-      margin: 0 0 14px 0;
-    }
+    .welcome p{ margin: 0 0 14px 0; }
 
     .note{
       margin: 18px auto 0;
@@ -162,9 +151,10 @@
       font-size: clamp(14px, 1.9vw, 16px);
       color: var(--muted);
       font-style: italic;
+      text-align: left;
     }
 
-    /* Entry buttons (trailheads) */
+    /* Trailheads / Cards */
     .trailheads{
       margin: 34px auto 0;
       max-width: 920px;
@@ -175,6 +165,7 @@
 
     @media (max-width: 820px){
       .trailheads{ grid-template-columns: 1fr; }
+      .welcome, .note { text-align: left; }
     }
 
     .card{
@@ -232,19 +223,21 @@
 </head>
 
 <body>
-  <!-- HERO / THRESHOLD (renders once) -->
-  <header class="hero" role="banner">
-    <div class="wrap">
-      <p class="fringe">This site marks the FRINGE of {{{[8]}}} (DOMAINE{([8])}) / QUASANTUM REALMS</p>
+  <!-- HERO: image backdrop + white plane at bottom -->
+  <header class="hero" role="banner" aria-label="Hero">
+    <div class="hero-plane">
+      <div class="wrap">
+        <h1 class="inscription">The Transcendental</h1>
+        <div class="inscription-sub">Novelty &nbsp;·&nbsp; On the Event Horizon</div>
 
-      <h1 class="inscription">The Transcendental</h1>
-      <div class="inscription-sub">Novelty &nbsp;·&nbsp; On the Event Horizon</div>
+        <div class="hero-rule" aria-hidden="true"></div>
 
-      <div class="hero-rule" aria-hidden="true"></div>
+        <div class="fringe">This site marks the FRINGE of {{{[8]}}} (DOMAINE{([8])}) / QUASANTUM REALMS</div>
+      </div>
     </div>
   </header>
 
-  <!-- CONTENT (revealed by scrolling down) -->
+  <!-- CONTENT below -->
   <main role="main">
     <section class="content">
       <div class="domain" id="domain">
@@ -265,7 +258,6 @@
         Some doors open fully. Some open partially. Some are simply marked, so the trail can exist before the trail is paved.
       </div>
 
-      <!-- Trailheads / Buttons -->
       <nav class="trailheads" aria-label="Entry points">
         <div class="card">
           <a href="/publications/">
