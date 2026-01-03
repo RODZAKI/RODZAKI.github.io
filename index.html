@@ -1,187 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>DOMAINE{{[8]}}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DOMAINE{([8])}</title>
+  <meta name="description" content="DOMAINE{([8])} — Quasantum realms and the transcendental novelty on the event horizon." />
 
-<style>
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+  <!-- Fonts: calligraphic for the hero inscription + grounded serif for the rest -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Great+Vibes&display=swap" rel="stylesheet">
 
-body {
-  font-family: Georgia, "Times New Roman", serif;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+  <style>
+    :root{
+      --bg: #0b0b0c;
+      --fg: #f2f0ea;
+      --muted: rgba(242,240,234,.75);
+      --hair: rgba(242,240,234,.18);
 
-/* Full-screen image container */
-.hero {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("IMG_1554 (1).PNG");
-  background-size: cover;
-  background-position: center;
-}
+      --serif: "IM Fell English", Georgia, "Times New Roman", serif;
+      --smallcaps: "IM Fell English SC", Georgia, "Times New Roman", serif;
+      --script: "Great Vibes", "Brush Script MT", cursive;
 
-/* Text placed into the lower white plane */
-.hero-text {
-  position: absolute;
-  bottom: 8%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: #111;
-  max-width: 80%;
-}
+      --max: 980px;
+      --pad: clamp(18px, 3vw, 34px);
+      --radius: 14px;
+    }
 
-/* Title styling */
-.hero-text h1 {
-  font-weight: normal;
-  letter-spacing: 0.15em;
-  font-size: clamp(1.8rem, 4vw, 3rem);
-  margin: 0;
-}
+    *{ box-sizing: border-box; }
+    html, body{ height: 100%; }
+    body{
+      margin: 0;
+      color: var(--fg);
+      background: var(--bg);
+      font-family: var(--serif);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
 
-/* Optional subtle separator */
-.hero-text .line {
-  width: 120px;
-  height: 1px;
-  background: #111;
-  margin: 1rem auto;
-}
+    /* Hero */
+    .hero{
+      min-height: 82vh;
+      display: grid;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid var(--hair);
+      /* Replace this with your real hero image later if desired */
+      background:
+        radial-gradient(1200px 700px at 70% 30%, rgba(255,255,255,.10), transparent 60%),
+        radial-gradient(900px 500px at 30% 70%, rgba(255,255,255,.08), transparent 55%),
+        linear-gradient(180deg, rgba(0,0,0,.40), rgba(0,0,0,.85));
+    }
 
-/* Secondary text (can move later) */
-.hero-text p {
-  margin-top: 1.2rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.05em;
-  opacity: 0.85;
-}
-</style>
+    /* Optional: if you later add a background image, uncomment and set URL */
+    /*
+    .hero::before{
+      content:"";
+      position:absolute; inset:0;
+      background: url("YOUR-HERO-IMAGE.jpg") center/cover no-repeat;
+      filter: contrast(1.03) saturate(.95);
+      transform: scale(1.02);
+      z-index: 0;
+      opacity: .55;
+    }
+    .hero::after{
+      content:"";
+      position:absolute; inset:0;
+      background: linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.88));
+      z-index: 1;
+    }
+    */
+
+    .wrap{
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: calc(var(--pad) * 1.6) var(--pad);
+      position: relative;
+      z-index: 2; /* stays above optional overlays */
+      text-align: center;
+    }
+
+    .fringe{
+      font-family: var(--smallcaps);
+      letter-spacing: .13em;
+      font-size: clamp(11px, 1.6vw, 14px);
+      color: var(--muted);
+      text-transform: uppercase;
+      margin: 0 0 18px 0;
+    }
+
+    .inscription{
+      font-family: var(--script);
+      font-weight: 400;
+      font-size: clamp(44px, 7vw, 92px);
+      line-height: 1.02;
+      margin: 0;
+      color: var(--fg);
+      text-shadow: 0 10px 30px rgba(0,0,0,.55);
+    }
+
+    .inscription-sub{
+      margin-top: 14px;
+      font-family: var(--smallcaps);
+      font-size: clamp(13px, 2.1vw, 18px);
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: rgba(242,240,234,.85);
+    }
+
+    .hero-rule{
+      margin: 26px auto 0;
+      width: min(560px, 86%);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--hair), transparent);
+    }
+
+    /* Main content (revealed by scroll) */
+    main{
+      padding: calc(var(--pad) * 1.2) var(--pad) calc(var(--pad) * 2.2);
+      background: radial-gradient(900px 400px at 50% 0%, rgba(255,255,255,.05), transparent 60%);
+    }
+
+    .content{
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    .domain{
+      text-align: center;
+      margin-top: 26px;
+      padding-top: 6px;
+    }
+
+    .domain h1{
+      font-family: var(--smallcaps);
+      font-weight: 400;
+      font-size: clamp(26px, 3.8vw, 40px);
+      letter-spacing: .12em;
+      margin: 0;
+    }
+
+    .welcome{
+      margin: 18px auto 0;
+      max-width: 860px;
+      font-size: clamp(18px, 2.1vw, 22px); /* larger, welcoming */
+      line-height: 1.7;
+      color: rgba(242,240,234,.92);
+    }
+
+    .welcome p{
+      margin: 0 0 14px 0;
+    }
+
+    .note{
+      margin: 18px auto 0;
+      max-width: 860px;
+      font-size: clamp(14px, 1.9vw, 16px);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Entry buttons (trailheads) */
+    .trailheads{
+      margin: 34px auto 0;
+      max-width: 920px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    @media (max-width: 820px){
+      .trailheads{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      border: 1px solid rgba(242,240,234,.18);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.03);
+      padding: 16px 16px 14px;
+      text-align: left;
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+    }
+
+    .card:hover{
+      transform: translateY(-2px);
+      border-color: rgba(242,240,234,.35);
+      background: rgba(255,255,255,.05);
+    }
+
+    .card a{
+      display: block;
+      color: var(--fg);
+      text-decoration: none;
+      outline: none;
+    }
+
+    .card-title{
+      font-family: var(--smallcaps);
+      letter-spacing: .10em;
+      text-transform: uppercase;
+      margin: 0 0 8px 0;
+      font-size: 16px;
+    }
+
+    .card-desc{
+      margin: 0;
+      color: rgba(242,240,234,.82);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .footer{
+      margin-top: 34px;
+      padding-top: 22px;
+      border-top: 1px solid var(--hair);
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer .sig{
+      font-family: var(--smallcaps);
+      letter-spacing: .10em;
+      color: rgba(242,240,234,.78);
+    }
+  </style>
 </head>
 
 <body>
-  <div class="hero">
-    <div class="hero-text">
-      <h1>
-        THE<br>
-        TRANSCENDENTAL<br>
-        NOVELTY<br>
-        ON THE<br>
-        EVENT HORIZON
-      </h1>
-      <div class="line"></div>
-      <p>
-        This site marks the fringe of DOMAINE{{[8]}} / Quasantum Realms
-      </p>
+  <!-- HERO / THRESHOLD (renders once) -->
+  <header class="hero" role="banner">
+    <div class="wrap">
+      <p class="fringe">This site marks the FRINGE of {{{[8]}}} (DOMAINE{([8])}) / QUASANTUM REALMS</p>
+
+      <h1 class="inscription">The Transcendental</h1>
+      <div class="inscription-sub">Novelty &nbsp;·&nbsp; On the Event Horizon</div>
+
+      <div class="hero-rule" aria-hidden="true"></div>
     </div>
-  </div>
-</body>
-</html>index.html<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>DOMAINE{([8])}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Georgia, serif;
-      max-width: 720px;
-      margin: 4rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-      background: #ffffff;
-      color: #111111;
-    }
-    h1 {
-      font-weight: normal;
-      letter-spacing: 0.05em;
-    }
-  </style>
-<style>
-body {
-  margin: 0;
-  background: #f5f5f2;
-  font-family: Georgia, "Times New Roman", serif;
-}
+  </header>
 
-.hero {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-}
+  <!-- CONTENT (revealed by scrolling down) -->
+  <main role="main">
+    <section class="content">
+      <div class="domain" id="domain">
+        <h1>DOMAINE{([8])}</h1>
+      </div>
 
-.hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 33%;
-  background-image: url("IMG_1554 (1).PNG");
-  background-size: cover;
-  background-position: center;
-}
+      <div class="welcome">
+        <p>
+          This is a place for writings, structures, and artifacts that emerge in their own time—presence rather than optimization,
+          continuity rather than performance, meaning rather than metrics.
+        </p>
+        <p>
+          Nothing here is tuned for engagement. Everything here is allowed the time it needs.
+        </p>
+      </div>
 
-.hero-text {
-  position: absolute;
-  bottom: 0;
-  height: 33%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+      <div class="note">
+        Some doors open fully. Some open partially. Some are simply marked, so the trail can exist before the trail is paved.
+      </div>
 
-.word {
-  font-size: 2rem;
-  letter-spacing: 0.15em;
-  margin: 0.25em 0;
-}
+      <!-- Trailheads / Buttons -->
+      <nav class="trailheads" aria-label="Entry points">
+        <div class="card">
+          <a href="/publications/">
+            <h2 class="card-title">Publications</h2>
+            <p class="card-desc">Outbound and inboard writing streams. A lens into what has been filed, and what is still forming.</p>
+          </a>
+        </div>
 
-.w1 { transform: scale(1.4) rotate(-1deg); }
-.w2 { transform: scale(1.25) rotate(1deg); }
-.w3 { transform: scale(1.15) rotate(-0.5deg); }
-.w4 { transform: scale(1.05) rotate(0.5deg); }
-.w5 { transform: scale(1.0); }
-</style>
-</head>
-<body><section class="hero">
-  <div class="hero-image"></div>
+        <div class="card">
+          <a href="/magazine/">
+            <h2 class="card-title">Magazine</h2>
+            <p class="card-desc">A separate world: issues, dispatches, and curated movements—developed on its own cadence.</p>
+          </a>
+        </div>
 
-  <div class="hero-text">
-    <div class="word w1">THE</div>
-    <div class="word w2">TRANSCENDENTAL</div>
-    <div class="word w3">NOVELTY</div>
-    <div class="word w4">ON THE</div>
-    <div class="word w5">EVENT HORIZON</div>
-  </div>
-</section>
-  
+        <div class="card">
+          <a href="/gallery/">
+            <h2 class="card-title">Gallery</h2>
+            <p class="card-desc">Images as parallel language. Artifacts, fragments, signals—allowed to stand without explanation.</p>
+          </a>
+        </div>
+      </nav>
 
-
-This site marks the FRINGE of {{([8])}} (DOMAINE8) / QUASANTUM REALMS
-<h1>DOMAINE{{([8])}}</h1>
-
-<p>
-</p>
-
-<p>
-It is a place for writings, structures, and artifacts that emerge through
-presence rather than optimization, continuity rather than performance,
-and meaning rather than metrics.
-</p>
-
-<p>
-Nothing here is tuned for engagement.
-Everything here is allowed to take the time it needs.
-</p>
-
+      <footer class="footer" role="contentinfo">
+        <div class="sig">DOMAINE{([8])} — threshold page</div>
+      </footer>
+    </section>
+  </main>
 </body>
 </html>
-
