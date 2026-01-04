@@ -65,73 +65,49 @@
     }
 
     /* Text sits in the real tub-white area (no synthetic white band) */
-    .hero-text{
-      position: absolute;
-      left: 0;
-      right: 0;
+    /* HERO TITLE — tub-plane placement */
 
-      /* Push into the tub-edge zone */
-      bottom: clamp(18px, 5vh, 60px);
+.hero-text{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 62%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: var(--ink);
+}
 
-      display: grid;
-      place-items: center;
-      padding: 0 var(--pad);
-      pointer-events: none;
-    }
+.hero-text .t_the{
+  font-family: var(--smallcaps);
+  font-size: clamp(56px, 8vw, 92px);
+  letter-spacing: .18em;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+}
 
-    .hero-stack{
-      width: min(var(--max), 100%);
-      text-align: center;
-      color: var(--ink);
+.hero-text .t_transcendental{
+  font-family: var(--script);
+  font-size: clamp(42px, 6vw, 76px);
+  margin-left: 6vw;
+  display: inline-block;
+}
 
-      /* subtle lift against the photo texture */
-      text-shadow:
-        0 1px 0 rgba(255,255,255,.55),
-        0 10px 28px rgba(0,0,0,.18);
-    }
+.hero-text .t_novelty{
+  font-family: var(--script);
+  font-size: clamp(42px, 6vw, 76px);
+  margin-left: 1vw;
+  display: inline-block;
+}
 
-    .t_the{
-      font-family: var(--smallcaps);
-      letter-spacing: .18em;
-      font-size: clamp(34px, 4.4vw, 54px);
-      margin: 0 0 4px 0;
-      text-transform: uppercase;
-    }
+.hero-text .t_event{
+  font-family: var(--smallcaps);
+  font-size: clamp(32px, 4.5vw, 56px);
+  letter-spacing: .26em;
+  margin-top: 12px;
+  display: block;
+  text-transform: uppercase;
+}
 
-    .t_transcendental{
-      font-family: var(--script);
-      font-weight: 400;
-      font-size: clamp(46px, 6.8vw, 92px);
-      line-height: 1.02;
-      margin: 0 0 8px 0;
-    }
-
-    .t_novelty{
-      font-family: var(--smallcaps);
-      letter-spacing: .30em;
-      font-size: clamp(14px, 2.2vw, 20px);
-      margin: 0 0 10px 0;
-      text-transform: uppercase;
-      color: rgba(20,20,22,.85);
-    }
-
-    .t_on{
-      font-family: var(--smallcaps);
-      letter-spacing: .40em;
-      font-size: clamp(13px, 2.0vw, 18px);
-      margin: 0 0 6px 0;
-      text-transform: uppercase;
-      color: rgba(20,20,22,.82);
-    }
-
-    .t_event{
-      font-family: var(--smallcaps);
-      letter-spacing: .26em;
-      font-size: clamp(16px, 2.4vw, 22px);
-      margin: 0;
-      text-transform: uppercase;
-      color: rgba(20,20,22,.88);
-    }
 
     /* CONTENT below the fold */
     main{
