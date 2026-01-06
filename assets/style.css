@@ -105,11 +105,12 @@ body.publications-directory main{
   display: grid;
   place-items: center;
 
-  /* reserve space for cornice + steps */
+   /* reserve space for cornice + steps */
   padding:
-    calc(var(--corniceH) + 28px)
-    24px
-    calc(var(--stepH) + 28px);
+  calc(var(--corniceH) + 28px)
+  24px
+  calc(var(--stepH) + 28px);
+
 
   position: relative;
   z-index: 2;
@@ -205,6 +206,6 @@ body.publications-directory::before{
     var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
 
     /* right outer (stone, flutes) */
-    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
-    var(--colW) calc(100vh - var(--corniceH
+    var(--colW) calc(100dvh - var(--corniceH) - var(--stepH)),
+    var(--colW) calc(100dvh - var(--corniceH
 }
