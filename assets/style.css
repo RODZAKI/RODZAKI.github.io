@@ -195,11 +195,11 @@ body.publications-directory::after{ right: 0; }
 body.publications-directory .portal::before{
   left: calc(var(--colW) + var(--colGap));
   /* inner columns slightly shorter: drop them a bit under the cornice */
-  top: calc(var(--corniceH) + 10px);
+  top: 0;
 }
 body.publications-directory .portal::after{
   right: calc(var(--colW) + var(--colGap));
-  top: calc(var(--corniceH) + 10px);
+  top: 0;
 }
 
 /* CORNICE */
