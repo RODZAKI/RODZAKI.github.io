@@ -95,3 +95,119 @@ main{
 header{
   text-align: center;
 }
+/* =========================
+   PUBLICATIONS — MUSEUM PORTAL (DOUBLE COLUMNS)
+   Option B: outer columns flush with top of cornice
+   ========================= */
+
+body.publications-directory{
+  /* base parchment field */
+  background: #e8e4d8;
+  --ink: #2a2a2a;
+
+  /* layout for vertical centering */
+  min-height: 100vh;
+  position: relative;
+}
+
+/* keep content above the architectural frame */
+body.publications-directory main{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  /* reserve space for cornice (top) and steps (bottom) */
+  padding: 120px 24px 170px;
+
+  position: relative;
+  z-index: 2;
+}
+
+/* COLUMN PAIRS: outer (full height to cornice top) */
+body.publications-directory::before,
+body.publications-directory::after{
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 170px;
+  pointer-events: none;
+  z-index: 0;
+
+  /* subtle stone texture */
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.06)),
+    repeating-linear-gradient(90deg,
+      rgba(0,0,0,.05) 0px, rgba(0,0,0,.05) 6px,
+      rgba(255,255,255,.18) 6px, rgba(255,255,255,.18) 12px
+    );
+  box-shadow: 0 0 30px rgba(0,0,0,.10);
+}
+
+body.publications-directory::before{ left: 0; }
+body.publications-directory::after{ right: 0; }
+
+/* INNER COLUMNS (slightly shorter) drawn as fixed overlays */
+body.publications-directory{
+  background-image:
+    /* inner-left column */
+    linear-gradient(180deg, rgba(255,255,255,.45), rgba(0,0,0,.08)),
+    /* inner-right column */
+    linear-gradient(180deg, rgba(255,255,255,.45), rgba(0,0,0,.08)),
+    /* keep parchment base */
+    linear-gradient(#e8e4d8, #e8e4d8);
+
+  background-repeat: no-repeat;
+  background-size:
+    135px calc(100vh - 70px),   /* inner-left height stops under cornice top */
+    135px calc(100vh - 70px),   /* inner-right */
+    100% 100%;
+
+  background-position:
+    200px 70px,                 /* inner-left inset from outer column */
+    calc(100% - 335px) 70px,    /* inner-right inset */
+    0 0;
+}
+
+/* CORNICE (top beam across) */
+body.publications-directory main::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110px;
+  pointer-events: none;
+  z-index: 1;
+
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.75), rgba(0,0,0,.10)),
+    repeating-linear-gradient(90deg,
+      rgba(0,0,0,.05) 0px, rgba(0,0,0,.05) 8px,
+      rgba(255,255,255,.22) 8px, rgba(255,255,255,.22) 16px
+    );
+  box-shadow: 0 12px 30px rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.10);
+}
+
+/* STEPS / PLINTH (bottom) */
+body.publications-directory main::after{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 155px;
+  pointer-events: none;
+  z-index: 1;
+
+  background:
+    /* steps */
+    linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.04)),
+    repeating-linear-gradient(180deg,
+      rgba(255,255,255,.45) 0px, rgba(255,255,255,.45) 22px,
+      rgba(0,0,0,.08) 22px, rgba(0,0,0,.08) 26px
+    );
+  box-shadow: 0 -10px 30px rgba(0,0,0,.14);
+  border-top: 1px solid rgba(0,0,0,.10);
+}
