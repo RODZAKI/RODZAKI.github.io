@@ -1,6 +1,6 @@
 # rodzaki.github.io
 
-This is the public site for Rodzaki.
+This is the public site for Rodzaki. 
 
 It is intentionally simple.
 No frameworks.
