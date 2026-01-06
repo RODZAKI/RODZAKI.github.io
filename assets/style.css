@@ -1,0 +1,92 @@
+:root{
+  --stone: #f2efe9;
+  --stone-dark: #e2ddd3;
+  --ink: #1e1e1e;
+  --muted: #5e5e5e;
+  --line: #d6d0c6;
+
+  --curtain-base: #7b1e24;
+  --curtain-shadow: #5c1419;
+  --curtain-light: #8f2a30;
+}
+
+/* reset */
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); }
+
+/* curtain backdrop */
+body.publications-directory{
+  background:
+    radial-gradient(circle at center top, rgba(255,255,255,.15), transparent 60%),
+    repeating-linear-gradient(
+      90deg,
+      var(--curtain-base) 0px,
+      var(--curtain-base) 18px,
+      var(--curtain-light) 18px,
+      var(--curtain-light) 22px
+    );
+  background-color: var(--curtain-shadow);
+}
+
+/* stone temple frame */
+.vault-frame{
+  max-width: 960px;
+  margin: 48px auto 64px;
+  padding: 42px 56px 48px;
+  background: linear-gradient(180deg, #ffffff, var(--stone));
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.25);
+  position: relative;
+}
+
+/* cornice */
+.vault-frame::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 30px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.06)),
+    repeating-linear-gradient(
+      90deg,
+      var(--stone) 0px,
+      var(--stone) 10px,
+      var(--stone-dark) 10px,
+      var(--stone-dark) 14px
+    );
+  border-bottom: 1px solid var(--line);
+}
+
+/* typography */
+h1{
+  margin: 0 0 12px;
+  font-size: 30px;
+  letter-spacing: .4px;
+}
+
+h2{
+  margin-top: 32px;
+  font-size: 18px;
+  letter-spacing: .3px;
+}
+
+p{
+  margin: 10px 0;
+  color: var(--muted);
+}
+
+a{
+  color: #0b4f6c;
+  text-decoration: none;
+}
+
+a:hover{ text-decoration: underline; }
+
+/* directory links as calm entries */
+.directory-links p{
+  margin: 8px 0;
+  font-size: 17px;
+}
