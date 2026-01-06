@@ -148,8 +148,8 @@ body.publications-directory .portal::after{
   position: fixed;
 
   /* columns stop at cornice bottom and step top */
-  top: var(--corniceH);
-  bottom: var(--stepsH);
+  top: 0;
+  bottom: 0;
 
   width: var(--colW);
   pointer-events: none;
