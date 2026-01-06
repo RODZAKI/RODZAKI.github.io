@@ -94,3 +94,11 @@ a:hover{ text-decoration: underline; }
   margin: 8px 0;
   font-size: 17px;
 }
+main{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+header{
+  text-align: center;
+}
