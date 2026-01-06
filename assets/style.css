@@ -1,245 +1,210 @@
-body {
-  background: #f6f2e8;
-}
+/* ============================================================
+   Rodzaki — style.css (v5)
+   Full reset + baseline typography + Publications Museum Portal
+   ============================================================ */
 
-:root{
-  --stone: #f2efe9;
-  --stone-dark: #e2ddd3;
-  --ink: #1e1e1e;
-  --muted: #5e5e5e;
-  --line: #d6d0c6;
-
-  --curtain-base: #7b1e24;
-  --curtain-shadow: #5c1419;
-  --curtain-light: #8f2a30;
-}
-
-/* reset */
+/* ---------- reset ---------- */
 * { box-sizing: border-box; }
-body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); }
+html, body { height: 100%; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; display: block; }
 
-/* curtain backdrop */
-body.publications-directory{
- background: #e8e4d8;
---ink: #2a2a2a;
+/* ---------- theme tokens ---------- */
+:root{
+  --bg: #f6f2e9;          /* parchment field */
+  --ink: #2a2a2a;
+  --muted: #5f5f5f;
+  --line: rgba(0,0,0,.16);
 
+  --link: #0b4f6c;
+
+  --wrapW: 980px;
+
+  /* museum portal geometry */
+  --corniceH: 86px;
+  --stepH: 120px;
+
+  --colW: 88px;           /* width of each column */
+  --colGap: 22px;         /* gap between outer + inner column on a side */
+  --colTopPad: 0px;       /* keep 0 for “touch cornice” */
+  --colBottomPad: 0px;    /* keep 0 for “touch steps” */
+
+  /* stone palette */
+  --stoneA: rgba(255,255,255,.78);
+  --stoneB: rgba(0,0,0,.10);
+  --stoneC: rgba(255,255,255,.30);
 }
 
-/* stone temple frame */
-.vault-frame{
-  max-width: 960px;
-  margin: 48px auto 64px;
-  padding: 42px 56px 48px;
-  background: linear-gradient(180deg, #ffffff, var(--stone));
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  box-shadow: 0 18px 40px rgba(0,0,0,.25);
-  position: relative;
+/* ---------- global typography ---------- */
+body{
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
 }
 
-/* cornice */
-.vault-frame::before{
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height: 30px;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.06)),
-    repeating-linear-gradient(
-      90deg,
-      var(--stone) 0px,
-      var(--stone) 10px,
-      var(--stone-dark) 10px,
-      var(--stone-dark) 14px
-    );
-  border-bottom: 1px solid var(--line);
-}
-
-/* typography */
 h1{
   margin: 0 0 12px;
   font-size: 30px;
   letter-spacing: .4px;
 }
-
 h2{
-  margin-top: 32px;
+  margin: 32px 0 8px;
   font-size: 18px;
   letter-spacing: .3px;
 }
+p{ margin: 10px 0; color: var(--muted); }
 
-p{
-  margin: 10px 0;
-  color: var(--muted);
-}
-
-a{
-  color: #0b4f6c;
-  text-decoration: none;
-}
-
+a{ color: var(--link); text-decoration: none; }
 a:hover{ text-decoration: underline; }
+
+/* ---------- layout ---------- */
+main{
+  max-width: var(--wrapW);
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+header{ text-align: center; }
 
 /* directory links as calm entries */
 .directory-links p{
   margin: 8px 0;
   font-size: 17px;
 }
-main{
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 32px 20px;
+
+/* simple “artifact” card */
+.artifact{
+  margin-top: 18px;
+  padding: 18px 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255,255,255,.55);
 }
-header{
-  text-align: center;
+.artifact .meta{
+  margin: 6px 0 10px;
+  font-size: 14px;
+  color: rgba(0,0,0,.55);
 }
-/* =========================
-   PUBLICATIONS — MUSEUM PORTAL (WRAPPER VERSION)
-   Fixes: equal column widths, matching textures, correct stops at steps,
-   no inner-column drift into cornice, adds plinth + capital per column.
-   ========================= */
+
+/* ============================================================
+   PUBLICATIONS — MUSEUM PORTAL (double columns + cornice + steps)
+   Applies ONLY to <body class="publications-directory">
+   ============================================================ */
 
 body.publications-directory{
-  --bg: #e8e4d8;
-  --ink: #2a2a2a;
-
-  --corniceH: 110px;
-  --stepsH: 155px;
-
-  --colW: 150px;        /* inner + outer equal width */
-  --colGap: 18px;       /* gap between outer and inner columns */
-  --capH: 44px;         /* capital height */
-  --plinthH: 54px;      /* base/plinth height */
-
-  background: var(--bg);
-  color: var(--ink);
-
-  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(255,255,255,.35), transparent 55%),
+    linear-gradient(180deg, rgba(255,255,255,.45), rgba(255,255,255,0) 42%),
+    var(--bg);
   position: relative;
 }
 
-/* center the Publications content in the “hall” */
+/* Keep content centered (horizontal + vertical) in the “hall” */
 body.publications-directory main{
   min-height: 100vh;
   display: grid;
   place-items: center;
 
-  /* keep text out from under cornice / steps */
-  padding: calc(var(--corniceH) + 24px) 24px calc(var(--stepsH) + 24px);
+  /* reserve space for cornice + steps */
+  padding:
+    calc(var(--corniceH) + 28px)
+    24px
+    calc(var(--stepH) + 28px);
 
   position: relative;
   z-index: 2;
-}
-
-/* optional: keep the content column tidy */
-body.publications-directory .portal{
-  width: min(920px, 100%);
   text-align: center;
 }
 
-/* === SHARED COLUMN LOOK (stone + fluting + capital + plinth) === */
-body.publications-directory::before,
-body.publications-directory::after,
-body.publications-directory .portal::before,
-body.publications-directory .portal::after{
+/* Optional tidy width if you use a wrapper like <main class="portal"> */
+body.publications-directory .portal{
+  width: min(920px, 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------- columns (outer + inner) ---------- */
+/* One set of rules, used for ALL columns, so they match. */
+body.publications-directory::before{
   content: "";
   position: fixed;
-
-  /* columns stop at cornice bottom and step top */
-  top: 0;
-  bottom: 0;
-
-  width: var(--colW);
+  inset: 0;
   pointer-events: none;
   z-index: 0;
 
-  /* layered stone: shaft + subtle “fluting” + cap + plinth */
+  /* Each column is TWO layers: (1) stone body, (2) fluting */
   background-image:
-    /* capital (top) */
-    linear-gradient(180deg, rgba(255,255,255,.70), rgba(0,0,0,.10)),
-    /* plinth (bottom) */
-    linear-gradient(180deg, rgba(0,0,0,.10), rgba(255,255,255,.30)),
-    /* fluting (subtle vertical rhythm) */
-    repeating-linear-gradient(90deg,
-      rgba(0,0,0,.06) 0px, rgba(0,0,0,.06) 7px,
-      rgba(255,255,255,.18) 7px, rgba(255,255,255,.18) 14px
+    /* LEFT OUTER */
+    linear-gradient(180deg,
+      rgba(255,255,255,.72) 0px,
+      rgba(0,0,0,.10) 20px,
+      rgba(255,255,255,.30) calc(100% - 26px),
+      rgba(0,0,0,.10) 100%
     ),
-    /* shaft shading */
-    linear-gradient(90deg, rgba(255,255,255,.45), rgba(0,0,0,.10), rgba(255,255,255,.38));
-
-  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-
-  /* cap at top, plinth at bottom, fluting through middle, shading full */
-  background-size:
-    100% var(--capH),
-    100% var(--plinthH),
-    100% 100%,
-    100% 100%;
-
-  background-position:
-    0 0,
-    0 100%,
-    0 0,
-    0 0;
-
-  box-shadow: 0 0 26px rgba(0,0,0,.12);
-}
-
-/* OUTER columns (flush to viewport edges) */
-body.publications-directory::before{ left: 0; }
-body.publications-directory::after{ right: 0; }
-
-/* INNER columns (equal width, matching texture) */
-body.publications-directory .portal::before{
-  left: calc(var(--colW) + var(--colGap));
-  /* inner columns slightly shorter: drop them a bit under the cornice */
-  top: 0;
-}
-body.publications-directory .portal::after{
-  right: calc(var(--colW) + var(--colGap));
-  top: 0;
-}
-
-/* CORNICE */
-body.publications-directory main::before{
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: var(--corniceH);
-  pointer-events: none;
-  z-index: 1;
-
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.78), rgba(0,0,0,.12)),
     repeating-linear-gradient(90deg,
-      rgba(0,0,0,.05) 0px, rgba(0,0,0,.05) 10px,
-      rgba(255,255,255,.20) 10px, rgba(255,255,255,.20) 20px
-    );
-  box-shadow: 0 10px 26px rgba(0,0,0,.14);
-  border-bottom: 1px solid rgba(0,0,0,.10);
-}
+      rgba(0,0,0,.08) 0px,
+      rgba(0,0,0,.08) 6px,
+      rgba(255,255,255,.22) 6px,
+      rgba(255,255,255,.22) 12px
+    ),
 
-/* STEPS / BASE PLATFORM */
-body.publications-directory main::after{
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: var(--stepsH);
-  pointer-events: none;
-  z-index: 1;
+    /* LEFT INNER */
+    linear-gradient(180deg,
+      rgba(255,255,255,.72) 0px,
+      rgba(0,0,0,.10) 20px,
+      rgba(255,255,255,.30) calc(100% - 26px),
+      rgba(0,0,0,.10) 100%
+    ),
+    repeating-linear-gradient(90deg,
+      rgba(0,0,0,.08) 0px,
+      rgba(0,0,0,.08) 6px,
+      rgba(255,255,255,.22) 6px,
+      rgba(255,255,255,.22) 12px
+    ),
 
-  background:
-    linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.04)),
-    repeating-linear-gradient(180deg,
-      rgba(255,255,255,.45) 0px, rgba(255,255,255,.45) 22px,
-      rgba(0,0,0,.09) 22px, rgba(0,0,0,.09) 26px
+    /* RIGHT INNER */
+    linear-gradient(180deg,
+      rgba(255,255,255,.72) 0px,
+      rgba(0,0,0,.10) 20px,
+      rgba(255,255,255,.30) calc(100% - 26px),
+      rgba(0,0,0,.10) 100%
+    ),
+    repeating-linear-gradient(90deg,
+      rgba(0,0,0,.08) 0px,
+      rgba(0,0,0,.08) 6px,
+      rgba(255,255,255,.22) 6px,
+      rgba(255,255,255,.22) 12px
+    ),
+
+    /* RIGHT OUTER */
+    linear-gradient(180deg,
+      rgba(255,255,255,.72) 0px,
+      rgba(0,0,0,.10) 20px,
+      rgba(255,255,255,.30) calc(100% - 26px),
+      rgba(0,0,0,.10) 100%
+    ),
+    repeating-linear-gradient(90deg,
+      rgba(0,0,0,.08) 0px,
+      rgba(0,0,0,.08) 6px,
+      rgba(255,255,255,.22) 6px,
+      rgba(255,255,255,.22) 12px
     );
-  box-shadow: 0 -10px 26px rgba(0,0,0,.14);
-  border-top: 1px solid rgba(0,0,0,.10);
+
+  /* Height EXACTLY between cornice bottom and steps top */
+  background-size:
+    /* left outer (stone, flutes) */
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+
+    /* left inner (stone, flutes) */
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+
+    /* right inner (stone, flutes) */
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+
+    /* right outer (stone, flutes) */
+    var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+    var(--colW) calc(100vh - var(--corniceH
 }
