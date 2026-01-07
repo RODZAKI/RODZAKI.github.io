@@ -1,370 +1,212 @@
-/* ============================================================
-   rodzaki.github.io — assets/style.css
-   FULL REPLACEMENT — VERSION 18
-   (Publications columns + plinths corrected)
-   ============================================================ */
+/* =========================
+   Rodzaki — style.css
+   VERSION 13 — FULL REPLACE
+   ========================= */
 
-/* ===== RESET ===== */
-*,
-*::before,
-*::after { box-sizing: border-box; }
-
+/* reset */
+* { box-sizing: border-box; }
 html, body { height: 100%; }
+body { margin: 0; }
 
-body {
-  margin: 0;
-  color: #1f1f1f;
-  background: #f2f2f2;
-  font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+/* ====== theme tokens ====== */
+:root{
+  --ink: #2a2a2a;
+  --muted: #6b6b6b;
+
+  --stone: #e9e5dc;
+  --paper: #f2efe6;
+
+  /* geometry */
+  --corniceH: 96px;
+  --stepH: 160px;
+
+  --colW: 86px;
+  --upperPlinthW: 120px;
+  --lowerPlinthW: 260px;
+
+  --colGap: 26px;
+
+  --capH: 28px;
+  --upperPlinthH: 22px;
+  --lowerPlinthH: 34px;
 }
 
-img { max-width: 100%; height: auto; display: block; }
-a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-a:hover { text-decoration-thickness: 2px; }
+/* ====== base typography ====== */
+body{
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
 
-/* ===== LAYOUT HELPERS ===== */
-main { display: block; }
-.portal {
+h1{
+  margin: 0 0 12px;
+  font-size: 30px;
+  letter-spacing: .4px;
+}
+
+p{ margin: 10px 0; color: var(--muted); }
+a{ color: #0b4f6c; text-decoration: none; }
+a:hover{ text-decoration: underline; }
+
+/* layout */
+main{
   max-width: 980px;
   margin: 0 auto;
-  padding: 56px 24px 72px;
-  position: relative;
-  z-index: 2; /* above background architecture */
+  padding: 32px 20px;
 }
 
-header { text-align: center; margin-bottom: 20px; }
-header h1 { margin: 0 0 8px; font-size: 28px; letter-spacing: 0.2px; }
-header p { margin: 0; opacity: 0.75; font-size: 13px; }
+header{ text-align: center; }
 
-h2 { margin: 26px 0 8px; font-size: 14px; letter-spacing: 0.6px; text-transform: uppercase; opacity: 0.8; }
-p { margin: 6px 0; }
+/* =========================
+   PUBLICATIONS — PORTAL
+   ========================= */
 
-.artifact {
-  margin-top: 22px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(0,0,0,0.08);
+body.publications-directory{
+  background-color: var(--paper);
+
+  background-image:
+
+  /* cornice */
+  linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.12)),
+  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 10px, rgba(255,255,255,.18) 10px 20px),
+
+  /* steps */
+  linear-gradient(180deg, rgba(0,0,0,.14), rgba(255,255,255,.35)),
+  repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 2px, rgba(255,255,255,.16) 2px 14px),
+
+  /* LEFT PAIR — LOWER PLINTH */
+  linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.18)),
+
+  /* RIGHT PAIR — LOWER PLINTH */
+  linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.18)),
+
+  /* LEFT OUTER COLUMN */
+  linear-gradient(180deg, rgba(255,255,255,.70), rgba(0,0,0,.10)),
+  /* LEFT INNER COLUMN */
+  linear-gradient(180deg, rgba(255,255,255,.70), rgba(0,0,0,.10)),
+
+  /* RIGHT INNER COLUMN */
+  linear-gradient(180deg, rgba(255,255,255,.70), rgba(0,0,0,.10)),
+  /* RIGHT OUTER COLUMN */
+  linear-gradient(180deg, rgba(255,255,255,.70), rgba(0,0,0,.10)),
+
+  /* parchment */
+  linear-gradient(180deg, rgba(255,255,255,.45), rgba(0,0,0,.04));
+
+  background-size:
+  100% var(--corniceH),
+  100% var(--corniceH),
+
+  100% var(--stepH),
+  100% var(--stepH),
+
+  var(--lowerPlinthW) var(--lowerPlinthH),
+  var(--lowerPlinthW) var(--lowerPlinthH),
+
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+
+  100% 100%;
+
+  background-position:
+  0 0,
+  0 0,
+
+  0 100%,
+  0 100%,
+
+  calc(var(--lowerPlinthW) * .25) calc(100% - var(--stepH)),
+  calc(100% - var(--lowerPlinthW) * 1.25) calc(100% - var(--stepH)),
+
+  calc(var(--lowerPlinthW) * .25 + 40px) var(--corniceH),
+  calc(var(--lowerPlinthW) * .25 + 40px + var(--colW) + var(--colGap)) var(--corniceH),
+
+  calc(100% - var(--lowerPlinthW) * .25 - 40px - var(--colW) - var(--colGap)) var(--corniceH),
+  calc(100% - var(--lowerPlinthW) * .25 - 40px) var(--corniceH),
+
+  0 0;
+
+  background-repeat: no-repeat;
 }
-.meta { font-size: 12px; opacity: 0.75; }
 
-/* ===== CARD / PAGE SURFACE ===== */
-body.publications-directory .portal,
-body.gallery-page .portal,
-body.home .portal {
-  background: rgba(245,245,245,0.90);
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 14px;
-  box-shadow: 0 18px 60px rgba(0,0,0,0.12);
-}
-
-/* ===== NAV LIST LOOK ===== */
-body.publications-directory a,
-body.publications-directory a:visited {
-  color: #1a1a1a;
-}
-body.publications-directory a:hover { opacity: 0.78; }
-
-/* ============================================================
-   PUBLICATIONS: ARCHITECTURE BACKDROP
-   Goal:
-   - Four identical shafts (2 per side)
-   - Per side: one lower plinth spanning BOTH columns (pair base)
-   - Per side: TWO upper plinths (one per column), not touching
-   - Capitals: rounded, wider than shaft, per column, not touching
-   - Shafts sit on upper plinths; no “digging”
-   - Shafts meet underside of cornice (no gap)
-   - Left/right mirror perfectly
-   ============================================================ */
-
-body.publications-directory {
-  background: #efefef;
-  overflow-x: hidden;
-  position: relative;
-}
-
-/* global “room” wash */
-body.publications-directory::before,
-body.publications-directory::after {
+/* ====== overlays: fluting, caps, upper plinths ====== */
+body.publications-directory::before{
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 0;
-}
 
-/* subtle wall grain */
-body.publications-directory::before {
-  background:
-    linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.25) 55%, rgba(0,0,0,0.02)),
-    repeating-linear-gradient(90deg,
-      rgba(0,0,0,0.035) 0px,
-      rgba(0,0,0,0.035) 2px,
-      rgba(255,255,255,0.0) 10px,
-      rgba(255,255,255,0.0) 16px
-    );
-  opacity: 0.55;
-}
-
-/* architecture layer */
-body.publications-directory::after {
-  /* geometry tokens */
-  --cornice-h: clamp(36px, 4.2vw, 54px);
-  --top-gap: 0px;              /* shafts touch cornice */
-  --shaft-h: 420px;
-  --shaft-w: 54px;
-  --shaft-xgap: 22px;          /* gap between the 2 columns in a pair */
-
-  --cap-h: 20px;
-  --cap-w: 88px;               /* wider than shaft */
-  --cap-radius: 10px;
-
-  --uplinth-h: 20px;
-  --uplinth-w: 92px;           /* wider than cap slightly is ok; keeps presence */
-  --uplinth-radius: 10px;
-
-  --base-h: 44px;              /* pair base height */
-  --base-radius: 14px;
-
-  --pair-pad: 22px;            /* left/right inset from viewport edge */
-  --pair-w: calc((var(--shaft-w) * 2) + var(--shaft-xgap));
-  --pair-center-offset: calc(var(--pair-w) / 2);
-
-  --floor-y: calc(var(--cornice-h) + var(--top-gap) + var(--cap-h) + var(--shaft-h) + var(--uplinth-h) + var(--base-h));
-
-  /* placements */
-  --left-pair-x: clamp(18px, 6vw, 90px);
-  --right-pair-x: calc(100% - var(--left-pair-x) - var(--pair-w));
-
-  --shaft-y: calc(var(--cornice-h) + var(--top-gap) + var(--cap-h)); /* starts under cap */
-  --cap-y: var(--cornice-h); /* cap directly under cornice */
-
-  --uplinth-y: calc(var(--cornice-h) + var(--top-gap) + var(--cap-h) + var(--shaft-h)); /* directly under shaft */
-  --base-y: calc(var(--uplinth-y) + var(--uplinth-h)); /* base under plinths */
-
-  /* Steps (kept neutral; not a “continuous base plinth”) */
-  --steps-top-y: calc(var(--base-y) + var(--base-h) + 10px);
-  --step-h: 14px;
-
-  background:
-    /* ===== CORNICE BAND ===== */
-    linear-gradient(180deg,
-      rgba(0,0,0,0.10),
-      rgba(255,255,255,0.14) 28%,
-      rgba(0,0,0,0.08) 62%,
-      rgba(255,255,255,0.00)
-    )
-    0 0 / 100% var(--cornice-h) no-repeat,
-
-    /* ===== LEFT CAPS (2) ===== */
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10))
-    calc(var(--left-pair-x) + (var(--shaft-w) / 2) - (var(--cap-w) / 2))
-    var(--cap-y) / var(--cap-w) var(--cap-h) no-repeat,
-
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10))
-    calc(var(--left-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--cap-w) / 2))
-    var(--cap-y) / var(--cap-w) var(--cap-h) no-repeat,
-
-    /* ===== RIGHT CAPS (2) ===== */
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10))
-    calc(var(--right-pair-x) + (var(--shaft-w) / 2) - (var(--cap-w) / 2))
-    var(--cap-y) / var(--cap-w) var(--cap-h) no-repeat,
-
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10))
-    calc(var(--right-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--cap-w) / 2))
-    var(--cap-y) / var(--cap-w) var(--cap-h) no-repeat,
-
-    /* ===== SHAFTS (fluted) LEFT 1 ===== */
-    repeating-linear-gradient(90deg,
-      rgba(0,0,0,0.10) 0px,
-      rgba(0,0,0,0.10) 2px,
-      rgba(255,255,255,0.18) 6px,
-      rgba(255,255,255,0.18) 10px
-    )
-    var(--left-pair-x) var(--shaft-y) / var(--shaft-w) var(--shaft-h) no-repeat,
-
-    /* LEFT 2 */
-    repeating-linear-gradient(90deg,
-      rgba(0,0,0,0.10) 0px,
-      rgba(0,0,0,0.10) 2px,
-      rgba(255,255,255,0.18) 6px,
-      rgba(255,255,255,0.18) 10px
-    )
-    calc(var(--left-pair-x) + var(--shaft-w) + var(--shaft-xgap))
-    var(--shaft-y) / var(--shaft-w) var(--shaft-h) no-repeat,
-
-    /* RIGHT 1 */
-    repeating-linear-gradient(90deg,
-      rgba(0,0,0,0.10) 0px,
-      rgba(0,0,0,0.10) 2px,
-      rgba(255,255,255,0.18) 6px,
-      rgba(255,255,255,0.18) 10px
-    )
-    var(--right-pair-x) var(--shaft-y) / var(--shaft-w) var(--shaft-h) no-repeat,
-
-    /* RIGHT 2 */
-    repeating-linear-gradient(90deg,
-      rgba(0,0,0,0.10) 0px,
-      rgba(0,0,0,0.10) 2px,
-      rgba(255,255,255,0.18) 6px,
-      rgba(255,255,255,0.18) 10px
-    )
-    calc(var(--right-pair-x) + var(--shaft-w) + var(--shaft-xgap))
-    var(--shaft-y) / var(--shaft-w) var(--shaft-h) no-repeat,
-
-    /* ===== UPPER PLINTHS (per column; separated) LEFT (2) ===== */
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10))
-    calc(var(--left-pair-x) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2))
-    var(--uplinth-y) / var(--uplinth-w) var(--uplinth-h) no-repeat,
-
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10))
-    calc(var(--left-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2))
-    var(--uplinth-y) / var(--uplinth-w) var(--uplinth-h) no-repeat,
-
-    /* RIGHT (2) */
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10))
-    calc(var(--right-pair-x) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2))
-    var(--uplinth-y) / var(--uplinth-w) var(--uplinth-h) no-repeat,
-
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10))
-    calc(var(--right-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2))
-    var(--uplinth-y) / var(--uplinth-w) var(--uplinth-h) no-repeat,
-
-    /* ===== LOWER PLINTH (per pair; centered under both columns) LEFT ===== */
-    linear-gradient(180deg, rgba(0,0,0,0.14), rgba(255,255,255,0.40) 44%, rgba(0,0,0,0.11))
-    calc(var(--left-pair-x) - 22px)
-    var(--base-y) / calc(var(--pair-w) + 44px) var(--base-h) no-repeat,
-
-    /* RIGHT */
-    linear-gradient(180deg, rgba(0,0,0,0.14), rgba(255,255,255,0.40) 44%, rgba(0,0,0,0.11))
-    calc(var(--right-pair-x) - 22px)
-    var(--base-y) / calc(var(--pair-w) + 44px) var(--base-h) no-repeat,
-
-    /* ===== STEPS (neutral) ===== */
-    repeating-linear-gradient(180deg,
-      rgba(0,0,0,0.08) 0px,
-      rgba(0,0,0,0.08) 2px,
-      rgba(255,255,255,0.0) 14px,
-      rgba(255,255,255,0.0) 18px
-    )
-    0 var(--steps-top-y) / 100% calc(100% - var(--steps-top-y)) no-repeat,
-
-    /* ===== soft vignette ===== */
-    radial-gradient(ellipse at center, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.10) 78%, rgba(0,0,0,0.16) 100%);
-
-  /* rounded ends (caps + plinths) via masks using background-blend: not reliable everywhere.
-     Instead: apply rounding by overlay “corner erasers” with radial gradients. */
-
-  /* Corner “erasers” for caps/plinths (left/right; top/bottom) */
   background-image:
-    /* cornice band */ linear-gradient(180deg, rgba(0,0,0,0.10), rgba(255,255,255,0.14) 28%, rgba(0,0,0,0.08) 62%, rgba(255,255,255,0.00)),
-    /* caps */ linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10)),
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10)),
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10)),
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.45) 45%, rgba(0,0,0,0.10)),
-    /* shafts */ repeating-linear-gradient(90deg, rgba(0,0,0,0.10) 0px, rgba(0,0,0,0.10) 2px, rgba(255,255,255,0.18) 6px, rgba(255,255,255,0.18) 10px),
-    repeating-linear-gradient(90deg, rgba(0,0,0,0.10) 0px, rgba(0,0,0,0.10) 2px, rgba(255,255,255,0.18) 6px, rgba(255,255,255,0.18) 10px),
-    repeating-linear-gradient(90deg, rgba(0,0,0,0.10) 0px, rgba(0,0,0,0.10) 2px, rgba(255,255,255,0.18) 6px, rgba(255,255,255,0.18) 10px),
-    repeating-linear-gradient(90deg, rgba(0,0,0,0.10) 0px, rgba(0,0,0,0.10) 2px, rgba(255,255,255,0.18) 6px, rgba(255,255,255,0.18) 10px),
-    /* upper plinths */ linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10)),
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10)),
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10)),
-    linear-gradient(180deg, rgba(0,0,0,0.12), rgba(255,255,255,0.42) 48%, rgba(0,0,0,0.10)),
-    /* pair bases */ linear-gradient(180deg, rgba(0,0,0,0.14), rgba(255,255,255,0.40) 44%, rgba(0,0,0,0.11)),
-    linear-gradient(180deg, rgba(0,0,0,0.14), rgba(255,255,255,0.40) 44%, rgba(0,0,0,0.11)),
-    /* steps */ repeating-linear-gradient(180deg, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0.08) 2px, rgba(255,255,255,0.0) 14px, rgba(255,255,255,0.0) 18px),
-    /* vignette */ radial-gradient(ellipse at center, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.10) 78%, rgba(0,0,0,0.16) 100%);
 
-  background-position:
-    /* cornice */ 0 0,
+  /* LEFT OUTER */
+  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 7px, rgba(255,255,255,.18) 7px 14px),
+  linear-gradient(180deg, rgba(255,255,255,.65), rgba(0,0,0,.12)),
+  linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.18)),
 
-    /* left caps */ calc(var(--left-pair-x) + (var(--shaft-w) / 2) - (var(--cap-w) / 2)) var(--cap-y),
-    calc(var(--left-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--cap-w) / 2)) var(--cap-y),
+  /* LEFT INNER */
+  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 7px, rgba(255,255,255,.18) 7px 14px),
+  linear-gradient(180deg, rgba(255,255,255,.65), rgba(0,0,0,.12)),
+  linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.18)),
 
-    /* right caps */ calc(var(--right-pair-x) + (var(--shaft-w) / 2) - (var(--cap-w) / 2)) var(--cap-y),
-    calc(var(--right-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--cap-w) / 2)) var(--cap-y),
+  /* RIGHT INNER */
+  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 7px, rgba(255,255,255,.18) 7px 14px),
+  linear-gradient(180deg, rgba(255,255,255,.65), rgba(0,0,0,.12)),
+  linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.18)),
 
-    /* shafts */ var(--left-pair-x) var(--shaft-y),
-    calc(var(--left-pair-x) + var(--shaft-w) + var(--shaft-xgap)) var(--shaft-y),
-    var(--right-pair-x) var(--shaft-y),
-    calc(var(--right-pair-x) + var(--shaft-w) + var(--shaft-xgap)) var(--shaft-y),
-
-    /* upper plinths */ calc(var(--left-pair-x) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2)) var(--uplinth-y),
-    calc(var(--left-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2)) var(--uplinth-y),
-    calc(var(--right-pair-x) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2)) var(--uplinth-y),
-    calc(var(--right-pair-x) + var(--shaft-w) + var(--shaft-xgap) + (var(--shaft-w) / 2) - (var(--uplinth-w) / 2)) var(--uplinth-y),
-
-    /* pair bases */ calc(var(--left-pair-x) - 22px) var(--base-y),
-    calc(var(--right-pair-x) - 22px) var(--base-y),
-
-    /* steps */ 0 var(--steps-top-y),
-
-    /* vignette */ 50% 50%;
+  /* RIGHT OUTER */
+  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 7px, rgba(255,255,255,.18) 7px 14px),
+  linear-gradient(180deg, rgba(255,255,255,.65), rgba(0,0,0,.12)),
+  linear-gradient(180deg, rgba(255,255,255,.55), rgba(0,0,0,.18));
 
   background-size:
-    /* cornice */ 100% var(--cornice-h),
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+  var(--upperPlinthW) var(--capH),
+  var(--upperPlinthW) var(--upperPlinthH),
 
-    /* caps */ var(--cap-w) var(--cap-h),
-    var(--cap-w) var(--cap-h),
-    var(--cap-w) var(--cap-h),
-    var(--cap-w) var(--cap-h),
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+  var(--upperPlinthW) var(--capH),
+  var(--upperPlinthW) var(--upperPlinthH),
 
-    /* shafts */ var(--shaft-w) var(--shaft-h),
-    var(--shaft-w) var(--shaft-h),
-    var(--shaft-w) var(--shaft-h),
-    var(--shaft-w) var(--shaft-h),
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+  var(--upperPlinthW) var(--capH),
+  var(--upperPlinthW) var(--upperPlinthH),
 
-    /* upper plinths */ var(--uplinth-w) var(--uplinth-h),
-    var(--uplinth-w) var(--uplinth-h),
-    var(--uplinth-w) var(--uplinth-h),
-    var(--uplinth-w) var(--uplinth-h),
+  var(--colW) calc(100vh - var(--corniceH) - var(--stepH)),
+  var(--upperPlinthW) var(--capH),
+  var(--upperPlinthW) var(--upperPlinthH);
 
-    /* pair bases */ calc(var(--pair-w) + 44px) var(--base-h),
-    calc(var(--pair-w) + 44px) var(--base-h),
+  background-position:
+  calc(var(--lowerPlinthW) * .25 + 40px) var(--corniceH),
+  calc(var(--lowerPlinthW) * .25 + 23px) var(--corniceH),
+  calc(var(--lowerPlinthW) * .25 + 23px) calc(100% - var(--stepH) - var(--upperPlinthH)),
 
-    /* steps */ 100% calc(100% - var(--steps-top-y)),
+  calc(var(--lowerPlinthW) * .25 + 40px + var(--colW) + var(--colGap)) var(--corniceH),
+  calc(var(--lowerPlinthW) * .25 + 23px + var(--colW) + var(--colGap)) var(--corniceH),
+  calc(var(--lowerPlinthW) * .25 + 23px + var(--colW) + var(--colGap)) calc(100% - var(--stepH) - var(--upperPlinthH)),
 
-    /* vignette */ 160% 160%;
+  calc(100% - var(--lowerPlinthW) * .25 - 40px - var(--colW) - var(--colGap)) var(--corniceH),
+  calc(100% - var(--lowerPlinthW) * .25 - 23px - var(--colW) - var(--colGap)) var(--corniceH),
+  calc(100% - var(--lowerPlinthW) * .25 - 23px - var(--colW) - var(--colGap)) calc(100% - var(--stepH) - var(--upperPlinthH)),
+
+  calc(100% - var(--lowerPlinthW) * .25 - 40px) var(--corniceH),
+  calc(100% - var(--lowerPlinthW) * .25 - 23px) var(--corniceH),
+  calc(100% - var(--lowerPlinthW) * .25 - 23px) calc(100% - var(--stepH) - var(--upperPlinthH));
 
   background-repeat: no-repeat;
-  opacity: 1;
-
-  /* soften hard edges so “rounding” reads correctly */
-  filter: saturate(0.95) contrast(1.02);
 }
 
-/* Keep architecture behind content */
-body.publications-directory .portal { position: relative; z-index: 2; }
-
-/* Slightly reduce visual noise on very small widths */
-@media (max-width: 820px) {
-  body.publications-directory::after {
-    --shaft-h: 360px;
-    --shaft-w: 46px;
-    --cap-w: 78px;
-    --uplinth-w: 82px;
-    --shaft-xgap: 18px;
-    --left-pair-x: clamp(12px, 3vw, 40px);
-  }
-}
-
-/* ============================================================
-   OTHER PAGES (safe defaults)
-   ============================================================ */
-
-body.home .portal { padding: 56px 24px 72px; }
-body.gallery-page .portal { padding: 40px 18px 64px; }
-
-hr {
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,0.10);
-  margin: 22px 0;
-}
-
-/* Selection */
-::selection { background: rgba(0,0,0,0.12); }
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  * { scroll-behavior: auto !important; }
+/* content centering */
+body.publications-directory main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: calc(var(--corniceH) + 24px);
+  padding-bottom: calc(var(--stepH) + 24px);
+  position: relative;
+  z-index: 1;
 }
