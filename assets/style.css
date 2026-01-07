@@ -496,5 +496,21 @@ body.publications-directory::after {
 .column .shaft   { order: 3; }
 
 /* =========================================================
+/* ===========================
+   Publications — plinth drop only
+   (does NOT move columns)
+   =========================== */
+
+body.publications-directory::before{
+  /* Tune this number only.
+     Positive = plinths move DOWN. */
+  --plinthDrop: 18px;
+
+  /* Re-anchor just the plinth Y positions.
+     Columns/shafts remain untouched. */
+  --upperPlinthY: calc(100% - var(--stepH) - var(--upperPlinthH) + var(--plinthDrop));
+  --lowerPlinthY: calc(100% - var(--stepH) - var(--lowerPlinthH) + var(--plinthDrop));
+}
+
    END FINAL OVERRIDE
    ========================================================= */
