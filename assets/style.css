@@ -34,7 +34,7 @@ body { margin: 0; }
   --roundMed: 16px;
 
   /* placement */
-  --pairInset: 40px;
+  --pairInset: 120px;
 
   /* stabilize: avoid fractional multiplies */
   --plinthEdge: 65px; /* 260 * .25 */
@@ -84,7 +84,7 @@ body.publications-directory::before{
   z-index: 0;
 
   /* derived anchors */
-  --shaftH: calc(100vh - var(--corniceH) - var(--stepH));
+  --shaftH: calc(100vh - var(--corniceH) - var(--stepH) - var(--upperPlinthH));
 
   --leftOuterX: calc(var(--plinthEdge) + var(--pairInset));
   --leftInnerX: calc(var(--leftOuterX) + var(--colW) + var(--colGap));
@@ -103,7 +103,7 @@ body.publications-directory::before{
 
     /* cornice (2 layers) */
     linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.12)),
-    repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 10px, rgba(255,255,255,.18) 10px 20px),
+    repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 10px, rgba(255,255,255,.18) 10px 20px),
 
     /* steps (2 layers) */
     linear-gradient(180deg, rgba(0,0,0,.14), rgba(255,255,255,.35)),
