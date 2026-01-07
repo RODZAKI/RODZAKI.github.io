@@ -364,3 +364,137 @@ body.publications-directory .portal-inner h1,
 body.publications-directory .portal-inner h2{
   text-wrap: balance;
 }
+/* =========================================================
+   PUBLICATIONS — FINAL ARCHITECTURAL STACK OVERRIDE
+   Paste this ENTIRE block at the VERY BOTTOM of style.css
+   ========================================================= */
+
+/* Lock background container */
+body.publications-directory {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* --- STEP PLANE (ground truth) --- */
+body.publications-directory::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--stepH, 160px);
+  background:
+    repeating-linear-gradient(
+      180deg,
+      rgba(0,0,0,.06) 0 2px,
+      rgba(255,255,255,.12) 2px 4px
+    );
+  z-index: 0;
+}
+
+/* --- COLUMN GROUP WRAPPER --- */
+.columns {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- COLUMN BASELINE ANCHOR ---
+   Columns land ON the top step
+*/
+:root {
+  --stepH: 160px;
+  --lowerPlinthH: 42px;
+  --upperPlinthH: 28px;
+  --shaftH: 360px;
+  --capH: 26px;
+  --corniceH: 38px;
+}
+
+/* Shared column positioning */
+.column {
+  position: absolute;
+  bottom: calc(var(--stepH) + var(--lowerPlinthH) + var(--upperPlinthH));
+  width: 86px;
+}
+
+/* Left / Right placement (unchanged symmetry) */
+.column.left  { left: 9vw; }
+.column.right { right: 9vw; }
+
+/* --- SHAFT --- */
+.column .shaft {
+  height: var(--shaftH);
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0,0,0,.08) 0 6px,
+      rgba(255,255,255,.14) 6px 12px
+    );
+}
+
+/* --- CAP --- */
+.column .cap {
+  height: var(--capH);
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,.45),
+    rgba(0,0,0,.18)
+  );
+}
+
+/* --- CORNICE (grain stays HORIZONTAL) --- */
+.column .cornice {
+  height: var(--corniceH);
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0,0,0,.06) 0 10px,
+      rgba(255,255,255,.18) 10px 20px
+    );
+}
+
+/* --- UPPER PLINTH (collar-like, but separate) --- */
+.column .plinth.upper {
+  position: absolute;
+  bottom: calc(var(--stepH) + var(--lowerPlinthH));
+  height: var(--upperPlinthH);
+  width: 120%;
+  left: -10%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,.55),
+    rgba(0,0,0,.25)
+  );
+  border-radius: 6px;
+}
+
+/* --- LOWER PLINTH (weight-bearing) --- */
+.column .plinth.lower {
+  position: absolute;
+  bottom: var(--stepH);
+  height: var(--lowerPlinthH);
+  width: 160%;
+  left: -30%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,.45),
+    rgba(0,0,0,.35)
+  );
+}
+
+/* --- STACK ORDER --- */
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column .cornice { order: 1; }
+.column .cap     { order: 2; }
+.column .shaft   { order: 3; }
+
+/* =========================================================
+   END FINAL OVERRIDE
+   ========================================================= */
