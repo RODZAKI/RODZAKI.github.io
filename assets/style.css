@@ -334,3 +334,33 @@ body.publications-directory main{
   position: relative;
   z-index: 1;
 }
+/* Publications — constrain text to the inner-column bay */
+body.publications-directory{
+  /* exact clear span between the INNER columns */
+  --centerSpan: calc(100vw - (2 * var(--pairEdgeInset)) - (4 * var(--colW)) - (2 * var(--colGap)));
+  --centerGutter: 56px; /* breathing room so text never kisses columns */
+  --textLane: min(72ch, calc(var(--centerSpan) - var(--centerGutter)));
+}
+
+body.publications-directory .portal{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body.publications-directory .portal-inner{
+  width: min(100%, var(--textLane));
+  text-align: center;
+}
+
+body.publications-directory .portal-inner p{
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap: pretty;
+  overflow-wrap: anywhere;
+}
+
+body.publications-directory .portal-inner h1,
+body.publications-directory .portal-inner h2{
+  text-wrap: balance;
+}
