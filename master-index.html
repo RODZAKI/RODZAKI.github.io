@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MASTER INDEX — DOMAINE{([8])}</title>
+  <link rel="stylesheet" href="/style.css">
+
+  <style>
+    body {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .canon-header {
+      margin-bottom: 40px;
+    }
+
+    .canon-meta {
+      opacity: 0.7;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+
+    pre {
+      background: rgba(255,255,255,0.03);
+      padding: 20px;
+      overflow-x: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="canon-header">
+    <h1>⟁ MASTER INDEX — Canonical ⟁</h1>
+    <div class="canon-meta" id="meta"></div>
+  </div>
+
+  <pre id="content">Loading canonical index...</pre>
+
+  <script>
+    fetch('/canon/master-index.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('meta').innerText =
+          "Version: " + data.meta.version +
+          " | Governance: " + data.meta.governance +
+          " | Last Updated: " + data.meta.lastUpdated;
+
+        document.getElementById('content').innerText =
+          JSON.stringify(data, null, 2);
+      })
+      .catch(error => {
+        document.getElementById('content').innerText =
+          "Error loading canonical index.";
+        console.error(error);
+      });
+  </script>
+
+</body>
+</html>
