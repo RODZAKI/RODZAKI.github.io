@@ -44,7 +44,7 @@ def main() -> int:
 
     subprocess.check_call(["git", "add", str(MASTER_PATH)])
 
-    print(f"[hook] Master Index bumped {old_version} → {meta['version']} and updated lastUpdated.")
+    print(f"[hook] Master Index bumped {old_version} -> {meta['version']} and updated lastUpdated.")
     return 0
 
 if __name__ == "__main__":
