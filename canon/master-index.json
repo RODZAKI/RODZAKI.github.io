@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "MASTER INDEX",
-    "version": "1.9.4",
+    "version": "1.9.5",
     "governance": "Bookly",
     "status": "canonical",
     "lastUpdated": "2026-02-26",
-    "hookTest": true
+    "hookTest": false
   },
   "primitives": [],
   "tiers": [],
