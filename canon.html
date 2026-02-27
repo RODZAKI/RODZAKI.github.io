@@ -22,7 +22,13 @@
     .label {
       color: #888;
     }
-  </style>
+ .hash {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #555;
+  word-break: break-all;
+}
+ </style>
 </head>
 <body>
 
@@ -30,9 +36,15 @@
     <h1>Master Index</h1>
     <p><span class="label">Version:</span> <span id="version">Loading...</span></p>
     <p><span class="label">Last Updated:</span> <span id="updated">Loading...</span></p>
-    <p><span class="label">Hash:</span></p>
-    <pre id="hash">Loading...</pre>
+<details style="margin-top: 20px;">
+  <summary style="cursor:pointer; color:#888;">Technical Details</summary>
+  <div style="margin-top:10px;">
+    <div class="label">Hash:</div>
+    <div class="hash" id="hash">Loading...</div>
   </div>
+</details>    
+ 
+</div>
 
   <script>
     fetch('canon/master-index.json')
