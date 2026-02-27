@@ -1,14 +1,92 @@
 {
   "meta": {
     "title": "MASTER INDEX",
-    "version": "1.9.11",
-    "governance": "Bookly",
-    "status": "canonical",
+    "version": "0.0.1",
+    "status": "Operational — PSR Expanded",
+    "date": "2026-02-25",
+    "invocation": "surface master index",
     "lastUpdated": "2026-02-27",
-    "hookTest": false,
-    "hash": "a705ad1818c34660209d7dcb68e2b031c2b7f93dbdd25136366672db0f452d2f"
+    "hash": "861c557e4bc315bc25ff1f1071d949e309149896d585ae484305f68cd896a622"
   },
-  "primitives": [],
-  "tiers": [],
-  "ledger": []
+  "structuralSystemsIndex": {
+    "Tier I — Measurement Invariants": [
+      "ML-ARITH-1.0 — Arithmetic Reconciliation Invariant",
+      "ML-DLOCK-1.0 — Derivability Lock",
+      "DS-DELTA-1.0 — Δ_substrate v1.0 — Reconciliation Guard Primitive"
+    ],
+    "Tier II — Continuity Protocols": [
+      "CL-CCP-1.0 — Continuity Capsule Protocol",
+      "CL-PCAR-1.0 — Periodic Canonization Audit Requirement",
+      "CL-DCD-1.0 — Daily Cycle Delineation (Trial)",
+      "CL-MIP-1.1 — Master Index Protocol",
+      "TRR-1.0 — Thread Rehydration Rule",
+      "CL-SDI-1.0 — Structural Direction Inquiry Protocol"
+    ],
+    "Tier III — Governance Constraints": [
+      "RB-1.0 — Root-Bone v1.0",
+      "RB-MWDP-1.0 — Multi-Witness Divergence Principle",
+      "RB-RB-1.0 — Reversibility Bias"
+    ],
+    "Tier IV — Directional Principles (DOMAINE⁸ Lineage)": [
+      "D8-CCC-1.0 — Compassionate Coherent Commons",
+      "D8-AE-1.0 — Adaptive Elasticity",
+      "D8-FVD-1.0 — Friction Visibility Doctrine"
+    ],
+    "Tier V — Architectural & Simulation Lineages": [
+      "MD-CORE-1.0 — MarrowDeep Core",
+      "QT-CHAMBER-1.0 — Quasantum / Chamber of Becoming",
+      "HMC-MO-1.0 — Magnum Opus Lineage",
+      "D8-CAD-1.0 — DOMAINE⁸ Core Architectural Draft",
+      "HYBCIV-1.0 — Hybrid Civilization Treatise",
+      "ADP-AB-1.0 — Adapter A/B Framework"
+    ]
+  },
+  "psrRegister": [
+    "CL-SIR-1.0 — Schema Instantiation Requirement",
+    "D8-CPEP-1.0 — Control Plane / Experiment Plane Separation",
+    "CL-CDD-1.0 — Canonical Drift Detection",
+    "CL-SCT-1.0 — Structural Classification Taxonomy",
+    "CL-ACP-1.0 — Archival Capture Posture",
+    "CL-PVR-1.0 — Pending Visibility Requirement",
+    "CL-IVA-1.0 — Invocation Version Abstraction",
+    "CL-SAM-1.0 — Structural Audit Mode",
+    "CL-TSA-1.0 — Threadshift Sequential Anchor",
+    "CL-RAH-1.0 — Reorientation Anchor Handle",
+    "DS-IGP-1.0 — Integration Guard Placement Constraint",
+    "DS-DELTA-ESC-1.0 — Δ Escalation Ladder",
+    "DS-PCD-1.0 — Proxy Capture Drift",
+    "RB-RWI-1.0 — Recursive Witness Integrity Constraint",
+    "RB-CPF-1.0 — Cold Partition Formalization Addendum"
+  ],
+  "psrTotal": 15,
+  "threadLedger": [
+    "TL-001 — Website–Builder Structural Consolidation",
+    "TL-002 — Master Index Canonization & PSR Expansion",
+    "TL-003 — Retroactive Loose-End Extraction (Current Thread)"
+  ],
+  "archiveIndex": [
+    "HYBCIV-1.0 — Hybrid Civilization Treatise (Seed Artifact)"
+  ],
+  "integrationLayer": [
+    "D8-LOCAL-1.0 — Stable",
+    "D8-GH-1.0 — Stable",
+    "DS-DELTA-INT-1.0 — Pending"
+  ],
+  "structuralAuditEntryMarker": {
+    "reference": "CL-SAM-1.0",
+    "authority": "MASTER INDEX v1.9",
+    "intent": "Next historical thread will be entered for candidate extraction only.",
+    "scopeConstraints": [
+      "No canonical tier modification",
+      "No reinterpretation of existing primitives",
+      "No expansion of architecture",
+      "No narrative inflation"
+    ],
+    "objective": [
+      "Identify promotable structural elements for PSR Register",
+      "Refine Thread Ledger linkage"
+    ],
+    "behavioralPosture": "Mapping, not merging. Extraction, not evolution.",
+    "exitCondition": "Return to Master Index with identified candidates for classification."
+  }
 }
