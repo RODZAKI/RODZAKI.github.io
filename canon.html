@@ -45,9 +45,24 @@
 </details>    
  
 </div>
+47 </div>
 
-  <script>
-    fetch('canon/master-index.json')
+<<div class="card">
+  <h2>Primitives</h2>
+  <ul id="primitives-list"></ul>
+</div>
+
+<div class="card">
+  <h2>Tiers</h2>
+  <ul id="tiers-list"></ul>
+</div>
+
+<div class="card">
+  <h2>Ledger</h2>
+  <ul id="ledger-list"></ul>
+</div>
+<script>
+ fetch('canon/master-index.json')
       .then(res => res.json())
       .then(data => {
         const meta = data.meta || {};
