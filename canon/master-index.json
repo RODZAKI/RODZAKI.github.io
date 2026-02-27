@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "MASTER INDEX",
-    "version": "1.9.10",
+    "version": "1.9.11",
     "governance": "Bookly",
     "status": "canonical",
     "lastUpdated": "2026-02-27",
     "hookTest": false,
-    "hash": "a8493bc190319ea66887d5ecdb5e43e8e5d105a3ab05743368d114ee035f29c0"
+    "hash": "a705ad1818c34660209d7dcb68e2b031c2b7f93dbdd25136366672db0f452d2f"
   },
   "primitives": [],
   "tiers": [],
