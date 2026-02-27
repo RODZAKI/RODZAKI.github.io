@@ -87,7 +87,7 @@
  <script>
 (async function () {
   try {
-    const res = await fetch("master-index.json", { cache: "no-store" });
+    const res = await fetch("canon/master-index.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
     const data = await res.json();
 
