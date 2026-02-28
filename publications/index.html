@@ -4,90 +4,65 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="/assets/style.css?v=51">
-  <title>Publications — Rodzaki</title>
+  <title>Thread Catalog — Rodzaki</title>
 </head>
 
 <body class="publications-directory">
 
-  <!-- CORNICE (anchored to top) -->
-  <div class="cornice-bar"></div>
-
-  <!-- COLUMNS + PLINTHS -->
   <div class="columns">
-
-    <!-- LEFT OUTER -->
-    <div class="column left outer">
-      <div class="cap"></div>
-      <div class="shaft"></div>
-      <div class="plinth upper"></div>
-      <div class="plinth lower"></div>
-    </div>
-
-    <!-- LEFT INNER -->
-    <div class="column left inner">
-      <div class="cap"></div>
-      <div class="shaft"></div>
-      <div class="plinth upper"></div>
-      <div class="plinth lower"></div>
-    </div>
-
-    <!-- RIGHT INNER -->
-    <div class="column right inner">
-      <div class="cap"></div>
-      <div class="shaft"></div>
-      <div class="plinth upper"></div>
-      <div class="plinth lower"></div>
-    </div>
-
-    <!-- RIGHT OUTER -->
     <div class="column right outer">
-      <div class="cap"></div>
       <div class="shaft"></div>
       <div class="plinth upper"></div>
       <div class="plinth lower"></div>
     </div>
-
   </div>
 
-  <!-- CONTENT -->
   <main>
     <div class="portal">
-      <div class="portal-inner">
+      <div class="portal-inner doc">
 
         <header>
-          <h1>Publications</h1>
-          <p><a href="/">← Back to Home</a></p>
+          <h1>Thread Catalog</h1>
+          <p>
+            Chronological session index. Closed and discontinued threads.
+            Structural continuity across time.
+          </p>
         </header>
 
-        <h2>Publications Vault Directory</h2>
+        <hr />
 
-        <p><a href="/publications/core/">Core</a></p>
-        <p><a href="/publications/core/">Core (Internal)</a></p>
-        <p><a href="/publications/serial/">Serial</a></p>
-        <p><a href="/publications/essays/">Essays</a></p>
-        <p><a href="/publications/notes/">Notes</a></p>
+        <section class="catalog-entry">
+          <button class="catalog-header">
+            February 2026 — Site Builder Integration
+          </button>
 
-        <article class="artifact">
-          <h2>External Archive — (SUBSTACK)</h2>
+          <div class="catalog-body">
+            <p><strong>Status:</strong> Closed</p>
+            <p>
+              Resolved layout grid, portal card expansion, architectural
+              unification across Publications, Backlog, and Thread Catalog.
+            </p>
+          </div>
+        </section>
 
-          <p class="meta">Scroll · 2025</p>
+        <hr />
 
-          <p>
-            Essays, Scrolls, Treatises and Long-form Works spanning
-            Domaine8, QUASANTUM, Emergent Civilization, and MORE.
-          </p>
-
-          <p>
-            <a href="https://rodzaki.substack.com/archive" target="_blank" rel="noopener">
-              ENTER THE FULL PUBLICATIONS ARCHIVE
-            </a>
-          </p>
-        </article>
+        <div style="margin-top:60px;">
+          <a href="/">← Return to Threshold</a>
+        </div>
 
       </div>
     </div>
   </main>
 
+  <script>
+    document.querySelectorAll('.catalog-header').forEach(button => {
+      button.addEventListener('click', () => {
+        const body = button.nextElementSibling;
+        body.classList.toggle('open');
+      });
+    });
+  </script>
+
 </body>
 </html>
-
