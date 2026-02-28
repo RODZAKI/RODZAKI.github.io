@@ -1,45 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thread Catalog | Rodzaki</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta charset="UTF-8">
+  <title>Thread Catalog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="publications-directory">
-
-  <div class="cornice-bar"></div>
-
   <div class="columns">
-
-    <div class="column left outer">
-      <div class="cap"></div>
-      <div class="shaft"></div>
-      <div class="plinth upper"></div>
-      <div class="plinth lower"></div>
-    </div>
-
-    <div class="column left inner">
-      <div class="cap"></div>
-      <div class="shaft"></div>
-      <div class="plinth upper"></div>
-      <div class="plinth lower"></div>
-    </div>
-
-    <div class="column right inner">
-      <div class="cap"></div>
-      <div class="shaft"></div>
-      <div class="plinth upper"></div>
-      <div class="plinth lower"></div>
-    </div>
-
     <div class="column right outer">
-      <div class="cap"></div>
       <div class="shaft"></div>
       <div class="plinth upper"></div>
       <div class="plinth lower"></div>
     </div>
-
   </div>
 
   <main>
@@ -47,28 +21,51 @@
       <div class="portal-inner doc">
 
         <header>
-  <h1>Thread Catalog</h1>
-  <p>Chronological session index. Closed and discontinued threads. Structural continuity across time.</p>
-</header>
+          <h1>Thread Catalog</h1>
+          <p>
+            Chronological session index. Closed and discontinued threads.
+            Structural continuity across time.
+          </p>
+        </header>
 
-<hr />
+        <hr />
 
-<article>
-  <h2>February 2026 — Site Builder Integration</h2>
-  <p><strong>Status:</strong> Closed</p>
-  <p>Resolved layout grid, portal card expansion, architectural unification across Publications, Backlog, and Thread Catalog.</p>
-</article>
+        <!-- Expandable Entry -->
 
-<hr />
+        <section class="catalog-entry">
+          <button class="catalog-header">
+            <span class="catalog-title">
+              February 2026 — Site Builder Integration
+            </span>
+          </button>
 
-<div style="margin-top:60px;">
-  <a href="index.html">← Return to Threshold</a>
-</div>
+          <div class="catalog-body">
+            <p><strong>Status:</strong> Closed</p>
+            <p>
+              Resolved layout grid, portal card expansion, architectural
+              unification across Publications, Backlog, and Thread Catalog.
+            </p>
+          </div>
+        </section>
+
+        <hr />
+
+        <div style="margin-top:60px;">
+          <a href="index.html">← Return to Threshold</a>
+        </div>
 
       </div>
     </div>
   </main>
 
-</body>
+  <script>
+    document.querySelectorAll('.catalog-header').forEach(button => {
+      button.addEventListener('click', () => {
+        const body = button.nextElementSibling;
+        body.classList.toggle('open');
+      });
+    });
+  </script>
 
+</body>
 </html>
