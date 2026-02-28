@@ -30,5 +30,13 @@
 
   </main>
 
+<script>
+  document.querySelectorAll('.catalog-header').forEach(button => {
+    button.addEventListener('click', () => {
+      const body = button.nextElementSibling;
+      body.classList.toggle('open');
+    });
+  });
+</script>
 </body>
 </html>
