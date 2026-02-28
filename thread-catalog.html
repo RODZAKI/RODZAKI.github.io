@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>Thread Catalog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body class="publications-directory">
+
+  <!-- Architectural Column Layer -->
   <div class="columns">
     <div class="column right outer">
       <div class="shaft"></div>
@@ -30,8 +32,7 @@
 
         <hr />
 
-        <!-- Expandable Entry -->
-
+        <!-- Catalog Entry -->
         <section class="catalog-entry">
           <button class="catalog-header">
             <span class="catalog-title">
@@ -42,8 +43,8 @@
           <div class="catalog-body">
             <p><strong>Status:</strong> Closed</p>
             <p>
-              Resolved layout grid, portal card expansion, architectural
-              unification across Publications, Backlog, and Thread Catalog.
+              Resolved layout grid, portal card expansion, architectural unification
+              across Publications, Backlog, and Thread Catalog.
             </p>
           </div>
         </section>
@@ -58,6 +59,7 @@
     </div>
   </main>
 
+  <!-- Collapse Script -->
   <script>
     document.querySelectorAll('.catalog-header').forEach(button => {
       button.addEventListener('click', () => {
