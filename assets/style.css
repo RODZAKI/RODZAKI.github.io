@@ -195,3 +195,10 @@ p{margin:10px 0;color:var(--muted)}
 
 
   }
+  .catalog-body {
+  display: none;
+}
+
+.catalog-body.open {
+  display: block;
+}
