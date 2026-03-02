@@ -7,8 +7,8 @@
     "date": "2026-02-25",
     "invocation": "surface master index",
     "lastUpdated": "2026-03-01",
-    "version": "0.0.30",
-    "hash": "d1425d47b8c0e0651343f2014394e851adfb298aaf0a64f7352289d153336ef2"
+    "version": "0.0.31",
+    "hash": "2aed7adbc91726e1389df8574b56bd00e071aeaf321b03329dcf18c2a22282c9"
   },
   "structuralSystemsIndex": {
     "Tier I — Measurement Invariants": [
@@ -90,5 +90,19 @@
     ],
     "behavioralPosture": "Mapping, not merging. Extraction, not evolution.",
     "exitCondition": "Return to Master Index with identified candidates for classification."
+  },
+  "milestoneTemplates": {
+    "v2.0": {
+      "status": "Dormant — Not Activated",
+      "purpose": "Pre-staged governance declaration for Build Mode to Usage Mode transition.",
+      "activationCriteria": [
+        "Master Index and Thread Ledger fully synchronized.",
+        "No unresolved structural ambiguity in core schema.",
+        "Renderer behavior stable across viewport widths.",
+        "Card expansion and scroll containment deterministic.",
+        "Publishing pipeline reproducible without cognitive overhead.",
+        "No pending structural redesign."
+      ]
+    }
   }
 }
