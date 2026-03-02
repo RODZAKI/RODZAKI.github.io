@@ -97,7 +97,37 @@ if (data.milestoneTemplates) {
 
   container.appendChild(milestoneSection);
 }
+// --- Structural Systems Index ---
+const index = data.structuralSystemsIndex;
 
+console.log("STRUCTURAL INDEX:", index);
+
+if (index) {
+  const section = document.createElement("div");
+  section.innerHTML = "<h3>Structural Systems Index</h3>";
+
+  Object.entries(index).forEach(([tier, items]) => {
+    const block = document.createElement("div");
+    block.style.marginBottom = "20px";
+
+    const title = document.createElement("h4");
+    title.textContent = tier;
+    block.appendChild(title);
+
+    const ul = document.createElement("ul");
+
+    items.forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      ul.appendChild(li);
+    });
+
+    block.appendChild(ul);
+    section.appendChild(block);
+  });
+
+  container.appendChild(section);
+}
 // Canonical Raw JSON
 document.getElementById("raw-json").innerText =
   JSON.stringify(data, null, 2); 
