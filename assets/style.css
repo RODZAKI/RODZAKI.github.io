@@ -257,3 +257,17 @@ body.portal {
   align-items: center;
   min-height: 100vh;
 }
+
+body.rolodex {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Center stage between outer columns */
+.rolodex-stage {
+  position: relative;
+  z-index: 5;
+  max-width: 1100px;
+  margin: 160px auto 0;
+  padding: 0 2rem 3rem;
+}
