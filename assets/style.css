@@ -233,11 +233,9 @@ p{margin:10px 0;color:var(--muted)}
 }
 
 .portal-card {
-  max-width: 600px;
-  margin: 120px auto;
-  padding: 2rem;
-  border: 1px solid rgba(255,255,255,0.15);
-  background: rgba(0,0,0,0.45);
+  max-width: 720px;
+  margin: 140px auto;
+  padding: 2.5rem 3rem;
   text-align: center;
 }
 
@@ -251,4 +249,11 @@ p{margin:10px 0;color:var(--muted)}
 
 .portal-enter:hover {
   background: rgba(255,255,255,0.08);
+}
+
+body.portal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
