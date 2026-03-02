@@ -39,8 +39,12 @@
     <div class="canon-meta" id="meta"></div>
   </div>
 
-  <pre id="content">Loading canonical index...</pre>
+  <div id="content">Loading canonical index...</div>
 
+<details style="margin-top: 40px;">
+  <summary>Technical Details (Canonical JSON)</summary>
+  <pre id="raw-json"></pre>
+</details>
   <script>
     fetch('/canon/master-index.json')
       .then(response => response.json())
@@ -49,9 +53,54 @@
           "Version: " + data.meta.version +
           " | Governance: " + data.meta.governance +
           " | Last Updated: " + data.meta.lastUpdated;
+// Structured Render
+const container = document.getElementById("content");
+container.innerHTML = "";
 
-        document.getElementById('content').innerText =
-          JSON.stringify(data, null, 2);
+// --- Meta Header ---
+const metaBlock = document.createElement("div");
+metaBlock.innerHTML = `
+  <h2>Master Index</h2>
+  <p><strong>Surface Version:</strong> ${data.meta.surfaceVersion}</p>
+  <p><strong>Internal Version:</strong> ${data.meta.version}</p>
+  <p><strong>Last Updated:</strong> ${data.meta.lastUpdated}</p>
+`;
+container.appendChild(metaBlock);
+
+// --- Milestones ---
+if (data.milestoneTemplates) {
+  const milestoneSection = document.createElement("div");
+  milestoneSection.innerHTML = "<h3>Milestones</h3>";
+
+  Object.entries(data.milestoneTemplates).forEach(([key, milestone]) => {
+    const block = document.createElement("div");
+    block.style.marginBottom = "20px";
+
+    block.innerHTML = `
+      <h4>${key}</h4>
+      <p><strong>Status:</strong> ${milestone.status}</p>
+      <p><strong>Purpose:</strong> ${milestone.purpose}</p>
+    `;
+
+    if (milestone.activationCriteria) {
+      const ul = document.createElement("ul");
+      milestone.activationCriteria.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul.appendChild(li);
+      });
+      block.appendChild(ul);
+    }
+
+    milestoneSection.appendChild(block);
+  });
+
+  container.appendChild(milestoneSection);
+}
+
+// Canonical Raw JSON
+document.getElementById("raw-json").innerText =
+  JSON.stringify(data, null, 2); 
       })
       .catch(error => {
         document.getElementById('content').innerText =
