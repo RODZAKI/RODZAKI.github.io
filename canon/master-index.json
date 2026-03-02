@@ -6,9 +6,9 @@
     "status": "Operational — PSR Expanded",
     "date": "2026-02-25",
     "invocation": "surface master index",
-    "lastUpdated": "2026-03-01",
-    "version": "0.0.34",
-    "hash": "77b54bbb1c621d5189db1062b5b90b431e962011594f3e693bc840c176b17719"
+    "lastUpdated": "2026-03-02",
+    "version": "0.0.35",
+    "hash": "34150664cb47f26f433e0647fc2e9e1181e6033c16b1531b3323ae61c9d3b1e8"
   },
   "structuralSystemsIndex": {
     "Tier I — Measurement Invariants": [
