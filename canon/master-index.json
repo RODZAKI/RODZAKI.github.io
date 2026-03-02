@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "MASTER INDEX",
-    "surfaceVersion": "1.9",
+    "surfaceVersion": "1.10",
     "schemaVersion": "0.0.4",
     "status": "Operational — PSR Expanded",
     "date": "2026-02-25",
     "invocation": "surface master index",
     "lastUpdated": "2026-03-01",
-    "version": "0.0.31",
-    "hash": "2aed7adbc91726e1389df8574b56bd00e071aeaf321b03329dcf18c2a22282c9"
+    "version": "0.0.32",
+    "hash": "542898c5ac208f0eb4988a076680793ecef854d3d9a48b851d2b7669b85178f8"
   },
   "structuralSystemsIndex": {
     "Tier I — Measurement Invariants": [
