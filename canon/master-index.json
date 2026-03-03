@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "MASTER INDEX - Litmus Test",
+    "title": "MASTER INDEX",
     "surfaceVersion": "1.10",
     "schemaVersion": "0.0.4",
     "status": "Operational — PSR Expanded",
     "date": "2026-02-25",
     "invocation": "surface master index",
     "lastUpdated": "2026-03-03",
-    "version": "0.0.42",
-    "hash": "b8b47a1d07e736c6be947e2d9ef5d889e55c79da856f6f246f1e3387487b9f28"
+    "version": "0.0.43",
+    "hash": "a25e26787b5b1fae4af49b30e5476d25dcea36b85032e702d0b4624169b8b90a"
   },
   "structuralSystemsIndex": {
     "Tier I — Measurement Invariants": [
-      "ML-ARITH-1.0 — Arithmetic Reconciliation Invariant (Test)",
+      "ML-ARITH-1.0 — Arithmetic Reconciliation Invariant",
       "ML-DLOCK-1.0 — Derivability Lock",
       "DS-DELTA-1.0 — Δ_substrate v1.0 — Reconciliation Guard Primitive"
     ],
