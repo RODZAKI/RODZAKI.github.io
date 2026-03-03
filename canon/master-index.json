@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "MASTER INDEX",
+    "title": "MASTER INDEX - Litmus Test",
     "surfaceVersion": "1.10",
     "schemaVersion": "0.0.4",
     "status": "Operational — PSR Expanded",
     "date": "2026-02-25",
     "invocation": "surface master index",
-    "lastUpdated": "2026-03-02",
-    "version": "0.0.40",
-    "hash": "63340ec839aa5c67f5aa59c20d20708c84bf9b44999e5ac99cef2516fcd7fb12"
+    "lastUpdated": "2026-03-03",
+    "version": "0.0.41",
+    "hash": "49b69bb11298fbe883c1e61f1e5a19140b7ee5694433a3bb916eae079dd3f2e3"
   },
   "structuralSystemsIndex": {
     "Tier I — Measurement Invariants": [
