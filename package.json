@@ -4,8 +4,10 @@
   "description": "<!-- trigger pages redeploy-->\r This is the public site for Rodzaki.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "validate": "node tools/validate-master-index.js",
+  "predeploy": "npm run validate"
+},
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RODZAKI/RODZAKI.github.io.git"
