@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "00_control": true,
+    "node_modules": true,
+    ".vscode": true
+  }
+}
