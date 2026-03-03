@@ -46,7 +46,7 @@
   <pre id="raw-json"></pre>
 </details>
   <script>
-    fetch('/canon/master-index.json')
+    fetch('/_dev/canon/master-index.json')
       .then(response => response.json())
       .then(data => {
         document.getElementById('meta').innerText =
