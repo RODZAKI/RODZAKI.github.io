@@ -7,12 +7,12 @@
     "date": "2026-02-25",
     "invocation": "surface master index",
     "lastUpdated": "2026-03-03",
-    "version": "0.0.41",
-    "hash": "49b69bb11298fbe883c1e61f1e5a19140b7ee5694433a3bb916eae079dd3f2e3"
+    "version": "0.0.42",
+    "hash": "b8b47a1d07e736c6be947e2d9ef5d889e55c79da856f6f246f1e3387487b9f28"
   },
   "structuralSystemsIndex": {
     "Tier I — Measurement Invariants": [
-      "ML-ARITH-1.0 — Arithmetic Reconciliation Invariant",
+      "ML-ARITH-1.0 — Arithmetic Reconciliation Invariant (Test)",
       "ML-DLOCK-1.0 — Derivability Lock",
       "DS-DELTA-1.0 — Δ_substrate v1.0 — Reconciliation Guard Primitive"
     ],
