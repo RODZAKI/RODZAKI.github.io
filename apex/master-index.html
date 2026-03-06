@@ -140,7 +140,7 @@ if (index) {
   container.appendChild(section);
 }
 // Canonical Raw JSON
-document.getElementById("raw-json").innerText =
+document.getElementById("raw-json").innerHTML =
   JSON.stringify(data, null, 2); 
       })
       .catch(error => {
