@@ -285,3 +285,14 @@ body.rolodex {
     max-width: 520px;
     margin: 12px 0;
 }
+
+.directory-content p {
+    max-width: 520px;
+    margin: 12px 0;
+}
+
+.site-frame {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+}
