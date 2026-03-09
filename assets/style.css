@@ -44,15 +44,18 @@ body.publications-directory{
 }
 
 body.publications-directory::after{
-  content:"";
-  position:fixed;
-  left:0;right:0;bottom:0;
-  height:var(--stepH);
-  background:
-    linear-gradient(180deg, rgba(0,0,0,.10), rgba(255,255,255,.32)),
-    
-  z-index:0;
-  pointer-events:none;
+    content:"";
+    position:fixed;
+    left:0;right:0;bottom:0;
+    height:var(--stepH);
+
+    background:
+        linear-gradient(180deg, rgba(0,0,0,.10), rgba(255,255,255,.32)),
+        repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 2px,
+                                  rgba(255,255,255,.16) 2px 14px);
+
+    z-index:0;
+    pointer-events:none;
 }
 
 .cornice-bar{
@@ -304,6 +307,8 @@ body.rolodex {
     gap: 18px;
     max-width: 720px;
     margin: 40px auto;
+    position: relative;
+    z-index: 2;
 }
 
 .artifact-tile {
