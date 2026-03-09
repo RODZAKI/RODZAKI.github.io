@@ -208,7 +208,9 @@ p{margin:10px 0;color:var(--muted)}
 
 .catalog-container {
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  
 }
 
 .catalog-list {
