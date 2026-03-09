@@ -265,7 +265,19 @@ body.portal {
 
 body.card-catalog {
   position: relative;
-  min-height: 100vh;
+  .artifact-cabinet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 720px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 420px;
+
+    z-index: 2;
+}
 }
 
 /* Center stage between outer columns */
