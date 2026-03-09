@@ -308,7 +308,7 @@ body.rolodex {
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
     max-width: 720px;
-    margin: 40px auto;
+    margin: 220px auto 0;
     position: relative;
     z-index: 2;
 }
