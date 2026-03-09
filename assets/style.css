@@ -338,3 +338,34 @@ body.card-catalog {
     border-radius: 6px;
     color: #444;
 }
+
+.catalog-intro {
+max-width: 620px;
+margin: 20px auto 30px auto;
+font-size: 16px;
+line-height: 1.6;
+color: #555;
+text-align: center;
+}
+
+.catalog-entry {
+text-align: center;
+margin-top: 20px;
+}
+
+.catalog-enter {
+display: inline-block;
+padding: 10px 20px;
+border: 1px solid #999;
+border-radius: 4px;
+text-decoration: none;
+color: #333;
+background: #f5f5f5;
+font-weight: 500;
+transition: all 0.2s ease;
+}
+
+.catalog-enter:hover {
+background: #eaeaea;
+border-color: #777;
+}
