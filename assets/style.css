@@ -50,7 +50,7 @@ body.publications-directory::after{
   height:var(--stepH);
   background:
     linear-gradient(180deg, rgba(0,0,0,.10), rgba(255,255,255,.32)),
-    repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 2px, rgba(255,255,255,.16) 2px 14px);
+    
   z-index:0;
   pointer-events:none;
 }
