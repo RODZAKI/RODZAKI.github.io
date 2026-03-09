@@ -296,3 +296,25 @@ body.rolodex {
   width: 92%;
   margin: 0 auto;
 }
+/* Card Catalog Cabinet */
+
+.artifact-cabinet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 720px;
+    margin: 40px auto;
+}
+
+.artifact-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    text-decoration: none;
+    font-weight: 500;
+    background: #f3f3f3;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    color: #444;
+}
