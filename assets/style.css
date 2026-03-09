@@ -269,7 +269,7 @@ body.rolodex {
 }
 
 /* Center stage between outer columns */
-.rolodex-stage {
+.card-catalog-stage {
   position: relative;
   z-index: 5;
   max-width: 1100px;
@@ -308,8 +308,12 @@ body.rolodex {
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
     max-width: 720px;
-    margin: 220px auto 0;
-    position: relative;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 420px;
+
     z-index: 2;
 }
 
