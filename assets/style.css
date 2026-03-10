@@ -48,7 +48,7 @@ body.publications-directory{
     left:0;
     right:0;
     bottom:0;
-    height:var(--stepH);
+    height:var(--stepH, 120px);
 
     background:
         linear-gradient(180deg, rgba(0,0,0,.10), rgba(255,255,255,.32)),
