@@ -141,12 +141,7 @@ body.publications-directory::after{
   background-repeat:no-repeat;
 }
 
-.cornice-bar,
-.columns,
-.columns *,
-.column {
-    pointer-events: none;
-}
+
 body.publications-directory main{
   position:relative;
   z-index:2;
