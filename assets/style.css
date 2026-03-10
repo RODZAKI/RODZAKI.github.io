@@ -48,8 +48,7 @@ body.publications-directory{
     left:0;
     right:0;
     bottom:0;
-    height:var(--stepH,120px);
-    background:red;
+    height:var(--stepH,140px);
     z-index:0;
     pointer-events:none;
 }
