@@ -143,6 +143,7 @@ body.publications-directory::after{
 
 .cornice-bar,
 .columns,
+.columns *,
 .column {
     pointer-events: none;
 }
