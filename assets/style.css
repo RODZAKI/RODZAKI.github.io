@@ -242,6 +242,8 @@ p{margin:10px 0;color:var(--muted)}
   margin: 140px auto;
   padding: 2.5rem 3rem;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .portal-enter {
