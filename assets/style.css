@@ -390,7 +390,11 @@ background: #eaeaea;
 border-color: #777;
 }
 
-.portal {
-    position: relative;
-    z-index: 5;
+.columns,
+.column,
+.cap,
+.shaft,
+.plinth,
+.stairs {
+    pointer-events: none;
 }
