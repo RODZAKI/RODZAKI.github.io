@@ -425,3 +425,8 @@ main {
 .stairs {
   pointer-events: none;
 }
+
+.portal ul {
+  list-style: none;
+  padding-left: 0;
+}
