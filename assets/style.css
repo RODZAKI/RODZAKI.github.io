@@ -389,3 +389,8 @@ transition: all 0.2s ease;
 background: #eaeaea;
 border-color: #777;
 }
+
+.portal {
+    position: relative;
+    z-index: 5;
+}
