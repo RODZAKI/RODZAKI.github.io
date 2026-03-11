@@ -402,3 +402,24 @@ border-color: #777;
 .portal-inner a {
   white-space: nowrap;
 }
+
+main {
+  position: relative;
+  z-index: 20;
+}
+
+.portal,
+.portal-inner {
+  position: relative;
+  z-index: 25;
+}
+
+.cornice-bar,
+.columns,
+.column,
+.cap,
+.shaft,
+.plinth,
+.stairs {
+  pointer-events: none;
+}
