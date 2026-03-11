@@ -398,3 +398,7 @@ border-color: #777;
 .stairs {
     pointer-events: none;
 }
+
+.portal-inner a {
+  white-space: nowrap;
+}
