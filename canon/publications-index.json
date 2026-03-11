@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "governance": "Rodzaki Publications Canon",
+    "version": "0.1.0",
+    "lastUpdated": "2026-03-10",
+    "description": "Master catalog of publications across Core, Foundry, Serial, Essays, and Notes."
+  },
+
+  "publications": [
+
+    {
+      "id": "core-001",
+      "title": "First Core Work",
+      "author": "David Killion",
+      "type": "core",
+      "path": "/publications/core/first-core-work/",
+      "year": 2026,
+      "status": "published"
+    }
+
+  ]
+}
