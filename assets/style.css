@@ -533,3 +533,33 @@ main {
   padding: 14px;
   min-height: 72px;
 }
+
+/* --- Force stacked drawer labels --- */
+.drawer span {
+  display: block;
+}
+
+/* --- Style the symbolic (esoteric) name --- */
+.symbolic {
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-style: italic;
+}
+
+.symbolic::before { content: "("; }
+.symbolic::after  { content: ")"; }
+
+/* --- Center the chamber text elements --- */
+.catalog-chamber {
+  text-align: center;
+}
+
+.catalog-chamber .intro {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+/* --- Stabilize drawer height for a clean grid --- */
+.drawer {
+  padding: 14px;
+  min-height: 72px;
+}
