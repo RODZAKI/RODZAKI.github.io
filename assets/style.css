@@ -576,4 +576,15 @@ main {
   margin-top: 140px !important;
 }
 
+
+.back-link {
+    position: relative !important;
+    z-index: 9999 !important;
+    pointer-events: auto !important;
+    display: inline-block !important;
+}
+
+.catalog-chamber,
+.catalog-chamber * {
+    pointer-events: auto !important;
 }
