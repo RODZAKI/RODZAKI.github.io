@@ -352,7 +352,10 @@ body.card-catalog {
   margin: 12px 0;
 }
 
-
+.directory-content a {
+    position: relative;
+    z-index: 40;
+}
 
 .site-frame {
   max-width: 1200px;
