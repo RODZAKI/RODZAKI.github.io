@@ -588,3 +588,5 @@ main {
 .catalog-chamber * {
     pointer-events: auto !important;
 }
+
+.catalog-chamber { position: relative; z-index: 10; }
