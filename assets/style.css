@@ -600,3 +600,12 @@ main {
     opacity: 0.85;
     font-style: italic;
 }
+
+.catalog-key {
+    max-width: 720px;
+    margin: 30px auto 40px auto;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    font-style: italic;
+}
