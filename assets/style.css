@@ -84,7 +84,7 @@ body.publications-directory {
     background:
         linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.12)),
         repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 3px, rgba(255,255,255,.18) 3px 6px);
-    z-index: 0;
+    z-index: 5;
     pointer-events: none;
 }
 
