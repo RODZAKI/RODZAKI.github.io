@@ -75,7 +75,7 @@ body.publications-directory {
   pointer-events: none;
 }
 
-.cornice-bar {
+.cornice {
     position: fixed;
     top: 110px;
     left: 0;
