@@ -77,7 +77,7 @@ body.publications-directory {
 
 .cornice {
     position: fixed;
-    top: 110px;
+    top: 0;
     left: 0;
     right: 0;
     height: var(--corniceH);
