@@ -609,3 +609,11 @@ main {
     opacity: 0.85;
     font-style: italic;
 }
+
+.catalog-inscription {
+    text-align: center;
+    margin: 25px 0 35px 0;
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: 0.85;
+}
