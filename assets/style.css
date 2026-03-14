@@ -619,21 +619,16 @@ main {
 }
 
 .return-home {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 170px;   /* adjust if needed */
-    z-index: 10;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .return-home a {
     text-decoration: none;
     font-size: 14px;
     color: #444;
-    background: rgba(255,255,255,0.7);
-    padding: 6px 14px;
-    border-radius: 6px;
-    backdrop-filter: blur(3px);
 }
 
 .return-home a:hover {
