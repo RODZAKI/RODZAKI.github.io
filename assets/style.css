@@ -190,9 +190,10 @@ body.publications-directory {
 }
 
 body.publications-directory .portal {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body.publications-directory .portal-inner {
