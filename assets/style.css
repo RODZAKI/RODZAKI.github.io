@@ -364,6 +364,10 @@ body.card-catalog {
   margin: 0 auto;
 }
 
+.directory-content {
+    position: relative;
+}
+
 /* Card Catalog Cabinet */
 
 .artifact-cabinet {
@@ -625,6 +629,8 @@ main {
 }
 
 .return-directory {
-    display: block;
-    margin-top: 3.5rem;
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
 }
