@@ -630,7 +630,7 @@ main {
 
 .return-directory {
     position: absolute;
-    bottom: 120px;
+    top: 340px;
     left: 50%;
     transform: translateX(-50%);
 }
