@@ -617,3 +617,25 @@ main {
     font-style: italic;
     opacity: 0.8;
 }
+
+.return-home {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 170px;   /* adjust if needed */
+    z-index: 10;
+}
+
+.return-home a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #444;
+    background: rgba(255,255,255,0.7);
+    padding: 6px 14px;
+    border-radius: 6px;
+    backdrop-filter: blur(3px);
+}
+
+.return-home a:hover {
+    color: black;
+}
