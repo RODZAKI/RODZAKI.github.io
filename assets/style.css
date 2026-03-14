@@ -627,8 +627,7 @@ main {
 }
 
 .return-directory {
-    position: absolute;
-    top: 340px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block;
+    margin-top: 60px;
+    text-align: center;
 }
