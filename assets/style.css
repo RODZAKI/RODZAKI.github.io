@@ -623,3 +623,8 @@ main {
     margin-top: 140px;
     margin-bottom: 40px;
 }
+
+.return-directory {
+    display: block;
+    margin-top: 3.5rem;
+}
