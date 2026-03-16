@@ -28,5 +28,11 @@ const descriptions = {
 document.getElementById("drawer-title").textContent =
   titles[drawer] || "Drawer";
 
-document.getElementById("drawer-description").textContent =
-  descriptions[drawer] || "Archive artifacts belonging to this structural layer.";
+document.getElementById("drawer-purpose").textContent =
+  descriptions[drawer] || "";
+
+document.getElementById("drawer-esoteric").textContent =
+  drawer || "";
+
+document.getElementById("drawer-explanation").textContent =
+  descriptions[drawer] || "";
