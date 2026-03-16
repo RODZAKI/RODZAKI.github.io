@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "governance": "Rodzaki Thread Catalog",
+    "version": "0.1.0",
+    "lastUpdated": null,
+    "description": "Registry of all thread PDFs located in /threads"
+  },
+
+  "threads": []
+}
