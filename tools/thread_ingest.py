@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 THREADS_DIR = "../threads"
-CATALOG_PATH = "../apex/canon/thread-catalog.json"
+CATALOG_PATH = "apex/canon/thread-catalog.json"
 
 def load_catalog():
     with open(CATALOG_PATH, "r", encoding="utf-8") as f:
