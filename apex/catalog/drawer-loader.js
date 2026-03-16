@@ -1,7 +1,5 @@
-const path = window.location.pathname;
-const parts = path.split("/");
-
-const drawer = parts[parts.length - 2];
+const params = new URLSearchParams(window.location.search);
+const drawer = params.get("drawer");
 
 const titles = {
   dharma: "Master Index",
