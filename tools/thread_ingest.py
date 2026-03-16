@@ -2,7 +2,7 @@ import os
 import json
 from datetime import datetime
 
-THREADS_DIR = "../threads"
+THREADS_DIR = "threads"
 CATALOG_PATH = "canon/thread-catalog.json"
 
 def load_catalog():
