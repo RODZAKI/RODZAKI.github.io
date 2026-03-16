@@ -52,7 +52,7 @@ document.getElementById("drawer-purpose").textContent =
   descriptions[drawer] || "";
 
 document.getElementById("drawer-esoteric").textContent =
-  drawer || "";
+(drawer || "").replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 
 document.getElementById("drawer-explanation").textContent =
 explanations[drawer] || "";

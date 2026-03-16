@@ -642,3 +642,15 @@ main {
   margin-top: 80px;
   font-size: 14px;
 }
+
+.drawer-esoteric {
+font-style: italic;
+font-weight: 600;
+font-size: 1.05em;
+}
+
+.drawer-esoteric-label {
+font-style: italic;
+font-weight: 600;
+opacity: 0.75;
+}
