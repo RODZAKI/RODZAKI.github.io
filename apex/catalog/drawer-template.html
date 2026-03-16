@@ -8,28 +8,63 @@
 
 </head>
 
-<body>
+<body class="site-frame">
 
-<header class="drawer-header">
-<h1 id="drawer-name"></h1>
-<p id="drawer-description"></p>
-</header>
+<div class="site">
 
-<main>
+  <div class="cornice"></div>
 
-<section class="artifact-container" id="artifact-container">
+  <div class="columns">
 
-<!-- artifacts will appear here -->
+    <div class="column left outer">
+      <div class="cap"></div>
+      <div class="shaft"></div>
+      <div class="plinth upper"></div>
+      <div class="plinth lower"></div>
+    </div>
 
-</section>
+    <div class="column left inner">
+      <div class="cap"></div>
+      <div class="shaft"></div>
+      <div class="plinth upper"></div>
+      <div class="plinth lower"></div>
+    </div>
 
-</main>
+    <main class="drawer-chamber">
 
-<footer>
+      <h1 id="drawer-title">Drawer</h1>
 
-<a href="/apex/card-catalog.html">Return to Catalog</a>
+      <p id="drawer-description">
+        Archive artifacts belonging to this structural layer.
+      </p>
 
-</footer>
+      <section class="drawer-artifacts">
+        <ul id="artifact-list"></ul>
+      </section>
+
+      <div class="drawer-return">
+        <a href="/apex/card-catalog.html">Return to Catalog</a>
+      </div>
+
+    </main>
+
+    <div class="column right inner">
+      <div class="cap"></div>
+      <div class="shaft"></div>
+      <div class="plinth upper"></div>
+      <div class="plinth lower"></div>
+    </div>
+
+    <div class="column right outer">
+      <div class="cap"></div>
+      <div class="shaft"></div>
+      <div class="plinth upper"></div>
+      <div class="plinth lower"></div>
+    </div>
+
+  </div>
+
+</div>
 
 <script src="/apex/catalog/drawer-loader.js"></script>
 
