@@ -56,3 +56,27 @@ document.getElementById("drawer-esoteric").textContent =
 
 document.getElementById("drawer-explanation").textContent =
 explanations[drawer] || "";
+
+fetch("/canon/card-index.json")
+  .then(response => response.json())
+  .then(data => {
+    const list = document.getElementById("card-list");
+    if (!list) return;
+
+    const relevantCards = data.cards.filter(card =>
+      card.drawers && card.drawers.includes(drawer)
+    );
+
+    list.innerHTML = "";
+
+    relevantCards.forEach(card => {
+      const li = document.createElement("li");
+      li.textContent = card.title || card.text || "Untitled realization";
+      list.appendChild(li);
+    });
+
+    if (relevantCards.length === 0) {
+      list.innerHTML = "<li>No realizations in this dimension yet.</li>";
+    }
+  })
+  .catch(err => console.error("Card index load error:", err));
