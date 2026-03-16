@@ -60,7 +60,7 @@ explanations[drawer] || "";
 fetch("/canon/card-index.json")
   .then(response => response.json())
   .then(data => {
-    const list = document.getElementById("card-list");
+    const list = document.getElementById("artifact-list");
     if (!list) return;
 
     const relevantCards = data.cards.filter(card =>
