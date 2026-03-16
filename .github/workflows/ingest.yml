@@ -1,0 +1,37 @@
+name: Thread Ingestion Engine
+
+on:
+  push:
+    paths:
+      - "threads/**"
+      - "tools/**"
+      - ".github/workflows/ingest.yml"
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PDF parser
+        run: |
+          pip install pymupdf
+
+      - name: Run ingestion script
+        run: |
+          python tools/thread_ingest.py
+
+      - name: Commit updated card index
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add apex/canon/card-index.json
+          git commit -m "Auto-generate realization cards from thread PDFs" || echo "No changes"
+          git push
