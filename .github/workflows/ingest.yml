@@ -5,6 +5,7 @@ on:
     paths:
       - "threads/**"
       - "tools/**"
+      - "apex/canon/thread-catalog.json"
       - ".github/workflows/ingest.yml"
 
 jobs:
