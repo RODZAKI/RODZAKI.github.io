@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const params = new URLSearchParams(window.location.search);
 const drawer = params.get("drawer");
 
@@ -69,7 +71,7 @@ fetch("/apex/canon/thread-catalog.json")
 
     relevantCards.forEach(card => {
       const li = document.createElement("li");
-      li.textContent = card.title || card.text || "Untitled realization";
+      li.textContent = card.title;
       list.appendChild(li);
     });
 
@@ -78,3 +80,5 @@ fetch("/apex/canon/thread-catalog.json")
     }
   })
   .catch(err => console.error("Card index load error:", err));
+
+});
