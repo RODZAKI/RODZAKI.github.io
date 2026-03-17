@@ -57,7 +57,7 @@ document.getElementById("drawer-esoteric").textContent =
 document.getElementById("drawer-explanation").textContent =
 explanations[drawer] || "";
 
-fetch("/canon/card-index.json")
+fetch("/apex/canon/thread-catalog.json")
   .then(response => response.json())
   .then(data => {
     const list = document.getElementById("artifact-list");
