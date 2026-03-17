@@ -63,9 +63,7 @@ fetch("/apex/canon/thread-catalog.json")
     const list = document.getElementById("artifact-list");
     if (!list) return;
 
-    const relevantCards = data.threads.filter(card =>
-      card.drawers && card.drawers.includes(drawer)
-    );
+    const relevantCards = data.threads;
 
     list.innerHTML = "";
 
