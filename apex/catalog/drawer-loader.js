@@ -72,8 +72,9 @@ fetch("/apex/canon/thread-catalog.json")
 
     relevantCards.forEach(card => {
       const li = document.createElement("li");
-      const sigil = "∞ ";
-li.textContent = sigil + card.title;
+      const cleanTitle = card.title.replace(/^[∞⟁]\s*/, "");
+const sigil = card.sealed ? "⟁ " : "∞ ";
+li.textContent = sigil + cleanTitle;
       list.appendChild(li);
     });
 
