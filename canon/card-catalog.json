@@ -1,0 +1,13 @@
+{
+  "cards": [
+    {
+      "id": "card-seed-example",
+      "title": "Seed Card — Replace Me",
+      "threads": [],
+      "drawers": ["notes"],
+      "summary": "This is a placeholder card. Replace with real content.",
+      "tags": ["seed"],
+      "source": "manual"
+    }
+  ]
+}
