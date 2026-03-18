@@ -71,7 +71,8 @@ fetch("/apex/canon/thread-catalog.json")
 
     relevantCards.forEach(card => {
       const li = document.createElement("li");
-      li.textContent = card.title;
+      const sigil = "∞ ";
+li.textContent = sigil + card.title;
       list.appendChild(li);
     });
 
