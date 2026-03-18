@@ -149,7 +149,9 @@
       "id": "1.5.2",
       "title": "Master Index 1.5.2",
       "pdf": "/threads/Master Index 1.5.2.pdf",
-      "era": "indexed"
+      "era": "indexed",
+      "sealed": true
+
     },
     {
       "id": "1.6.3",
