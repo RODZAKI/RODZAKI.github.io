@@ -10,7 +10,8 @@
       "id": "1.6.1",
       "title": "Master Index 1.6.1",
       "pdf": "/threads/Master Index 1.6.1.pdf",
-      "era": "indexed"
+      "era": "indexed",
+      "sealed": true
     },
     {
       "id": "1.2",
@@ -72,7 +73,6 @@
       "pdf": "/threads/Master Index 1.4.1.pdf",
       "era": "indexed"
     },
-    
     {
       "id": "legacy-005",
       "title": "AI Governance Structural Gap",
@@ -151,7 +151,6 @@
       "pdf": "/threads/Master Index 1.5.2.pdf",
       "era": "indexed",
       "sealed": true
-
     },
     {
       "id": "1.6.3",
