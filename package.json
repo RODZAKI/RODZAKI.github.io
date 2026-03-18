@@ -4,10 +4,9 @@
   "description": "<!-- trigger pages redeploy-->\r This is the public site for Rodzaki.",
   "main": "index.js",
   "scripts": {
-  "validate": "node tools/validate-master-index.js",
-  "predeploy": "npm run validate"
-},
-  
+    "validate": "node tools/validate-master-index.js",
+    "predeploy": "npm run validate"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RODZAKI/RODZAKI.github.io.git"
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/RODZAKI/RODZAKI.github.io#readme",
   "dependencies": {
-    "ajv": "^8.18.0"
+    "ajv": "^8.18.0",
+    "pdf-parse": "^2.4.5"
   }
 }
