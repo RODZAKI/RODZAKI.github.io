@@ -1,4 +1,4 @@
-// generate-legacy-map.js
+// generate-legacy-map.js (v2 — chronology aware)
 
 const fs = require('fs');
 const path = require('path');
@@ -12,14 +12,43 @@ function getPdfFiles(dir) {
     .filter(file => file.toLowerCase().endsWith('.pdf'));
 }
 
+function getFileTimestamps(filePath) {
+  const stats = fs.statSync(filePath);
+
+  const created = stats.birthtimeMs || stats.ctimeMs;
+  const modified = stats.mtimeMs;
+
+  const primary = Math.min(created, modified);
+
+  return {
+    created,
+    modified,
+    primary
+  };
+}
+
 function buildMap(files) {
-  return files.map((file, index) => {
+  const enriched = files.map(file => {
+    const fullPath = path.join(LEGACY_DIR, file);
+    const time = getFileTimestamps(fullPath);
+
     return {
-      temp_id: `legacy-${String(index + 1).padStart(3, '0')}`,
       filename: file,
-      path: `/threads-legacy/${file}`
+      path: `/threads-legacy/${file}`,
+      created: time.created,
+      modified: time.modified,
+      primaryTime: time.primary
     };
   });
+
+  // SORT: oldest → newest
+  enriched.sort((a, b) => a.primaryTime - b.primaryTime);
+
+  // ASSIGN ORDERED IDS
+  return enriched.map((entry, index) => ({
+    temp_id: `legacy-${String(index + 1).padStart(3, '0')}`,
+    ...entry
+  }));
 }
 
 function main() {
@@ -45,7 +74,7 @@ function main() {
     JSON.stringify(map, null, 2)
   );
 
-  console.log(`✅ Generated legacy-order-map.json with ${files.length} entries`);
+  console.log(`✅ Chronological map generated with ${files.length} entries`);
 }
 
 main();
