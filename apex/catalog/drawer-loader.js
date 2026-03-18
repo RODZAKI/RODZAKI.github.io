@@ -62,6 +62,7 @@ explanations[drawer] || "";
 fetch("/apex/canon/thread-catalog.json")
   .then(response => response.json())
   .then(data => {
+    console.log(data.threads);
     const list = document.getElementById("artifact-list");
     if (!list) return;
 
