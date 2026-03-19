@@ -76,13 +76,17 @@ fetch("/apex/canon/thread-catalog.json")
       return;
     }
 
-    relevantCards.forEach(card => {
-      const li = document.createElement("li");
-      const cleanTitle = card.title.replace(/^[∞⟁]\s*/, "");
-      const sigil = card.sealed ? "⟁ " : "∞ ";
-      li.textContent = sigil + cleanTitle;
-      list.appendChild(li);
-    });
+   relevantCards.forEach(card => {
+  const li = document.createElement("li");
+  const cleanTitle = card.title.replace(/^[∞⟁]\s*/, "");
+  const sigil = card.sealed ? "⟁ " : "∞ ";
+  const a = document.createElement("a");
+  a.href = "https://rodzaki.github.io/site_builder/thread/" + card.id;
+  a.textContent = sigil + cleanTitle;
+  a.style.color = "inherit";
+  li.appendChild(a);
+  list.appendChild(li);
+});
   })
   .catch(err => console.error("Card index load error:", err));
 
