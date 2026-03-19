@@ -81,7 +81,7 @@ fetch("/apex/canon/thread-catalog.json")
   const cleanTitle = card.title.replace(/^[∞⟁]\s*/, "");
   const sigil = card.sealed ? "⟁ " : "∞ ";
   const a = document.createElement("a");
-  a.href = "https://rodzaki.github.io/site_builder/?thread=" + card.id;
+  a.href = "https://rodzaki.github.io/site_builder/#/thread/" + card.id;
   a.textContent = sigil + cleanTitle;
   a.style.color = "inherit";
   li.appendChild(a);
