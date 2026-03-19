@@ -4,9 +4,12 @@
     <meta charset="utf-8" />
     <title>Redirecting...</title>
     <script>
-      // Redirect all 404s to index.html preserving path
-      var path = window.location.pathname.replace('/site_builder', '');
-      window.location.replace('/site_builder/' + '#'+ path);
+      (function () {
+        var fullPath = window.location.pathname + window.location.search + window.location.hash;
+        var base = '/site_builder';
+        var newPath = fullPath.replace(base, '');
+        window.location.replace(base + '/#' + newPath);
+      })();
     </script>
   </head>
   <body></body>
