@@ -655,3 +655,23 @@ font-style: italic;
 font-weight: 600;
 opacity: 0.75;
 }
+
+
+.drawer-chamber a {
+  position: relative;
+  z-index: 30;
+  pointer-events: auto;
+}
+
+#artifact-list {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  z-index: 30;
+  pointer-events: auto;
+}
+
+#artifact-list li {
+  margin-bottom: 8px;
+  pointer-events: auto;
+}
