@@ -3,5 +3,22 @@
   "title": "Create synthetic image",
   "source": "/shards/conversations-005.json#69521026-cc34-8326-8df9-3162dfc97622",
   "era": "openai",
-  "text": "USER: Use this set of images to create a composite synthetic image.\n\nASSISTANT: {\"prompt\":\"Create a single composite synthetic portrait that blends the provided photos into one cohesive image. Preserve the subject’s natural features while harmonizing lighting, color, and texture. Combine the ethereal, colorful installation lighting from the museum shots with the calm indoor portrait lighting, producing a soft, painterly realism. Use a waist-up framing, gentle depth of field, and balanced composition. Avoid photorealistic seams; the result should feel unified and intentional, with subtle color grading and smooth transitions.\",\"size\":\"1024x1024\",\"n\":1,\"referenced_image_ids\":[\"img-0\",\"img-1\",\"img-2\",\"img-3\",\"img-4\",\"img-5\",\"img-6\"]}"
+  "text": "USER: Use this set of images to create a composite synthetic image.\n\nASSISTANT: {\"prompt\":\"Create a single composite synthetic portrait that blends the provided photos into one cohesive image. Preserve the subject’s natural features while harmonizing lighting, color, and texture. Combine the ethereal, colorful installation lighting from the museum shots with the calm indoor portrait lighting, producing a soft, painterly realism. Use a waist-up framing, gentle depth of field, and balanced composition. Avoid photorealistic seams; the result should feel unified and intentional, with subtle color grading and smooth transitions.\",\"size\":\"1024x1024\",\"n\":1,\"referenced_image_ids\":[\"img-0\",\"img-1\",\"img-2\",\"img-3\",\"img-4\",\"img-5\",\"img-6\"]}",
+  "classification": {
+    "version": "1.0",
+    "primary_drawer": "dao",
+    "drawer_weights": {
+      "dharma": 1.0,
+      "logos": 0.0,
+      "maat": 0.0,
+      "dao": 1.0,
+      "rta": 0.0,
+      "ayni": 0.0,
+      "ubuntu": 0.0,
+      "mitakuye-oyasin": 0.0,
+      "sumak-kawsay": 0.0
+    },
+    "row_class": "operational",
+    "confidence": 0.98
+  }
 }
