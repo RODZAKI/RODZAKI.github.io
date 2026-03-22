@@ -44,7 +44,17 @@ const drawerEraMap = {
   logos: null,
   maat: null,
   dao: null,
-  rta: null,
+  rta: "openai",
+  ayni: null,
+  ubuntu: null,
+  "mitakuye-oyasin": null,
+  "sumak-kawsay": null
+};
+  dharma: "indexed",
+  logos: null,
+  maat: null,
+  dao: null,
+  rta: "openai",
   ayni: null,
   ubuntu: null,
   "mitakuye-oyasin": null,

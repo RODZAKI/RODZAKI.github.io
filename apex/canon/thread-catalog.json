@@ -1,9 +1,9 @@
 {
   "meta": {
     "governance": "Rodzaki Thread Catalog",
-    "version": "0.1.0",
-    "lastUpdated": "2026-03-17T00:15:07.547820",
-    "description": "Registry of all thread PDFs located in /threads"
+    "version": "0.2.0",
+    "lastUpdated": "2026-03-21T00:00:00.000000",
+    "description": "Registry of all thread artifacts — PDF and OpenAI extracted"
   },
   "threads": [
     {
@@ -27,8 +27,8 @@
     },
     {
       "id": "legacy-001",
-      "title": "\u0394_substrate v1.0 Integration",
-      "pdf": "/threads/\u0394_substrate v1.0 Integration.pdf",
+      "title": "Δ_substrate v1.0 Integration",
+      "pdf": "/threads/Δ_substrate v1.0 Integration.pdf",
       "era": "pre-index"
     },
     {
@@ -175,6 +175,121 @@
       "title": "Master Index 1.6_false start_",
       "pdf": "/threads/Master Index 1.6_false start_.pdf",
       "era": "indexed"
+    },
+    {
+      "id": "openai-0003",
+      "title": "Consciousness and AI",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0006",
+      "title": "Infinite Creator Greeting",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0029",
+      "title": "Rabbitat Feedback Loop",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0043",
+      "title": "Haymarket Bike Shop Shoutout",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0044",
+      "title": "Entropy and Consciousness Evolution",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0067",
+      "title": "Quiet Cafe Reflections",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0111",
+      "title": "Akashic cinematography theory",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0169",
+      "title": "Caseworker changes advice",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0315",
+      "title": "Straw man theory explained",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0326",
+      "title": "What is INFJ",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0398",
+      "title": "1.25 Drift Toward Edges",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0437",
+      "title": "8.3:18 Ch.17 Draft",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0473",
+      "title": "QUASANTUM(Act2.1)",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0503",
+      "title": "QUASANTUM(Act2.1)",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0507",
+      "title": "ACT1",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0522",
+      "title": "ACT2a (Ch.7-9) PERP Expansion",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0526",
+      "title": "TOP TIER COMMANDS LIST",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0543",
+      "title": "LEITMOTIF ABC I-P BUILD",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0549",
+      "title": "Create synthetic image",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0570",
+      "title": "Motion Design Principles",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0578",
+      "title": "Domain-8 Artifact Transfer",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0587",
+      "title": "MAGNUM OPUS (3.0)",
+      "era": "openai"
+    },
+    {
+      "id": "openai-0591",
+      "title": "Domain-8 Synthetic Mapping",
+      "era": "openai"
     }
   ]
 }
