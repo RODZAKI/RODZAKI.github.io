@@ -1,25 +1,408 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quasantum Cognitive Commons</title>
-    <meta name="description" content="Quasantum is a web-based platform for structured, versioned artifacts and cumulative reasoning in independent Fields." />
-    <link rel="icon" type="image/svg+xml" href="/placeholder.svg" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DOMAINE8 {{{[8]}}}</title>
+  <meta name="description" content="{{{[8]}}} — QUASANTUM Realms and the Transcendental Novelty on the Event Horizon." />
 
-    <meta property="og:title" content="Quasantum Cognitive Commons" />
-    <meta property="og:description" content="Quasantum is a web-based platform for structured, versioned artifacts and cumulative reasoning in independent Fields." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/og.jpg" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://rodzaki.github.io/" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="/og.jpg" />
-    <script type="module" crossorigin src="/assets/index-CeCq-kl9.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CnuK7pZ9.css">
-  </head>
+  <!-- Open Graph (social sharing) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DOMAINE8 {{{[8]}}}" />
+  <meta property="og:description" content="QUASANTUM Realms and the Transcendental Novelty on the Event Horizon." />
+  <meta property="og:url" content="https://rodzaki.github.io/" />
+  <meta property="og:image" content="https://rodzaki.github.io/apex/apex/gallery-bg.png" />
 
-  <body>
-    <div id="root"></div>
-  </body>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DOMAINE8 {{{[8]}}}" />
+  <meta name="twitter:description" content="QUASANTUM Realms and the Transcendental Novelty on the Event Horizon." />
+  <meta name="twitter:image" content="https://rodzaki.github.io/apex/apex/gallery-bg.png" />
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="DOMAINE{([8])} — Dispatches"
+    href="https://rodzaki.substack.com/feed"
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #0b0b0c;
+      --fg: #f2f0ea;
+      --muted: rgba(242,240,234,.75);
+      --hair: rgba(242,240,234,.18);
+      --ink: #141416;
+      --inkSoft: rgba(20,20,22,.72);
+      --serif: "IM Fell English", Georgia, "Times New Roman", serif;
+      --smallcaps: "IM Fell English SC", Georgia, "Times New Roman", serif;
+      --script: "Great Vibes", "Brush Script MT", cursive;
+      --max: 980px;
+      --pad: clamp(18px, 3vw, 34px);
+      --radius: 14px;
+    }
+
+    *{ box-sizing: border-box; }
+    html, body{ height: 100%; }
+    body{
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: var(--serif);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .hero{
+      position: relative;
+      height: 100vh;
+      min-height: 620px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--hair);
+    }
+
+    .hero-img{
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 62%;
+      filter: contrast(1.02) saturate(.98);
+      transform: scale(1.01);
+    }
+
+    .hero-text{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 62%;
+      transform: translateY(-50%);
+      text-align: center;
+      color: var(--ink);
+    }
+
+    .hero-text .t_the{
+      font-family: var(--smallcaps);
+      font-size: clamp(56px, 8vw, 92px);
+      letter-spacing: .18em;
+      margin: 0 0 8px 0;
+      text-transform: uppercase;
+    }
+
+    .hero-text .t_transcendental{
+      font-family: var(--script);
+      font-size: clamp(42px, 6vw, 76px);
+      margin-left: 6vw;
+      display: inline-block;
+    }
+
+    .hero-text .t_novelty{
+      font-family: var(--script);
+      font-size: clamp(42px, 6vw, 76px);
+      margin-left: 1vw;
+      display: inline-block;
+    }
+
+    .hero-text .t_event{
+      font-family: var(--smallcaps);
+      font-size: clamp(32px, 4.5vw, 56px);
+      letter-spacing: .26em;
+      margin-top: 12px;
+      display: block;
+      text-transform: uppercase;
+    }
+
+    main{
+      padding: calc(var(--pad) * 1.2) var(--pad) calc(var(--pad) * 2.2);
+      background:
+        radial-gradient(900px 400px at 50% 0%, rgba(255,255,255,.05), transparent 60%),
+        var(--bg);
+    }
+
+    .content{
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    .fringe{
+      font-family: var(--smallcaps);
+      letter-spacing: .13em;
+      font-size: clamp(11px, 1.6vw, 14px);
+      color: var(--muted);
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 18px 0;
+    }
+
+    .domain{
+      text-align: center;
+      margin-top: 18px;
+      padding-top: 6px;
+    }
+
+    .domain h1{
+      font-family: var(--smallcaps);
+      font-weight: 400;
+      font-size: clamp(26px, 3.8vw, 40px);
+      letter-spacing: .12em;
+      margin: 0;
+    }
+
+    .welcome{
+      margin: 18px auto 0;
+      max-width: 860px;
+      font-size: clamp(18px, 2.1vw, 22px);
+      line-height: 1.7;
+      color: rgba(242,240,234,.92);
+      text-align: left;
+    }
+    .welcome p{ margin: 0 0 14px 0; }
+
+    .note{
+      margin: 18px auto 0;
+      max-width: 860px;
+      font-size: clamp(14px, 1.9vw, 16px);
+      color: var(--muted);
+      font-style: italic;
+      text-align: left;
+    }
+
+    .trailheads{
+      margin: 34px auto 0;
+      max-width: 920px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    @media (max-width: 820px){
+      .trailheads{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      border: 1px solid rgba(242,240,234,.18);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.03);
+      padding: 16px 16px 14px;
+      text-align: left;
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+    }
+    .card:hover{
+      transform: translateY(-2px);
+      border-color: rgba(242,240,234,.35);
+      background: rgba(255,255,255,.05);
+    }
+    .card a{
+      display: block;
+      color: var(--fg);
+      text-decoration: none;
+      outline: none;
+    }
+    .card-title{
+      font-family: var(--smallcaps);
+      letter-spacing: .10em;
+      text-transform: uppercase;
+      margin: 0 0 8px 0;
+      font-size: 16px;
+    }
+    .card-desc{
+      margin: 0;
+      color: rgba(242,240,234,.82);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .footer{
+      margin-top: 34px;
+      padding-top: 22px;
+      border-top: 1px solid var(--hair);
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .footer .sig{
+      font-family: var(--smallcaps);
+      letter-spacing: .10em;
+      color: rgba(242,240,234,.78);
+    }
+
+    .card a[href="/gallery/"] {
+      background-image: url("/apex/gallery-bg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #f5f5f5;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+    }
+
+    .quasantum-entry{
+      margin: 60px auto 40px;
+      max-width: 920px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding: 40px 24px;
+      border: 1px solid rgba(242,240,234,.14);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.025);
+    }
+
+    .quasantum-entry .q-label{
+      font-family: var(--smallcaps);
+      font-size: clamp(10px, 1.4vw, 12px);
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      color: rgba(242,240,234,.38);
+    }
+
+    .quasantum-entry .q-title{
+      font-family: var(--smallcaps);
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: rgba(242,240,234,.92);
+      margin: 0;
+    }
+
+    .quasantum-entry .q-desc{
+      max-width: 520px;
+      text-align: center;
+      font-size: clamp(14px, 1.7vw, 16px);
+      color: rgba(242,240,234,.52);
+      font-style: italic;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .quasantum-entry .q-btn{
+      display: inline-block;
+      font-family: var(--smallcaps);
+      font-size: clamp(12px, 1.6vw, 14px);
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: rgba(242,240,234,.92);
+      border: 1px solid rgba(242,240,234,.32);
+      border-radius: 8px;
+      padding: 14px 36px;
+      text-decoration: none;
+      background: rgba(255,255,255,.04);
+      transition: border-color .15s ease, background .15s ease;
+      margin-top: 8px;
+    }
+    .quasantum-entry .q-btn:hover{
+      border-color: rgba(242,240,234,.65);
+      background: rgba(255,255,255,.08);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HERO -->
+  <header class="hero" role="banner" aria-label="Hero">
+    <img class="hero-img" src="apex/images/showercurtain.png" alt="Shower curtain backdrop" />
+    <div class="hero-text" aria-hidden="true">
+      <div class="hero-stack">
+        <div class="t_the">THE</div>
+        <div class="t_transcendental">Transcendental</div>
+        <div class="t_novelty">Novelty</div>
+        <div class="t_on">ON</div>
+        <div class="t_event">THE EVENT HORIZON</div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="trailheads" aria-label="Entry points">
+    <div class="card">
+      <a href="/apex/works.html">
+        <h2 class="card-title">Publications</h2>
+        <p class="card-desc">Outbound and inbound writing streams. A lens into what has been filed, and what is still forming.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="apex/magazine.html">
+        <h2 class="card-title">Magazine</h2>
+        <p class="card-desc">A separate world: issues, dispatches, and curated movements developed on its own cadence.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="/apex/gallery/">
+        <h2 class="card-title">Gallery</h2>
+        <p class="card-desc">Images as parallel language. Artifacts, fragments, signals allowed to stand without explanation.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="/apex/master-index.html">
+        <h2 class="card-title">Master-Index</h2>
+        <p class="card-desc">Structural Master Index &amp; Governance Layer</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="/apex/backlog.html">
+        <h2 class="card-title">Backlog Queue</h2>
+        <p class="card-desc">Continuity backlog, open threads, structural loose ends — visible, evolving, non-linear.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="/apex/archive.html">
+        <h2 class="card-title">Archive</h2>
+        <p class="card-desc">Entry to the Domain-8 Archive. The archive opens through a welcoming chamber before passing into the Card Catalog and its structural drawers.</p>
+      </a>
+    </div>
+  </nav>
+
+  <!-- QUASANTUM ENTRY POINT -->
+  <div class="quasantum-entry">
+    <span class="q-label">Cognitive Engine</span>
+    <h2 class="q-title">QUASANTUM</h2>
+    <p class="q-desc">A structured environment for navigating the Domain-8 archive — threads, artifacts, fields, and living indexes.</p>
+    <a href="/site_builder/" class="q-btn">Enter QUASANTUM</a>
+  </div>
+
+  <!-- BELOW THE FOLD -->
+  <main role="main">
+    <section class="content">
+      <div class="domain" id="domain">
+        <h1>This Site Marks the Fringe of DOMAINE8 {{{[8]}}} / Quasantum Realms</h1>
+      </div>
+
+      <div class="welcome">
+        <p>
+          This is a place for writings, structures, and artifacts that emerge in their own time — presence rather than optimization,
+          continuity rather than performance, meaning rather than metrics.
+        </p>
+        <p>
+          Everything here is allowed the time it needs.
+        </p>
+      </div>
+
+      <div class="note">
+        Some doors open fully. Some open partially. Some are simply marked, so the trail can exist before the trail is paved.
+      </div>
+
+      <section id="about">
+        <p>
+          Rodzaki is a living archive of essays, scrolls, and long-form works exploring
+          {{{[8]}}}, consciousness, emergent civilization, and post-monetary futures. The site serves
+          as a quiet threshold — linking outward to published work while maintaining a stable,
+          non-algorithmic home for ideas that unfold at their own pace.
+        </p>
+      </section>
+
+      <footer class="footer" role="contentinfo">
+        <div class="sig">DOMAINE8 {{{[8]}}} — threshold page</div>
+      </footer>
+    </section>
+  </main>
+</body>
 </html>
