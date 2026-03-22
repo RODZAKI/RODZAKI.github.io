@@ -114,7 +114,7 @@ def main():
             "id": safe_id,
             "title": full_title,
             "source": f"/shards/{shard}#{conv_id}",
-            "era": "pre-index",
+            "era": "openai",
             "text": text
         }
 
