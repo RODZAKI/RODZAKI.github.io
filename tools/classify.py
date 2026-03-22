@@ -236,18 +236,7 @@ ROW_PATTERNS: Dict[str, Dict[str, float]] = {
         r"\bthread closure\b": 1.5,
         r"\bartifact-local\b": 1.8,
     },
-    "experimental": {
-        r"\bprobe\b": 2.6,
-        r"\bexperimental\b": 2.8,
-        r"\btest\b": 1.5,
-        r"\btesting\b": 1.8,
-        r"\bhypothesis\b": 2.1,
-        r"\bspeculative\b": 2.2,
-        r"\bobserve system behavior\b": 2.5,
-        r"\bpartner runs\b": 2.0,
-        r"\bcompare\b": 1.3,
-        r"\bdrift\b": 1.7,
-    },
+    
 }
 
 
