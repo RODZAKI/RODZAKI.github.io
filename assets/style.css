@@ -76,16 +76,16 @@ body.publications-directory {
 }
 
 .cornice {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: var(--corniceH);
-    background:
-        linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.12)),
-        repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 3px, rgba(255,255,255,.18) 3px 6px);
-    z-index: 5;
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--corniceH);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.85), rgba(0,0,0,.12)),
+    repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 3px, rgba(255,255,255,.18) 3px 6px);
+  z-index: 5;
+  pointer-events: none;
 }
 
 .columns {
@@ -170,7 +170,6 @@ body.publications-directory {
   background-repeat: no-repeat;
 }
 
-
 body.publications-directory main {
   position: relative;
   z-index: 2;
@@ -190,10 +189,10 @@ body.publications-directory {
 }
 
 body.publications-directory .portal {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body.publications-directory .portal-inner {
@@ -228,8 +227,6 @@ p {
   color: var(--muted)
 }
 
-/* Document mode wrapper */
-
 .doc {
   max-width: 720px;
   margin: 0 auto;
@@ -237,9 +234,6 @@ p {
   padding-bottom: 80px;
   padding-left: 24px;
   padding-right: 24px;
-
-
-
 }
 
 .catalog-body {
@@ -254,12 +248,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 .catalog-list {
   width: 35%;
-
   overflow-y: auto;
   padding: 1rem;
 }
@@ -311,29 +303,25 @@ body.portal {
 
 body.card-catalog {
   position: relative;
-
-  .artifact-cabinet {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
-    max-width: 720px;
-
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 420px;
-
-    z-index: 2;
-  }
 }
 
-/* Center stage between outer columns */
+body.card-catalog .artifact-cabinet {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  max-width: 720px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 420px;
+  z-index: 2;
+}
+
 .card-catalog-stage {
   position: relative;
   z-index: 5;
   max-width: 1100px;
   margin: 60px auto 0;
- 
   padding: 0 2rem 3rem;
 }
 
@@ -353,32 +341,22 @@ body.card-catalog {
   margin: 12px 0;
 }
 
-
-
- .site-frame {
-    max-width: 1200px;
-    width: 92%;
-    margin: 0 auto;
-    position: relative;
+.site-frame {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+  position: relative;
 }
-
-.directory-content {
-    position: relative;
-}
-
-/* Card Catalog Cabinet */
 
 .artifact-cabinet {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   max-width: 720px;
-
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 420px;
-
   z-index: 2;
 }
 
@@ -386,15 +364,12 @@ body.card-catalog {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 1rem;
   text-decoration: none;
   font-weight: 500;
-
   background: #f3f3f3;
   border: 1px solid #d8d8d8;
   border-radius: 6px;
-
   color: #444;
 }
 
@@ -481,8 +456,8 @@ main {
 }
 
 .cabinet {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 18px;
   width: clamp(420px, 55vw, 720px);
   margin: 40px auto;
@@ -510,12 +485,10 @@ main {
   transform: translateY(-2px);
 }
 
-/* --- Force stacked drawer labels --- */
 .drawer span {
   display: block;
 }
 
-/* --- Style the symbolic (esoteric) name --- */
 .symbolic {
   font-family: "Cinzel", "Times New Roman", serif;
   font-style: italic;
@@ -524,7 +497,6 @@ main {
 .symbolic::before { content: "("; }
 .symbolic::after  { content: ")"; }
 
-/* --- Center the chamber text elements --- */
 .catalog-chamber {
   text-align: center;
 }
@@ -534,37 +506,6 @@ main {
   margin: 0 auto 30px auto;
 }
 
-/* --- Stabilize drawer height for a clean grid --- */
-.drawer {
-  padding: 14px;
-  min-height: 72px;
-}
-
-/* --- Force stacked drawer labels --- */
-.drawer span {
-  display: block;
-}
-
-/* --- Style the symbolic (esoteric) name --- */
-.symbolic {
-  font-family: "Cinzel", "Times New Roman", serif;
-  font-style: italic;
-}
-
-.symbolic::before { content: "("; }
-.symbolic::after  { content: ")"; }
-
-/* --- Center the chamber text elements --- */
-.catalog-chamber {
-  text-align: center;
-}
-
-.catalog-chamber .intro {
-  max-width: 600px;
-  margin: 0 auto 30px auto;
-}
-
-/* --- Stabilize drawer height for a clean grid --- */
 .drawer {
   padding: 14px;
   min-height: 72px;
@@ -579,57 +520,46 @@ main {
   margin-top: 140px !important;
 }
 
-
 .back-link {
-    position: relative !important;
-    z-index: 9999 !important;
-    pointer-events: auto !important;
-    display: inline-block !important;
+  position: relative !important;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+  display: inline-block !important;
 }
 
 .catalog-chamber,
 .catalog-chamber * {
-    pointer-events: auto !important;
+  pointer-events: auto !important;
 }
 
 .catalog-chamber { position: relative; z-index: 10; }
 
-
 .catalog-key {
-    max-width: 720px;
-    margin: 30px auto 40px auto;
-    line-height: 1.6;
-    font-size: 0.9rem;
-    opacity: 0.85;
-    font-style: italic;
-}
-
-.catalog-key {
-    max-width: 720px;
-    margin: 30px auto 40px auto;
-    line-height: 1.6;
-    font-size: 0.9rem;
-    opacity: 0.85;
-    font-style: italic;
+  max-width: 720px;
+  margin: 30px auto 40px auto;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  font-style: italic;
 }
 
 .catalog-inscription {
-    text-align: center;
-    margin: 25px 0 35px 0;
-    font-style: italic;
-    opacity: 0.8;
+  text-align: center;
+  margin: 25px 0 35px 0;
+  font-style: italic;
+  opacity: 0.8;
 }
 
 .return-home {
-    text-align: center;
-    margin-top: 140px;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 40px;
 }
 
 .return-directory {
-    display: block;
-    margin-top: 60px;
-    text-align: center;
+  display: block;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .drawer-chamber {
@@ -644,18 +574,16 @@ main {
 }
 
 .drawer-esoteric {
-font-style: italic;
-font-weight: 600;
-font-size: 1.05em;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.05em;
 }
-
 
 .drawer-esoteric-label {
-font-style: italic;
-font-weight: 600;
-opacity: 0.75;
+  font-style: italic;
+  font-weight: 600;
+  opacity: 0.75;
 }
-
 
 .drawer-chamber a {
   position: relative;
@@ -674,4 +602,112 @@ opacity: 0.75;
 #artifact-list li {
   margin-bottom: 8px;
   pointer-events: auto;
+}
+
+/* --- Row inscriptions --- */
+
+/* --- Row labels (bilateral system) --- */
+
+.cabinet-row-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.cabinet-row-wrap .row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 18px;
+  flex: 0 0 auto;
+  width: clamp(420px, 55vw, 720px);
+}
+
+/* LEFT SIDE — identity */
+
+.row-label-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-width: 140px;
+  pointer-events: none;
+  user-select: none;
+  text-align: right;
+}
+
+.row-name {
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.row-arrow-right {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* RIGHT SIDE — interpretation */
+
+.row-label-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  min-width: 200px;
+  pointer-events: none;
+  user-select: none;
+  text-align: left;
+}
+
+.row-arrow-left {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.row-descriptor {
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.4;
+}.cabinet-row-wrap .row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 18px;
+  flex: 0 0 auto;
+  width: clamp(420px, 55vw, 720px);
+  contents: unset;
+}
+
+.row-inscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  min-width: 160px;
+  padding-left: 8px;
+  border-left: 1px solid rgba(42, 42, 42, 0.18);
+  pointer-events: none;
+  user-select: none;
+}
+
+.row-name {
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.row-descriptor {
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.4;
 }
