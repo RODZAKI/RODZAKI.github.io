@@ -4,15 +4,7 @@
   var BUTTON_ID = 'return-control-btn';
 
   function resolveReturnTarget() {
-    try {
-      if (
-        document.referrer &&
-        document.referrer.indexOf(window.location.origin) === 0
-      ) {
-        return document.referrer;
-      }
-    } catch (e) {}
-    return DEFAULT_HREF;
+    return '/';
   }
 
   function shouldInject() {
