@@ -1,0 +1,109 @@
+﻿Fetching all artifacts...
+
+Total artifacts: 55
+
+============================================================
+
+Γƒü ROW CLASS DISTRIBUTION
+
+  developmental         43  (78.2%)
+  canonical              8  (14.5%)
+  operational            2  (3.6%)
+  diffuse                1  (1.8%)
+  transitional           1  (1.8%)
+
+Γƒü PRIMARY DRAWER DISTRIBUTION
+
+  logos                      16  (29.1%)
+  rta                        10  (18.2%)
+  dharma                      9  (16.4%)
+  ubuntu                      7  (12.7%)
+  maat                        5  (9.1%)
+  dao                         4  (7.3%)
+  mitakuye-oyasin             3  (5.5%)
+  ayni                        1  (1.8%)
+
+Γƒü CONFIDENCE STATS
+
+  avg: 0.1877  min: 0.0  max: 1.0
+
+Γƒü LOW CONFIDENCE ARTIFACTS (< 0.05)  [14 total]
+
+  [0.0000] Caseworker changes advice ΓÇö maat / canonical
+  [0.0000] Motion Design Principles ΓÇö dao / operational
+  [0.0000] Rabbitat Feedback Loop ΓÇö dharma / canonical
+  [0.0000] 1.25 Drift Toward Edges ΓÇö dharma / developmental
+  [0.0010] Domain-8 Artifact Transfer ΓÇö maat / developmental
+  [0.0071] Operational Shift Initiation ΓÇö dharma / developmental
+  [0.0085] Resilient Architecture Design ΓÇö dharma / developmental
+  [0.0179] TOP TIER COMMANDS LIST ΓÇö maat / transitional
+  [0.0215] Quiet Cafe Reflections ΓÇö dao / developmental
+  [0.0257] {{([8])}} ΓÇö rta / diffuse
+  [0.0445] QUASANTUM(Act2.1) ΓÇö mitakuye-oyasin / developmental
+  [0.0446] Haymarket Bike Shop Shoutout ΓÇö rta / developmental
+  [0.0487] AI Governance Structural Gap ΓÇö maat / developmental
+  [0.0499] LEITMOTIF ABC I-P BUILD ΓÇö rta / developmental
+
+Γƒü HIGH CONFIDENCE ARTIFACTS (>= 0.4)  [4 total]
+
+  [1.0000] Create synthetic image ΓÇö logos / developmental
+  [0.8000] Scroll of the Line That Remembers ΓÇö ubuntu / canonical
+  [0.4880] Master Index 1.6.4 ΓÇö logos / developmental
+  [0.4000] The Preservation of Becoming ΓÇö ubuntu / canonical
+
+Γƒü ALIGNMENT FLAGGED ARTIFACTS  [38 total]
+
+  What is INFJ ΓÇö rta / operational
+  8.3:18 Ch.17 Draft ΓÇö ubuntu / developmental
+  Create synthetic image ΓÇö logos / developmental
+  Motion Design Principles ΓÇö dao / operational
+  Domain-8 Artifact Transfer ΓÇö maat / developmental
+  Master Index 1.3.1 ΓÇö logos / developmental
+  Master Index 1.4.1 ΓÇö logos / developmental
+  Master Index 1.5.2 ΓÇö logos / developmental
+  Master Index 1.6.3 ΓÇö logos / developmental
+  Master Index 1.6.5 ΓÇö logos / developmental
+  Structural Tension Analysis ΓÇö dharma / developmental
+  AI Governance Structural Gap ΓÇö maat / developmental
+  master Index 1.5 ΓÇö logos / developmental
+  Resilient Architecture Design ΓÇö dharma / developmental
+  Akashic cinematography theory ΓÇö ubuntu / developmental
+  QUASANTUM(Act2.1) ΓÇö mitakuye-oyasin / developmental
+  No Collapse - The Leitmotif of DOMAINE{([8])} ΓÇö dharma / canonical
+  The Study - A Room With Good Light ΓÇö rta / canonical
+  The Quiet Ecology of Crawlers, Scrapers, and Semantic Hunters ΓÇö logos / canonical
+  ACT2a (Ch.7-9) PERP Expansion ΓÇö mitakuye-oyasin / developmental
+  Master Index 1.1 ΓÇö logos / developmental
+  Master Index 1.2 ΓÇö logos / developmental
+  Master Index 1.3 ΓÇö logos / developmental
+  Master Index 1.4 ΓÇö logos / developmental
+  Master Index 1.5.1 ΓÇö logos / developmental
+  Master Index 1.6.1 ΓÇö logos / developmental
+  Master Index 1.6.2 ΓÇö logos / developmental
+  Master Index 1.6.4 ΓÇö logos / developmental
+  ╬ö_substrate v1.0 Integration ΓÇö dharma / developmental
+  Operational Shift Initiation ΓÇö dharma / developmental
+  Repo Governance Integration ΓÇö maat / developmental
+  Emergent Space-Time Theory ΓÇö dharma / developmental
+  Multi_Agent_Lab Baseline ΓÇö dharma / developmental
+  Consciousness and AI ΓÇö ubuntu / developmental
+  Entropy and Consciousness Evolution ΓÇö ubuntu / developmental
+  1.25 Drift Toward Edges ΓÇö dharma / developmental
+  ACT1 ΓÇö mitakuye-oyasin / developmental
+  TOP TIER COMMANDS LIST ΓÇö maat / transitional
+
+Γƒü ERA BREAKDOWN
+
+  unknown               49  (89.1%)
+  authored               6  (10.9%)
+
+Γƒü DIFFUSE ARTIFACTS  [1 total]
+
+  {{([8])}} ΓÇö windows: 1887 | confidence: 0.0257
+
+Γƒü RESOLVING ARTIFACTS  [0 total]
+
+
+============================================================
+Analysis complete. No changes made.
+

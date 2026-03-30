@@ -1,0 +1,200 @@
+﻿Fetching unclassified artifacts...
+Found 49 unclassified artifacts.
+
+Caseworker changes advice
+  windows: 1 | primary: maat | confidence: 0.0 | row_class: developmental | flag: True
+  Saved.
+
+What is INFJ
+  windows: 2 | primary: rta | confidence: 0.2443 | row_class: operational | flag: True
+  Saved.
+
+8.3:18 Ch.17 Draft
+  windows: 1 | primary: ubuntu | confidence: 0.2506 | row_class: developmental | flag: True
+  Saved.
+
+ACT2a (Ch.7-9) PERP Expansion
+  windows: 27 | primary: mitakuye-oyasin | confidence: 0.0518 | row_class: developmental | flag: True
+  Saved.
+
+Create synthetic image
+  windows: 1 | primary: logos | confidence: 1.0 | row_class: developmental | flag: True
+  Saved.
+
+Motion Design Principles
+  windows: 1 | primary: dao | confidence: 0.0 | row_class: operational | flag: True
+  Saved.
+
+Domain-8 Artifact Transfer
+  windows: 195 | primary: maat | confidence: 0.001 | row_class: developmental | flag: True
+  Saved.
+
+MAGNUM OPUS (3.0)
+  windows: 63 | primary: rta | confidence: 0.1056 | row_class: developmental | flag: False
+  Saved.
+
+Master Index 1.1
+  windows: 21 | primary: logos | confidence: 0.1604 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.2
+  windows: 86 | primary: logos | confidence: 0.1795 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.3.1
+  windows: 91 | primary: logos | confidence: 0.1212 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.3
+  windows: 120 | primary: logos | confidence: 0.2791 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.4.1
+  windows: 145 | primary: logos | confidence: 0.12 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.4
+  windows: 117 | primary: logos | confidence: 0.3408 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.5.1
+  windows: 198 | primary: logos | confidence: 0.3239 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.5.2
+  windows: 110 | primary: logos | confidence: 0.263 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.6.1
+  windows: 156 | primary: logos | confidence: 0.3224 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.6.2
+  windows: 191 | primary: logos | confidence: 0.2136 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.6.3
+  windows: 81 | primary: logos | confidence: 0.2275 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.6.4
+  windows: 80 | primary: logos | confidence: 0.488 | row_class: developmental | flag: True
+  Saved.
+
+Master Index 1.6.5
+  windows: 196 | primary: logos | confidence: 0.2748 | row_class: developmental | flag: True
+  Saved.
+
+╬ö_substrate v1.0 Integration
+  windows: 276 | primary: dharma | confidence: 0.0894 | row_class: developmental | flag: True
+  Saved.
+
+V.1.0 further Consolidation
+  windows: 173 | primary: ayni | confidence: 0.337 | row_class: developmental | flag: False
+  Saved.
+
+Structural Tension Analysis
+  windows: 337 | primary: dharma | confidence: 0.1046 | row_class: developmental | flag: True
+  Saved.
+
+Tourist vs Traveler
+  windows: 64 | primary: rta | confidence: 0.1169 | row_class: developmental | flag: False
+  Saved.
+
+AI Governance Structural Gap
+  windows: 372 | primary: maat | confidence: 0.0487 | row_class: developmental | flag: True
+  Saved.
+
+Operational Shift Initiation
+  windows: 338 | primary: dharma | confidence: 0.0071 | row_class: developmental | flag: True
+  Saved.
+
+Repo Governance Integration
+  windows: 134 | primary: maat | confidence: 0.1216 | row_class: developmental | flag: True
+  Saved.
+
+master Index 1.5
+  windows: 74 | primary: logos | confidence: 0.3225 | row_class: developmental | flag: True
+  Saved.
+
+Renderer Schema Adaptation
+  windows: 168 | primary: dao | confidence: 0.3833 | row_class: developmental | flag: False
+  Saved.
+
+Emergent Space-Time Theory
+  windows: 35 | primary: dharma | confidence: 0.2034 | row_class: developmental | flag: True
+  Saved.
+
+Site-Builder Integration(git)
+  windows: 195 | primary: rta | confidence: 0.2234 | row_class: developmental | flag: False
+  Saved.
+
+Multi_Agent_Lab Baseline
+  windows: 34 | primary: dharma | confidence: 0.1361 | row_class: developmental | flag: True
+  Saved.
+
+Resilient Architecture Design
+  windows: 69 | primary: dharma | confidence: 0.0085 | row_class: developmental | flag: True
+  Saved.
+
+Consciousness and AI
+  windows: 31 | primary: ubuntu | confidence: 0.3199 | row_class: developmental | flag: True
+  Saved.
+
+Infinite Creator Greeting
+  windows: 56 | primary: dao | confidence: 0.0611 | row_class: developmental | flag: False
+  Saved.
+
+Rabbitat Feedback Loop
+  windows: 2 | primary: dharma | confidence: 0.0 | row_class: developmental | flag: True
+  Saved.
+
+Haymarket Bike Shop Shoutout
+  windows: 23 | primary: rta | confidence: 0.0446 | row_class: developmental | flag: False
+  Saved.
+
+Entropy and Consciousness Evolution
+  windows: 9 | primary: ubuntu | confidence: 0.1874 | row_class: developmental | flag: True
+  Saved.
+
+Quiet Cafe Reflections
+  windows: 53 | primary: dao | confidence: 0.0215 | row_class: developmental | flag: False
+  Saved.
+
+Akashic cinematography theory
+  windows: 49 | primary: ubuntu | confidence: 0.1966 | row_class: developmental | flag: True
+  Saved.
+
+Straw man theory explained
+  windows: 4 | primary: rta | confidence: 0.1132 | row_class: developmental | flag: False
+  Saved.
+
+1.25 Drift Toward Edges
+  windows: 1 | primary: dharma | confidence: 0.0 | row_class: developmental | flag: True
+  Saved.
+
+{{([8])}}
+  windows: 1887 | primary: rta | confidence: 0.0257 | row_class: developmental | flag: False
+  Saved.
+
+QUASANTUM(Act2.1)
+  windows: 356 | primary: mitakuye-oyasin | confidence: 0.0445 | row_class: developmental | flag: True
+  Saved.
+
+ACT1
+  windows: 25 | primary: mitakuye-oyasin | confidence: 0.0583 | row_class: developmental | flag: True
+  Saved.
+
+TOP TIER COMMANDS LIST
+  windows: 17 | primary: maat | confidence: 0.0179 | row_class: transitional | flag: True
+  Saved.
+
+LEITMOTIF ABC I-P BUILD
+  windows: 110 | primary: rta | confidence: 0.0499 | row_class: developmental | flag: False
+  Saved.
+
+Domain-8 Synthetic Mapping
+  windows: 118 | primary: rta | confidence: 0.1132 | row_class: developmental | flag: False
+  Saved.
+
+Done. All unclassified artifacts processed.
