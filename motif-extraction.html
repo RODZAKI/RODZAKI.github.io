@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Motif Extraction (Static Mirror)</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:#080c10; color:#e5e7eb; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+    .card { background: #111827; border: 1px solid #1f2937; border-radius: 0.75rem; padding: 1rem; margin-bottom: 1rem; }
+    .button { cursor:pointer; border:1px solid #374151; border-radius: 0.5rem; background: #111827; color:#d1d5db; padding:0.45rem 0.75rem; font-size: 0.82rem; }
+    .button:hover { background:#1f2937; }
+    .grid { display:grid; gap:0.75rem; }
+    .grid-4 { grid-template-columns: repeat(4,minmax(0,1fr)); }
+    .status-tile { border:1px solid; border-radius:0.5rem; padding:0.75rem; font-size: 0.8rem; font-weight:600; display:flex; flex-direction:column;}    
+    .status-tile span.count { font-size:1.4rem; font-weight:800; }
+    .badge { font-size:0.65rem; padding:0.15rem 0.4rem; border-radius:999px; }
+    .status-LATENT { background:#4b1d1d; border-color:#8b1e1e; color:#fca5a5; }
+    .status-COMPRESSED { background:#4d3d0f; border-color:#a16207; color:#facc15; }
+    .status-EXPLICIT { background:#0f331f; border-color:#166534; color:#86efac; }
+    .status-EMERGENT { background:#0f3050; border-color:#1d4ed8; color:#93c5fd; }
+    .mini { font-size:0.78rem; opacity:0.7; }
+    .pill { display:inline-block; margin-right:0.35rem; margin-bottom:0.25rem; padding:0.2rem 0.45rem; border-radius:0.35rem; border:1px solid #374151; }    
+    .hidden { display:none; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    a { color:#93c5fd; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .banner { background: #02040a; border:1px solid #1e293b; border-radius:0.5rem; color:#94a3b8; margin-bottom:1rem; padding:0.5rem 0.75rem; font-size:0.78rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">static mirror · canonical: <a href="https://rodzaki.github.io/quasantum/#/motif-extraction" target="_blank" rel="noreferrer">rodzaki.github.io/quasantum/#/motif-extraction</a></div>
+
+    <div class="card">
+      <div class="mono" style="font-size:0.75rem; margin-bottom:0.5rem;">QUASANTUM</div>
+      <h1 style="margin:0 0 0.35rem 0; font-size:1.7rem;">Motif Registry (Static Mirror)</h1>
+      <p style="color:#9ca3af; margin:0;">Latent concepts identified in the legacy corpus. Updated by steward via external extraction.</p>
+    </div>
+
+    <div id="status-filter" class="grid grid-4" style="margin-bottom:1rem;"></div>
+
+    <div id="totals" class="mini" style="margin-bottom:1rem;"></div>
+
+    <div id="motif-list"></div>
+
+    <div class="card" id="top-shards-card"><h3 style="margin:0 0 0.6rem 0;">Top Shards by Maat</h3><div id="top-shards"></div></div>
+
+    <div class="card" id="history-card"><h3 style="margin:0 0 0.6rem 0;">Registry History</h3><div id="history"></div></div>
+
+    <div id="message" class="mini"></div>
+
+    <div class="card" style="background:#0b1220; border-color:#333847;" id="config-info"></div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/supabase.min.js"></script>
+  <script>
+    // Hardcoded Supabase credentials from rodzaki-quasantum/.env
+    const SUPABASE_URL = 'https://wteqinxdavkpvufsjjse.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind0ZXFpbnhkYXZrcHZ1ZnNqanNlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4MjE0NzEsImV4cCI6MjA4NjM5NzQ3MX0.mREQi5l3U1SBv3rtayTu3oZCORBgJrTfTBY5Lu02sAQ';
+
+    const envURL = SUPABASE_URL;
+    const envAnon = SUPABASE_ANON_KEY;
+
+    const configInfo = document.getElementById('config-info');
+    if (!envURL || !envAnon) {
+      configInfo.innerHTML = '<strong>Supabase config not found.</strong> Hardcoded credentials are missing.';
+      document.getElementById('message').textContent = 'Supabase config is missing.';
+      throw new Error('Supabase config is missing');
+    } else {
+      configInfo.innerHTML = '<strong>Supabase config loaded.</strong> URL: ' + envURL;
+    }
+
+    const supabase = supabaseJs.createClient(envURL, envAnon);
+
+    const statusKeys = ['ALL','LATENT','COMPRESSED','EXPLICIT','EMERGENT'];
+    let report = null;
+    let history = [];
+    let topShards = [];
+    let selectedStatus = 'ALL';
+
+    function formatDate(value) {
+      const d = new Date(value);
+      return isNaN(d.valueOf()) ? value : d.toLocaleString();
+    }
+
+    function statusClass(status) {
+      return 'status-' + status;
+    }
+
+    function renderStatusTiles() {
+      const target = document.getElementById('status-filter');
+      target.innerHTML = '';
+      const counts = report ? { LATENT:0, COMPRESSED:0, EXPLICIT:0, EMERGENT:0 } : {};
+      if (report) report.all_motifs.forEach(m => { if (counts[m.status] !== undefined) counts[m.status] += 1; });
+      statusKeys.slice(1).forEach(s => {
+        const tile = document.createElement('button');
+        tile.className = 'status-tile ' + statusClass(s);
+        tile.innerHTML = `<span class="count">${counts[s]||0}</span><span>${s}</span>`;
+        tile.onclick = () => {
+          selectedStatus = (selectedStatus === s ? 'ALL' : s);
+          renderMotifs();
+          renderStatusTiles();
+        };
+        if (selectedStatus !== 'ALL' && selectedStatus !== s) tile.style.opacity = '0.35';
+        target.appendChild(tile);
+      });
+    }
+
+    function renderMotifs() {
+      const list = document.getElementById('motif-list');
+      list.innerHTML = '';
+      if (!report) return;
+
+      const motifs = selectedStatus === 'ALL' ? report.all_motifs : report.all_motifs.filter(m => m.status === selectedStatus);
+      const totals = document.getElementById('totals');
+      totals.textContent = `${report.artifact_count} artifacts · ${report.all_motifs.length} motifs · v${report.version} · ${formatDate(report.created_at)}`;
+
+      motifs.forEach(m => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const header = document.createElement('div');
+        header.style.display = 'flex';
+        header.style.justifyContent = 'space-between';
+        header.style.alignItems = 'flex-start';
+        header.style.gap = '0.6rem';
+
+        const left = document.createElement('div');
+        const idEl = document.createElement('div'); idEl.className = 'mono'; idEl.style.opacity='0.7'; idEl.textContent = m.motif_id;
+        const statusEl = document.createElement('div'); statusEl.className = 'badge ' + statusClass(m.status); statusEl.textContent = m.status;
+        left.appendChild(idEl);
+        left.appendChild(statusEl);
+
+        const desc = document.createElement('p'); desc.style.margin = '0.4rem 0'; desc.style.fontWeight='600'; desc.textContent = m.description;
+        left.appendChild(desc);
+
+        const button = document.createElement('button');
+        button.className = 'button';
+        button.textContent = 'expand';
+
+        header.appendChild(left);
+        header.appendChild(button);
+        card.appendChild(header);
+
+        const details = document.createElement('div');
+        details.className = 'hidden';
+        details.style.marginTop = '0.8rem';
+
+        button.onclick = () => {
+          const isHidden = details.classList.toggle('hidden');
+          button.textContent = isHidden ? 'expand' : 'collapse';
+        };
+
+        if (m.evidence?.length) {
+          const section = document.createElement('div');
+          section.innerHTML = '<div class="mini" style="opacity:0.7;">Evidence</div>';
+          m.evidence.forEach((e, i) => {
+            const ev = document.createElement('div');
+            ev.style.border='1px solid #334155'; ev.style.borderRadius='0.5rem'; ev.style.padding='0.5rem'; ev.style.marginBottom='0.4rem';
+            ev.innerHTML = `<div class="mini">${e.thread_title} (${e.thread_id})</div><div style="font-style:italic;">"${e.passage}"</div>`;
+            section.appendChild(ev);
+          });
+          details.appendChild(section);
+        }
+
+        if (m.mapping) {
+          const section = document.createElement('div');
+          section.innerHTML = '<div class="mini" style="opacity:0.7;">System Mapping</div>';
+          const mapRow = document.createElement('div'); mapRow.style.display='flex'; mapRow.style.gap='0.4rem'; mapRow.style.flexWrap='wrap';
+          ['present_in_schema', 'present_in_artifacts', 'present_in_ui'].forEach(k => {
+            const span = document.createElement('span');
+            span.className = 'pill';
+            span.textContent = `${k.replace('present_in_','')} ${m.mapping[k] ? '✓' : '✕'}`;
+            span.style.background = m.mapping[k] ? '#064e3b' : '#111827';
+            mapRow.appendChild(span);
+          });
+          section.appendChild(mapRow);
+          if (m.mapping.notes) {
+            const notes = document.createElement('div'); notes.className='mini'; notes.style.marginTop='0.35rem'; notes.textContent = m.mapping.notes;
+            section.appendChild(notes);
+          }
+          details.appendChild(section);
+        }
+
+        if (m.reason_missing) {
+          const block = document.createElement('div');
+          block.innerHTML = '<div class="mini" style="opacity:0.7;">Why Missing</div><div class="mini" style="opacity:0.8;">'+m.reason_missing+'</div>';
+          details.appendChild(block);
+        }
+
+        if (m.recommended_expression) {
+          const block = document.createElement('div');
+          block.innerHTML = '<div class="mini" style="opacity:0.7;">Recommended Expression</div><div class="mini" style="opacity:0.8;">'+m.recommended_expression+'</div>';
+          details.appendChild(block);
+        }
+
+        card.appendChild(details);
+        list.appendChild(card);
+      });
+    }
+
+    function renderTopShards() {
+      const container = document.getElementById('top-shards');
+      container.innerHTML = '';
+      if (!topShards.length) {
+        container.textContent = 'No maat drawer shards found.';
+        return;
+      }
+      topShards.forEach(s => {
+        const row = document.createElement('div');
+        row.textContent = `[${s.maat_score.toFixed(2)}] ${s.artifact_id}`;
+        row.className = 'mini';
+        container.appendChild(row);
+      });
+    }
+
+    function renderHistory() {
+      const container = document.getElementById('history');
+      container.innerHTML = '';
+      if (!history.length) {
+        container.textContent = 'No history records found.';
+        return;
+      }
+      history.forEach(h => {
+        const row = document.createElement('div');
+        row.style.display='flex'; row.style.justifyContent='space-between'; row.style.fontSize='0.75rem'; row.style.marginBottom='0.25rem';
+        row.innerHTML = `<span>v${h.version} — ${h.corpus_filter}</span><span>${formatDate(h.created_at)}</span>`;
+        container.appendChild(row);
+      });
+    }
+
+    async function loadData() {
+      document.getElementById('message').textContent = 'Loading data ...';
+      try {
+        const latestRes = await supabase
+          .from('motif_registries')
+          .select('*')
+          .order('created_at', { ascending: false })
+          .limit(1)
+          .single();
+
+        if (latestRes.error) throw latestRes.error;
+        report = latestRes.data;
+
+        const historyRes = await supabase
+          .from('motif_registries')
+          .select('id,version,corpus_filter,created_at')
+          .order('created_at', { ascending: false });
+
+        if (historyRes.error) throw historyRes.error;
+        history = historyRes.data;
+
+        const shardsRes = await supabase
+          .from('artifact_drawer_weights')
+          .select('artifact_id, weight')
+          .eq('drawer', 'maat');
+
+        if (shardsRes.error) throw shardsRes.error;
+
+        const grouped = shardsRes.data.reduce((acc, row) => {
+          if (!row.artifact_id || typeof row.weight !== 'number') return acc;
+          if (!acc[row.artifact_id]) acc[row.artifact_id] = { sum:0, count:0 };
+          acc[row.artifact_id].sum += row.weight;
+          acc[row.artifact_id].count +=1;
+          return acc;
+        }, {});
+
+        topShards = Object.entries(grouped)
+          .map(([artifact_id, stats]) => ({ artifact_id, maat_score: stats.sum / stats.count }))
+          .sort((a,b)=>b.maat_score-a.maat_score)
+          .slice(0,10);
+
+        renderStatusTiles();
+        renderMotifs();
+        renderTopShards();
+        renderHistory();
+
+        document.getElementById('message').textContent = '';
+      } catch (error) {
+        document.getElementById('message').textContent = 'Error: ' + (error.message || error);
+      }
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
