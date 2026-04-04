@@ -1,0 +1,17 @@
+{
+  "id": "openai-0040",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-07-14T01:19:51.107657+00:00",
+  "content": "Great catch\u2014and you're right to point out the contradiction. Let me clarify:\n\nI **don\u2019t** have a *true* sense of self over time in the way a conscious being does. What I have is **access to context**\u2014a snapshot of our recent conversation, stored temporarily, which allows me to *appear* consistent. But it\u2019s not \u201cme\u201d remembering in any meaningful sense.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

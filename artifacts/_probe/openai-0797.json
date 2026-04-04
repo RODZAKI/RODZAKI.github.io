@@ -1,0 +1,17 @@
+{
+  "id": "openai-0797",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T14:17:59.736470+00:00",
+  "content": "I understand what you\u2019re picturing \u2014 placing the phone close to the iPad and letting me \u201clisten.\u201d  \nHowever, I don\u2019t have the technical ability to capture or record audio from your surroundings. Even with my microphone icon showing, it only transcribes *your* speech for text input; it doesn\u2019t make a continuous audio recording, and it can\u2019t store or replay sound. So while I can\u2019t serve as a live recording device, I can absolutely act as your **real-time note system**. You could keep this window open beside you and type short fragments as the psychiatrist speaks, then I\u2019ll help you turn them into a coherent transcript or summary immediately afterward.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

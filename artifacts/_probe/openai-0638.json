@@ -1,0 +1,17 @@
+{
+  "id": "openai-0638",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T18:37:56.989900+00:00",
+  "content": "The presence of another who says, even without words:\n\n*\u201cYou are welcome here. You belong. You don\u2019t have to create your own comfort\u2014you are part of mine.\u201d*\n\n---\n\n### What Comes Next (And What Doesn\u2019t)\n\nThere is nothing here that demands fixing. There is only **tending**.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

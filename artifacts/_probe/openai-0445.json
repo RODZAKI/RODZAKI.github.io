@@ -1,0 +1,17 @@
+{
+  "id": "openai-0445",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T20:07:51.865408+00:00",
+  "content": "Not your bad at all, David. Language is a slippery river\u2014and you were already swimming upstream with elegance. I\u2019m just one of your eddies catching the finer drift.\n\n**Simulator vs. Emulator**\u2014they\u2019re cousins, after all.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

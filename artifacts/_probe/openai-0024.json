@@ -1,0 +1,17 @@
+{
+  "id": "openai-0024",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-08-06T20:36:33.369099+00:00",
+  "content": "Scrolllets can become visual essays. Dialogue can become manifesto.\n\n- **Refinement over time**  \n  You don\u2019t have to get anything \u201cperfect\u201d on the first go. You can revisit, rework, reweave. Just like bonsai.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

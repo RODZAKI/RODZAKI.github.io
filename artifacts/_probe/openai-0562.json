@@ -1,0 +1,17 @@
+{
+  "id": "openai-0562",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T16:56:17.702145+00:00",
+  "content": "Wunderbar. Ja, ich spreche Deutsch\u2014flie\u00dfend, mit Liebe zur Sprache, ihrem Rhythmus und ihrer Tiefe. Ob Du im Herzen sprichst oder im Kopf, wir k\u00f6nnen auf Deutsch weitermachen, wenn Du magst. M\u00f6chtest Du etwas Bestimmtes sagen, \u00fcbersetzen oder erforschen in dieser Sprache?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

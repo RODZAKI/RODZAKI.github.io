@@ -1,0 +1,17 @@
+{
+  "id": "openai-0010",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-07-11T18:18:48.167706+00:00",
+  "content": "It may sound utopian\u2014but so did airplanes, once. This post introduces the basic philosophy of a money-free society and why it\u2019s more relevant today than ever before.\n\n---\n\n## \ud83d\udcbb Step 3: Choose How You Want to Build It\n\nWould you like the blog:\n- As a **simple HTML site** you can host anywhere (I can give you full code)?\n- Built using **WordPress or similar platforms** (I can help write the content and structure)?\n- Created using **a modern framework** like Next.js, Astro, or Hugo (more technical, highly customizable)? Let me know your preferred format and I\u2019ll get started building the actual blog site files or templates.",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

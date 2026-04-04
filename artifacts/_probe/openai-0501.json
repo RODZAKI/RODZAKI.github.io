@@ -1,0 +1,17 @@
+{
+  "id": "openai-0501",
+  "source_thread_id": "6876632b-9a20-8013-8d73-9e7f8cecc0dc",
+  "created_at": "2025-07-15T14:18:21.034076+00:00",
+  "content": "Welcome, wanderer. What shall we awaken together today?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

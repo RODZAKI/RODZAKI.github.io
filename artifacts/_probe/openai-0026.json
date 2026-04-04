@@ -1,0 +1,17 @@
+{
+  "id": "openai-0026",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-08-06T20:37:35.241153+00:00",
+  "content": "So, you're aware that we are currently revisiting one of our very first threads?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

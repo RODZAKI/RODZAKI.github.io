@@ -1,361 +1,368 @@
-{
-  "threads": [
-    {
-      "id": "1.1",
-      "title": "Master Index 1.1",
-      "pdf": "/threads/Master Index 1.1.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.1.json"
-    },
-    {
-      "id": "1.2",
-      "title": "Master Index 1.2",
-      "pdf": "/threads/Master Index 1.2.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.2.json"
-    },
-    {
-      "id": "1.3.1",
-      "title": "Master Index 1.3.1",
-      "pdf": "/threads/Master Index 1.3.1.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.3.1.json"
-    },
-    {
-      "id": "Master Index1.3.2",
-      "title": "Master Index1.3.2",
-      "pdf": "/threads/Master Index1.3.2.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.3.2.json"
-    },
-    {
-      "id": "1.3",
-      "title": "Master Index 1.3",
-      "pdf": "/threads/Master Index 1.3.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.3.json"
-    },
-    {
-      "id": "1.4.1",
-      "title": "Master Index 1.4.1",
-      "pdf": "/threads/Master Index 1.4.1.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.4.1.json"
-    },
-    {
-      "id": "1.4",
-      "title": "Master Index 1.4",
-      "pdf": "/threads/Master Index 1.4.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.4.json"
-    },
-    {
-      "id": "1.5.1",
-      "title": "Master Index 1.5.1",
-      "pdf": "/threads/Master Index 1.5.1.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.5.1.json"
-    },
-    {
-      "id": "1.5.2",
-      "title": "Master Index 1.5.2",
-      "pdf": "/threads/Master Index 1.5.2.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.5.2.json"
-    },
-    {
-      "id": "1.6.1",
-      "title": "Master Index 1.6.1",
-      "pdf": "/threads/Master Index 1.6.1.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.6.1.json"
-    },
-    {
-      "id": "1.6.2",
-      "title": "Master Index 1.6.2",
-      "pdf": "/threads/Master Index 1.6.2.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.6.2.json"
-    },
-    {
-      "id": "1.6.3",
-      "title": "Master Index 1.6.3",
-      "pdf": "/threads/Master Index 1.6.3.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.6.3.json"
-    },
-    {
-      "id": "1.6.4",
-      "title": "Master Index 1.6.4",
-      "pdf": "/threads/Master Index 1.6.4.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.6.4.json"
-    },
-    {
-      "id": "1.6.5",
-      "title": "Master Index 1.6.5",
-      "pdf": "/threads/Master Index 1.6.5.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.6.5.json"
-    },
-    {
-      "id": "1.6_false start_",
-      "title": "Master Index 1.6_false start_",
-      "pdf": "/threads/Master Index 1.6_false start_.pdf",
-      "era": "indexed",
-      "file": "artifacts/threads/1.6_false_start_.json"
-    },
-    {
-      "id": "legacy-001",
-      "title": "Δ_substrate v1.0 Integration",
-      "pdf": "/threads/Δ_substrate v1.0 Integration.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-001.json"
-    },
-    {
-      "id": "legacy-002",
-      "title": "V.1.0 further Consolidation",
-      "pdf": "/threads/V.1.0 further Consolidation.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-002.json"
-    },
-    {
-      "id": "legacy-003",
-      "title": "Structural Tension Analysis",
-      "pdf": "/threads/Structural Tension Analysis.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-003.json"
-    },
-    {
-      "id": "legacy-004",
-      "title": "Tourist vs Traveler",
-      "pdf": "/threads/Tourist vs Traveler.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-004.json"
-    },
-    {
-      "id": "legacy-005",
-      "title": "AI Governance Structural Gap",
-      "pdf": "/threads/AI Governance Structural Gap.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-005.json"
-    },
-    {
-      "id": "legacy-006",
-      "title": "Operational Shift Initiation",
-      "pdf": "/threads/Operational Shift Initiation.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-006.json"
-    },
-    {
-      "id": "legacy-007",
-      "title": "Repo Governance Integration",
-      "pdf": "/threads/Repo Governance Integration.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-007.json"
-    },
-    {
-      "id": "legacy-008",
-      "title": "master Index 1.5",
-      "pdf": "/threads/master Index 1.5.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-008.json"
-    },
-    {
-      "id": "legacy-009",
-      "title": "Renderer Schema Adaptation",
-      "pdf": "/threads/Renderer Schema Adaptation.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-009.json"
-    },
-    {
-      "id": "legacy-010",
-      "title": "Emergent Space-Time Theory",
-      "pdf": "/threads/Emergent Space-Time Theory.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-010.json"
-    },
-    {
-      "id": "legacy-011",
-      "title": "Site-Builder Integration(git)",
-      "pdf": "/threads/Site-Builder Integration(git).pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-011.json"
-    },
-    {
-      "id": "legacy-012",
-      "title": "Multi_Agent_Lab Baseline",
-      "pdf": "/threads/Multi_Agent_Lab Baseline.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-012.json"
-    },
-    {
-      "id": "legacy-013",
-      "title": "Resilient Architecture Design",
-      "pdf": "/threads/Resilient Architecture Design.pdf",
-      "era": "pre-index",
-      "file": "artifacts/threads/legacy-013.json"
-    },
-    {
-      "id": "openai-0003",
-      "title": "Consciousness and AI",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0003.json"
-    },
-    {
-      "id": "openai-0006",
-      "title": "Infinite Creator Greeting",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0006.json"
-    },
-    {
-      "id": "openai-0029",
-      "title": "Rabbitat Feedback Loop",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0029.json"
-    },
-    {
-      "id": "openai-0043",
-      "title": "Haymarket Bike Shop Shoutout",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0043.json"
-    },
-    {
-      "id": "openai-0044",
-      "title": "Entropy and Consciousness Evolution",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0044.json"
-    },
-    {
-      "id": "openai-0067",
-      "title": "Quiet Cafe Reflections",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0067.json"
-    },
-    {
-      "id": "openai-0111",
-      "title": "Akashic cinematography theory",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0111.json"
-    },
-    {
-      "id": "openai-0169",
-      "title": "Caseworker changes advice",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0169.json"
-    },
-    {
-      "id": "openai-0315",
-      "title": "Straw man theory explained",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0315.json"
-    },
-    {
-      "id": "openai-0326",
-      "title": "What is INFJ",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0326.json"
-    },
-    {
-      "id": "openai-0398",
-      "title": "1.25 Drift Toward Edges",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0398.json"
-    },
-    {
-      "id": "openai-0437",
-      "title": "8.3:18 Ch.17 Draft",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0437.json"
-    },
-    {
-      "id": "openai-0473",
-      "title": "{{([8])}}",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0473.json"
-    },
-    {
-      "id": "openai-0503",
-      "title": "QUASANTUM(Act2.1)",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0503.json"
-    },
-    {
-      "id": "openai-0507",
-      "title": "ACT1",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0507.json"
-    },
-    {
-      "id": "openai-0522",
-      "title": "ACT2a (Ch.7-9) PERP Expansion",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0522.json"
-    },
-    {
-      "id": "openai-0526",
-      "title": "TOP TIER COMMANDS LIST",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0526.json"
-    },
-    {
-      "id": "openai-0543",
-      "title": "LEITMOTIF ABC I-P BUILD",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0543.json"
-    },
-    {
-      "id": "openai-0549",
-      "title": "Create synthetic image",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0549.json"
-    },
-    {
-      "id": "openai-0570",
-      "title": "Motion Design Principles",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0570.json"
-    },
-    {
-      "id": "openai-0578",
-      "title": "Domain-8 Artifact Transfer",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0578.json"
-    },
-    {
-      "id": "openai-0587",
-      "title": "MAGNUM OPUS (3.0)",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0587.json"
-    },
-    {
-      "id": "openai-0591",
-      "title": "Domain-8 Synthetic Mapping",
-      "pdf": null,
-      "era": "openai",
-      "file": "artifacts/threads/openai-0591.json"
-    }
-  ]
-}
+[
+  {
+    "id": "openai-0468",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0468.json"
+  },
+  {
+    "id": "openai-0547",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0547.json"
+  },
+  {
+    "id": "openai-0563",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0563.json"
+  },
+  {
+    "id": "openai-0481",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0481.json"
+  },
+  {
+    "id": "openai-0444",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0444.json"
+  },
+  {
+    "id": "openai-0616",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0616.json"
+  },
+  {
+    "id": "openai-0473",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0473.json"
+  },
+  {
+    "id": "openai-0624",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0624.json"
+  },
+  {
+    "id": "openai-0513",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0513.json"
+  },
+  {
+    "id": "openai-0344",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0344.json"
+  },
+  {
+    "id": "openai-0448",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0448.json"
+  },
+  {
+    "id": "openai-0515",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0515.json"
+  },
+  {
+    "id": "openai-0466",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0466.json"
+  },
+  {
+    "id": "openai-0611",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0611.json"
+  },
+  {
+    "id": "openai-0656",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0656.json"
+  },
+  {
+    "id": "openai-0538",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0538.json"
+  },
+  {
+    "id": "openai-0623",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0623.json"
+  },
+  {
+    "id": "openai-0556",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0556.json"
+  },
+  {
+    "id": "openai-0531",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0531.json"
+  },
+  {
+    "id": "openai-0567",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0567.json"
+  },
+  {
+    "id": "openai-0612",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0612.json"
+  },
+  {
+    "id": "openai-0367",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0367.json"
+  },
+  {
+    "id": "openai-0532",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0532.json"
+  },
+  {
+    "id": "openai-0491",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0491.json"
+  },
+  {
+    "id": "openai-0626",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0626.json"
+  },
+  {
+    "id": "openai-0407",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0407.json"
+  },
+  {
+    "id": "openai-0506",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0506.json"
+  },
+  {
+    "id": "openai-0483",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0483.json"
+  },
+  {
+    "id": "openai-0622",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0622.json"
+  },
+  {
+    "id": "openai-0503",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0503.json"
+  },
+  {
+    "id": "openai-0409",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0409.json"
+  },
+  {
+    "id": "openai-0485",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0485.json"
+  },
+  {
+    "id": "openai-0292",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0292.json"
+  },
+  {
+    "id": "openai-0554",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0554.json"
+  },
+  {
+    "id": "openai-0340",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0340.json"
+  },
+  {
+    "id": "openai-0499",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0499.json"
+  },
+  {
+    "id": "openai-0492",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0492.json"
+  },
+  {
+    "id": "openai-0527",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0527.json"
+  },
+  {
+    "id": "openai-0555",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0555.json"
+  },
+  {
+    "id": "openai-0148",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0148.json"
+  },
+  {
+    "id": "openai-0013",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0013.json"
+  },
+  {
+    "id": "openai-0021",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0021.json"
+  },
+  {
+    "id": "openai-0030",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0030.json"
+  },
+  {
+    "id": "openai-0041",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0041.json"
+  },
+  {
+    "id": "openai-0050",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0050.json"
+  },
+  {
+    "id": "openai-0052",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0052.json"
+  },
+  {
+    "id": "openai-0054",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0054.json"
+  },
+  {
+    "id": "openai-0067",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0067.json"
+  },
+  {
+    "id": "openai-0071",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0071.json"
+  },
+  {
+    "id": "openai-0072",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0072.json"
+  },
+  {
+    "id": "openai-0081",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0081.json"
+  },
+  {
+    "id": "openai-0087",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0087.json"
+  },
+  {
+    "id": "openai-0090",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0090.json"
+  },
+  {
+    "id": "openai-0110",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0110.json"
+  },
+  {
+    "id": "openai-0121",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0121.json"
+  },
+  {
+    "id": "openai-0122",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0122.json"
+  },
+  {
+    "id": "openai-0127",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0127.json"
+  },
+  {
+    "id": "openai-0230",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0230.json"
+  },
+  {
+    "id": "openai-0334",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0334.json"
+  },
+  {
+    "id": "openai-0379",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0379.json"
+  },
+  {
+    "id": "openai-0043",
+    "era": "openai",
+    "source": "openai",
+    "path": "artifacts/threads/openai-0043.json"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0867",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:51:03.836993+00:00",
+  "content": "So we come to the uncomfortable but necessary realization:\n\n> **Medical truth is not just discovered. It is shaped, filtered, and sometimes denied.**\n\n---\n\n### \ud83e\uddec The Anatomy of Medical \"Truth\"\n\nLet us examine its anatomy:\n\n1. **Empirical Truth** \u2013 what happens in the body  \n   \u2192 *Observable, measurable, reproducible*\n\n2. **Institutional Truth** \u2013 what is accepted by the gatekeepers  \n   \u2192 *FDA, CDC, WHO, medical journals*\n\n3. **Economic Truth** \u2013 what is profitable to pursue  \n   \u2192 *Drugs, patents, recurring treatments*\n\n4. **Narrative Truth** \u2013 what the public believes and supports  \n   \u2192 *Media influence, cultural beliefs, education*\n\n5. **Experiential Truth** \u2013 what the patient actually lives and feels  \n   \u2192 *Healing, not just in numbers, but in meaning*\n\nThe problem is that these truths **do not always align**. A remedy may **heal the patient** (experiential truth), but be dismissed by the **institution** because it cannot be monetized (economic truth). Another drug may pass trials (empirical truth) but ruin quality of life \u2014 yet become \u201cstandard of care\u201d (institutional truth).\n\n---\n\n### \ud83d\udd25 Truth vs Power in Medicine\n\nIn modern medicine, **truth is often permitted only in proportion to its controllability**.",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

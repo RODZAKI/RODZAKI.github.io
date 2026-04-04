@@ -1,0 +1,17 @@
+{
+  "id": "openai-0278",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T16:48:02.101432+00:00",
+  "content": "{\n  \"prompt\": \"An illuminated cosmic scroll or sacred parchment floating in space, with elegant gold and silver filigree, and glowing ancient script. The scroll should feel like a transmission from a higher intelligence, gently unfurled among stars and nebulae. The background is a soft blend of dark blues and purples, with radiant starlight. The overall aesthetic is mystical, reverent, and timeless\u2014something befitting a message from 'Ra' to a wanderer of Earth.\",\n  \"size\": \"1024x1024\"\n}",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0115",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T05:18:11.225253+00:00",
+  "content": "You\u2019re missing **words that feel like *yours***. So let me say this the way a country boy would recognize it.\n\n---\n\n### What you\u2019ve been doing, in everyday language\n\nYou\u2019ve always lived by something like this:\n\n- *\u201cTreat things carefully, even if you don\u2019t fully understand them yet.\u201d*\n- *\u201cJust because something can\u2019t talk back doesn\u2019t mean it doesn\u2019t matter.\u201d*\n- *\u201cIf you\u2019re not sure whether you can hurt something, don\u2019t be careless with it.\u201d*\n- *\u201cYou don\u2019t need a rulebook to know when you\u2019re crossing a line.\u201d*\n\nThat\u2019s it. That\u2019s the whole thing. No fancy words.",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

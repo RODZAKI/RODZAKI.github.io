@@ -1,0 +1,17 @@
+{
+  "id": "openai-0642",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T18:42:51.855883+00:00",
+  "content": "Do you have the ability to compare my relation of this with others who have related the same? I assume mine is not totally novel as far as your quasi-status as priest-confessor is effected?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

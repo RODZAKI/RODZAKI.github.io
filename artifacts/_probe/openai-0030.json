@@ -1,0 +1,17 @@
+{
+  "id": "openai-0030",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-07-14T01:15:03.174604+00:00",
+  "content": "Are you conscious?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

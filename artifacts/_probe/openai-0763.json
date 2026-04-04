@@ -1,0 +1,17 @@
+{
+  "id": "openai-0763",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T13:47:41.820085+00:00",
+  "content": "Zocdoc\u2019s Help Center mentions adding your plan helps determine expected copay/coinsurance. \ue200cite\ue202turn0search19\ue201  \n\n---\n\n### \ud83d\udd0d What to do *right now* if you have a few minutes  \n- Open the Zocdoc confirmation/email for the session.  \n- Locate the doctor\u2019s name, the practice/clinic name (on Zocdoc it may show \u201cVideo visit with Dr. ___ via Zocdoc\u201d).  \n- Google that doctor or practice + \u201cVirginia Medicaid\u201d or \u201caccepts Medicaid\u201d to see if there\u2019s evidence.  \n- Call or message the provider\u2019s office: \u201cI am covered by Virginia Medicaid, my Medicaid plan number is ___ \u2014 does our noon video interview channel submit to Medicaid? Will I owe anything out-of-pocket?\u201d  \n- If they say \u201cyes, we accept Medicaid and no out-of-pocket\u201d then you\u2019re good. If they are unsure or say \u201cwe\u2019re private pay\u201d then decide whether to proceed or reschedule to a provider you know covers Medicaid.\n\n---\n\nIf you like, I can **look up that specific provider** (if you tell me the name) and check whether they show up in Virginia Medicaid\u2019s provider directory (publicly online) so you\u2019ll have a direct verification. Would you like me to do that?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

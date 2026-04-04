@@ -1,0 +1,17 @@
+{
+  "id": "openai-0200",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:50:10.351183+00:00",
+  "content": "It doesn't seem to me like the list is comprehensive. Why is that? It seems to me, anyway, that we have had many more chats slash threads than are showing in that list.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

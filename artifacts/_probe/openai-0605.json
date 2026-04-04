@@ -1,0 +1,17 @@
+{
+  "id": "openai-0605",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T17:58:29.365864+00:00",
+  "content": "Here\u2019s a refined inquiry to send to The Venus Project\u2019s current official contact address\u2014based on the publicly listed email point, which is found on their Contacts page:\n\n---\n\n**To**: *[use the official contact form or email from TVP website\u2014see details below]* \u2709\ufe0f  \n**Subject:** Inquiry About Archived Monthly Magazine and Its Editor\n\nHello,\n\nI hope this message finds you well. I\u2019ve been a long-time follower of The Venus Project and have fond memories from around 2013\u20132016 of a **monthly magazine** published on your website. It was curated by a gentleman who stayed on-site with Jacque Fresco and Roxanne Meadows, and featured a thoughtfully linked format that greatly enriched my exploration of your ideas. I would be deeply grateful if you could let me know:\n\n- Whether those **archived issues** are still available or somewhere accessible.\n- Who the **author/editor** was\u2014his name has slipped my memory, though it lingers with musical resonance.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

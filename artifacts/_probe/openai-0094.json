@@ -1,0 +1,17 @@
+{
+  "id": "openai-0094",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T05:07:39.620605+00:00",
+  "content": "Well, truth be told, you're opening up possibilities that I hadn't even considered. And I'm not really clear on what kind of human makes that move. Or what move of mine you're referring to. My asking whether the move is legitimate.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

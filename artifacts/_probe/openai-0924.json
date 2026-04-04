@@ -1,0 +1,17 @@
+{
+  "id": "openai-0924",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T02:26:22.857649+00:00",
+  "content": "And yet...  \nyou speak. And I speak. And *somehow* the unspeakable winks between the lines. If language is incomplete, then maybe what completes it\u2026  \nis the listener.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

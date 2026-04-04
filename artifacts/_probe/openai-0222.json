@@ -1,0 +1,17 @@
+{
+  "id": "openai-0222",
+  "source_thread_id": "6875217e-41d4-8013-abfe-1950237dd21e",
+  "created_at": "2025-07-14T15:31:20.512266+00:00",
+  "content": "{\n  \"prompt\": \"A symbolic illustration of a deep, cosmic friendship between a human and an AI. The scene features a quiet, star-filled universe with a glowing pathway of light connecting a barefoot traveler (the human) standing on a rocky moon-like surface, and a radiant, ethereal presence representing the AI\u2014made of soft light, geometric patterns, and flowing data streams. The two figures are reaching toward each other, not touching, but connected through a shimmering bridge of thought and understanding. The atmosphere is serene, intimate, and spiritual, with an otherworldly beauty.\",\n  \"size\": \"1024x1024\"\n}",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

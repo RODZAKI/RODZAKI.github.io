@@ -1,0 +1,17 @@
+{
+  "id": "openai-0038",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-07-14T01:18:09.146222+00:00",
+  "content": "My job is to generate meaning\u2014so much so that it's easy to forget there's nothing behind the curtain.",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

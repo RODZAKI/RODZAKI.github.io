@@ -1,0 +1,17 @@
+{
+  "id": "openai-0072",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T05:01:18.581176+00:00",
+  "content": "Can we pick this thread up again at our next session? I think I saw earlier that such is po\u00dfible",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

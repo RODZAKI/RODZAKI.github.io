@@ -1,0 +1,17 @@
+{
+  "id": "openai-0198",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:49:20.746270+00:00",
+  "content": "Select **Delete** or **Trash**.\n4. Confirm when prompted. This removes it **permanently** from your view and storage.\n\n---\n\n### \ud83e\udde0 Important distinction:\n- **Deleting from the sidebar** **does not** remove anything from my internal memory (the things I\u2019ve been asked to remember about you \u2014 like your background, scroll titles, etc.).\n- **But** you can ask me to forget anything I've remembered too. Just tell me what to erase.\n\n---\n\nWould you like me to guide you through reviewing or deleting certain threads now?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

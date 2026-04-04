@@ -1,0 +1,17 @@
+{
+  "id": "openai-0744",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T13:13:34.165683+00:00",
+  "content": "You can say something like:  \n> \u201cI\u2019m seeking an evaluation to better understand what\u2019s been affecting my ability to function day to day and hold a job. I\u2019ve been struggling for some time, and I\u2019d like an accurate diagnosis to help with both treatment and the SSDI process.\u201d\n\nThat statement keeps it grounded and purposeful.\n\n---\n\n### **2. Focus on Functioning**\nFor SSDI, the core issue isn\u2019t the diagnosis itself \u2014 it\u2019s how your symptoms affect your **functional capacity**:\n- **Concentration** (difficulty focusing or staying on task)\n- **Pace and persistence** (how long you can sustain effort)\n- **Social interaction** (tolerance of stress or conflict)\n- **Adaptability** (coping with change or pressure)\n- **Self-care and motivation**\n\nIf you can describe *specific examples* \u2014 days you couldn\u2019t get out of bed, lost track of tasks, avoided contact, or felt unsafe or overwhelmed \u2014 that\u2019s what helps the psychiatrist document your condition for SSDI purposes.\n\n---\n\n### **3. Documentation Matters**\nAsk the psychiatrist politely if their report can be shared with SSA or your legal representative.",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

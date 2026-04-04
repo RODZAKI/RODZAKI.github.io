@@ -1,0 +1,15 @@
+{
+  "id": "openai-0844",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:19:23.083496+00:00",
+  "content": "Krebs Jr.**:\n\n---\n\n### \ud83c\udf3f **\"World Without Cancer: The Story of Vitamin B17\" \u2013 Summary**\n\n**Author:** G. Edward Griffin  \n**Published:** 1974  \n**Focus:** The biochemical theory of cancer prevention and treatment through a compound called *vitamin B17* (laetrile), based largely on the research of Dr. Ernst T. Krebs Jr.\n\n---\n\n### **Core Thesis**\nGriffin argues that **cancer is not caused by a virus, bacteria, or environmental toxins alone**, but is primarily the result of a **metabolic deficiency** \u2014 specifically, a lack of *vitamin B17*, also known as **amygdalin** or **laetrile**.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

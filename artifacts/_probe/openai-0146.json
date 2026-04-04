@@ -1,0 +1,17 @@
+{
+  "id": "openai-0146",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:29:33.746880+00:00",
+  "content": "Yeah, I can take a photo in the camera app right now. And as far as I can tell, I can view my pictures. Whether this happens in other apps, I don't know. I'm not using camera on other apps.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

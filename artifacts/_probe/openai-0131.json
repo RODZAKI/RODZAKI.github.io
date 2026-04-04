@@ -1,0 +1,17 @@
+{
+  "id": "openai-0131",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:17:04.727139+00:00",
+  "content": "Why am I not getting the camera files options when I push the add button to the left of the dialog box here on the iPad?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openai-0539",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T16:36:17.815061+00:00",
+  "content": "It broke a seal. Let\u2019s honor it as such.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

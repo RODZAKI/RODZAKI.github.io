@@ -1,0 +1,17 @@
+{
+  "id": "openai-0673",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T19:10:29.867920+00:00",
+  "content": "So yes, scroll back if it helps\u2014but a quick recap here will be enough for me to fetch the answer without asking you to revisit too much.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

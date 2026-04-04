@@ -1,0 +1,15 @@
+{
+  "id": "openai-0819",
+  "source_thread_id": "6876ef56-bea4-8013-a288-d62412ddf248",
+  "created_at": "2025-07-16T00:24:09.178934+00:00",
+  "content": "Give the session a name (I can help with this).  \n2. Copy the conversation.  \n3. Paste it into a new Gmail message to yourself.  \n4. Use the session name as the subject line.  \n5.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

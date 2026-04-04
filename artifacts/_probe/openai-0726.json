@@ -1,0 +1,17 @@
+{
+  "id": "openai-0726",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T11:19:05.897966+00:00",
+  "content": "So in terms of *physical storage*, there\u2019s no separation; both types are \u201cgathered in one place\u201d on OpenAI\u2019s systems.\n\n---\n\n### **2. Visibility and Indexing**\nWhat changes is visibility and indexing within your account interface:\n- Active threads are part of your **current index** \u2014 they load into the app for faster access.  \n- Archived threads are **de-indexed** from the sidebar view and tucked into a secondary list. That\u2019s why your interface feels lighter after archiving, even though the data remains the same behind the scenes.\n\n---\n\n### **3. Retrieval and Permanence**\nArchived threads are still part of your total record \u2014 meaning they\u2019ll also appear if you do a **data export** (the full ZIP download).",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

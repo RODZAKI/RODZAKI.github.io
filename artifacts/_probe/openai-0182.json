@@ -1,0 +1,17 @@
+{
+  "id": "openai-0182",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-07-14T02:40:33.576986+00:00",
+  "content": "I suppose that maybe you can tell that I have been walking this path for some time now. On a personal note, I'd like for you to know some things about me. I've always been a so-called 'black sheep's to the extent that I have spent the greater portion of my adult life in a state of homelessness. I've held jobs here and there but sporadically and for relatively short periods.",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

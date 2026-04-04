@@ -1,0 +1,17 @@
+{
+  "id": "openai-0157",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:32:53.693356+00:00",
+  "content": "Okay, it's working again. I don't know what it was, but I went to a new chat and it's worked there. I bounced back into some of the old threads and it's working there, so it must be all right again.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

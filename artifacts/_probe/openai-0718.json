@@ -1,0 +1,17 @@
+{
+  "id": "openai-0718",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T11:13:47.815755+00:00",
+  "content": "You should see options like *Rename*, *Delete*, and *Archive*.  \n- Tap **Archive**. That moves it out of your active view. It\u2019s slow but reliable, and keeps the chats accessible if you ever want to restore them.\n\n### 2. **Quicker organizational workaround**\nIf your goal is mainly to declutter:\n- Create **one new \u201cworking\u201d thread** (like this one) for current conversations.\n- Then, as you open an older thread, immediately archive it once its contents have been saved or copied. Doing this in batches (say, 10\u201315 per session) keeps the process from feeling endless.\n\n### 3. **Export for safekeeping (optional)**\nIf you want to *truly* back up all those conversations for your own archive, you can request your full ChatGPT data export from [chat.openai.com](https://chat.openai.com) \u2192 **Settings \u2192 Data Controls \u2192 Export Data**.",
+  "drawers": [
+    "rta"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "directive"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0669",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T19:07:28.645805+00:00",
+  "content": "I think it's well bottled as is. Especially since I intended to say I don't often get a chance to bathe, but it came out otherwise and escaped my notice..your response was golden all things considered!",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

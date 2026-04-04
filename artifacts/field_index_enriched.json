@@ -1,0 +1,411 @@
+[
+  {
+    "field_id": "F-001",
+    "size": 4,
+    "members": [
+      "openai-0013",
+      "openai-0067",
+      "openai-0127",
+      "openai-0531"
+    ],
+    "top_drawers": {
+      "rta": 3,
+      "dharma": 1
+    },
+    "source_distribution": {
+      "openai": 4
+    }
+  },
+  {
+    "field_id": "F-002",
+    "size": 5,
+    "members": [
+      "openai-0021",
+      "openai-0043",
+      "openai-0072",
+      "openai-0110",
+      "openai-0121"
+    ],
+    "top_drawers": {
+      "logos": 5,
+      "dharma": 2,
+      "dao": 1
+    },
+    "source_distribution": {
+      "openai": 5
+    }
+  },
+  {
+    "field_id": "F-003",
+    "size": 2,
+    "members": [
+      "openai-0030",
+      "openai-0052"
+    ],
+    "top_drawers": {
+      "logos": 2
+    },
+    "source_distribution": {
+      "openai": 2
+    }
+  },
+  {
+    "field_id": "F-004",
+    "size": 2,
+    "members": [
+      "openai-0041",
+      "openai-0087"
+    ],
+    "top_drawers": {
+      "logos": 2,
+      "ubuntu": 1
+    },
+    "source_distribution": {
+      "openai": 2
+    }
+  },
+  {
+    "field_id": "F-005",
+    "size": 4,
+    "members": [
+      "openai-0050",
+      "openai-0071",
+      "openai-0122",
+      "openai-0230"
+    ],
+    "top_drawers": {
+      "maat": 3,
+      "dao": 1,
+      "dharma": 1
+    },
+    "source_distribution": {
+      "openai": 4
+    }
+  },
+  {
+    "field_id": "F-006",
+    "size": 6,
+    "members": [
+      "openai-0054",
+      "openai-0148",
+      "openai-0483",
+      "openai-0503",
+      "openai-0527",
+      "openai-0622"
+    ],
+    "top_drawers": {
+      "logos": 6,
+      "dharma": 3
+    },
+    "source_distribution": {
+      "openai": 6
+    }
+  },
+  {
+    "field_id": "F-007",
+    "size": 3,
+    "members": [
+      "openai-0081",
+      "openai-0090",
+      "openai-0379"
+    ],
+    "top_drawers": {
+      "logos": 3,
+      "rta": 1,
+      "maat": 1
+    },
+    "source_distribution": {
+      "openai": 3
+    }
+  },
+  {
+    "field_id": "F-008",
+    "size": 4,
+    "members": [
+      "openai-0292",
+      "openai-0340",
+      "openai-0407",
+      "openai-0448"
+    ],
+    "top_drawers": {
+      "dharma": 4,
+      "rta": 4
+    },
+    "source_distribution": {
+      "openai": 4
+    }
+  },
+  {
+    "field_id": "F-009",
+    "size": 4,
+    "members": [
+      "openai-0334",
+      "openai-0444",
+      "openai-0468",
+      "openai-0515"
+    ],
+    "top_drawers": {
+      "rta": 4
+    },
+    "source_distribution": {
+      "openai": 4
+    }
+  },
+  {
+    "field_id": "F-010",
+    "size": 4,
+    "members": [
+      "openai-0344",
+      "openai-0466",
+      "openai-0485",
+      "openai-0491"
+    ],
+    "top_drawers": {
+      "rta": 4
+    },
+    "source_distribution": {
+      "openai": 4
+    }
+  },
+  {
+    "field_id": "F-011",
+    "size": 3,
+    "members": [
+      "openai-0367",
+      "openai-0473",
+      "openai-0611"
+    ],
+    "top_drawers": {
+      "rta": 3,
+      "dharma": 1
+    },
+    "source_distribution": {
+      "openai": 3
+    }
+  },
+  {
+    "field_id": "F-012",
+    "size": 1,
+    "members": [
+      "openai-0409"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1,
+      "ubuntu": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-013",
+    "size": 1,
+    "members": [
+      "openai-0481"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-014",
+    "size": 1,
+    "members": [
+      "openai-0492"
+    ],
+    "top_drawers": {
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-015",
+    "size": 1,
+    "members": [
+      "openai-0499"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-016",
+    "size": 5,
+    "members": [
+      "openai-0506",
+      "openai-0538",
+      "openai-0547",
+      "openai-0556",
+      "openai-0563"
+    ],
+    "top_drawers": {
+      "rta": 5,
+      "dharma": 1
+    },
+    "source_distribution": {
+      "openai": 5
+    }
+  },
+  {
+    "field_id": "F-017",
+    "size": 1,
+    "members": [
+      "openai-0513"
+    ],
+    "top_drawers": {
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-018",
+    "size": 1,
+    "members": [
+      "openai-0532"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-019",
+    "size": 1,
+    "members": [
+      "openai-0554"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-020",
+    "size": 1,
+    "members": [
+      "openai-0555"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-021",
+    "size": 1,
+    "members": [
+      "openai-0567"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-022",
+    "size": 1,
+    "members": [
+      "openai-0612"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-023",
+    "size": 1,
+    "members": [
+      "openai-0616"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-024",
+    "size": 1,
+    "members": [
+      "openai-0623"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-025",
+    "size": 1,
+    "members": [
+      "openai-0624"
+    ],
+    "top_drawers": {
+      "dharma": 1,
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-026",
+    "size": 1,
+    "members": [
+      "openai-0626"
+    ],
+    "top_drawers": {
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  },
+  {
+    "field_id": "F-027",
+    "size": 1,
+    "members": [
+      "openai-0656"
+    ],
+    "top_drawers": {
+      "rta": 1
+    },
+    "source_distribution": {
+      "openai": 1
+    }
+  }
+]

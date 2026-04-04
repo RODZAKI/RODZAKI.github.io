@@ -1,0 +1,17 @@
+{
+  "id": "openai-0599",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T17:50:06.698602+00:00",
+  "content": "The publication featured a clean, effective format and embedded links to a wide range of related resources. It greatly helped me expand my understanding of TVP and related ideas. I\u2019ve been hoping to revisit those issues, both for inspiration and for historical reference. Might you still have access to those past issues or archives?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

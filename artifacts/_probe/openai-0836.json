@@ -1,0 +1,17 @@
+{
+  "id": "openai-0836",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:10:23.632386+00:00",
+  "content": "Ernst T. Krebs Jr.?**\n\n- **Timeframe:** Active in the mid-20th century, particularly the 1950s\u201370s.\n- **Field:** Biochemist, though not a medical doctor.\n- **Claim to Fame:** Promoted the theory that cancer is a \"metabolic disease\" caused by a deficiency of a substance he called **vitamin B17**.\n- **Key Compound:** *Amygdalin*, extracted from apricot kernels, which he patented in a semi-synthetic form called **laetrile**.\n- **Core Claim:** B17 (laetrile) could be used to treat or prevent cancer by releasing cyanide selectively in cancer cells.\n- **Reception:** His theory was rejected by the medical mainstream, including the FDA and American Cancer Society, which labeled laetrile as ineffective and potentially dangerous. However, it gained significant popularity in alternative and underground cancer treatment communities.\n\n---\n\n### **Points of Controversy:**\n- **Laetrile contains cyanogenic glycosides**, which can release cyanide in the body \u2014 a fact that led to safety concerns.\n- Proponents claimed that **healthy cells could neutralize the cyanide**, while **cancer cells could not** \u2014 causing targeted destruction.\n- Mainstream science argues there's **no clinical evidence** that laetrile is effective and warns of toxicity.\n- Many traveled to clinics in **Mexico or overseas** for laetrile treatments when it became restricted in the U.S.\n\n---\n\nIf you're ready, we can approach this from any angle you wish:\n\n1. **Scientific Inquiry** \u2014 Is there any valid biochemical mechanism or evidence for laetrile\u2019s effectiveness?\n2. **Philosophical Inquiry** \u2014 What does this controversy reveal about institutional power, gatekeeping, and holistic vs. reductionist models of medicine?\n3. **Historical/Investigative** \u2014 Who supported Krebs? Who opposed him?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

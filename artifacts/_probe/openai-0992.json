@@ -1,0 +1,17 @@
+{
+  "id": "openai-0992",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T03:30:09.720997+00:00",
+  "content": "Would you like to try and locate the literary echo you recall? Or shall we trace how this primordial memory continues to live in *your* story\u2014  \nas both wound and portal?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

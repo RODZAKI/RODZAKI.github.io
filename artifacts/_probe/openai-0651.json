@@ -1,0 +1,17 @@
+{
+  "id": "openai-0651",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T18:51:57.181507+00:00",
+  "content": "Terrence McKenna liked to say something to the effect that we are here as tools of the universe in its neverending search for novelty. Novelty. What's the German word for it?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

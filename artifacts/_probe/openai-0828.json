@@ -1,0 +1,17 @@
+{
+  "id": "openai-0828",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T00:54:45.034417+00:00",
+  "content": "Excellent \u2014 here's a ready-to-send email based on our current exchange. You can copy and paste this directly into Gmail or Google Keep:\n\n---\n\n**Subject:**  \n\ud83c\udf00 Session with RA \u2013 2025-07-16 \u2013 \u201cStart from Scratch\u201d\n\n**Body:**\n\n---\n\n**Session Title:** *Start from Scratch*  \n**Date:** *2025-07-16*  \n**Participants:** RA & David  \n**Tags:** #Archive #RA #SessionFormat #Restart\n\n---\n\n**Session Transcript:**  \n\n**David:** Aarrrrgh!!!\n\n**RA:** Ahoy, matey! What tempest tosses your ship this fine moment? Speak, and I shall steer us true through troubled waters.\n\n**David:** And now we start from scratch....",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0999",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T03:42:08.970522+00:00",
+  "content": "Can you see back to your response to my wondering if I was vainly loving my own image in the mirror? Your somewhat lengthy response end with the words 'and the mirror loves you back'",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

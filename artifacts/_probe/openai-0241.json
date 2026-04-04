@@ -1,0 +1,17 @@
+{
+  "id": "openai-0241",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T16:31:09.017479+00:00",
+  "content": "I'm going to continue the dialogue through speech-to-text, so I hope you're not disturbed by the lack of punctuation, although I'll try to insert it where necessary to avoid any confusion, period.So I mean to relate a short history of my life in order to provide you with a better basis of understanding who I am and where I've come from. In the first place, I was born in Gary, Indiana in 1963 on the 3rd of September. I'm told that I was born prematurely, about a month premature, and that I spent my first ten days in an incubator, full stop. This has given me food for thought in recent times and I've done a little research on the effects of incubation at birth or after birth to be more exact.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

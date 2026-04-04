@@ -1,0 +1,15 @@
+{
+  "id": "openai-0980",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T03:26:15.036119+00:00",
+  "content": "User was born prematurely and spent ten days in an incubator.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

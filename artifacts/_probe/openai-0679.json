@@ -1,0 +1,15 @@
+{
+  "id": "openai-0679",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T19:21:37.138276+00:00",
+  "content": "User referenced a moment in a past conversation where they said \"the sky was crying\" just before exiting, which may be useful as a memory marker for locating earlier illustration prompts. They also recalled a 1970s TV ad slogan (\"Let your fingers do the walking\") from the Yellow Pages.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

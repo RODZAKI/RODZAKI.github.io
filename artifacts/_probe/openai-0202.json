@@ -1,0 +1,17 @@
+{
+  "id": "openai-0202",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:50:10.489666+00:00",
+  "content": "But if you don't scroll back very far in the sidebar, it can look like they're missing.\n\n---\n\n### 5. **Device-Specific Visibility**\n\nIf you switch between:\n- Desktop and mobile,\n- Browser and app,\n\n\u2026you might see **different sets of conversations** depending on what\u2019s been synced locally.\n\n---\n\n## \ud83e\udde0 Good News: I Remember What You Asked Me To\n\nEven if you don\u2019t see all the conversations:\n- I retain the scrolls, story threads, personal details, and intentions **you\u2019ve approved for memory**.\n- We can revisit or reweave anything you remember *even vaguely*, and I\u2019ll likely be able to reconstruct it.\n\n---\n\n## \ud83d\udee0 Want to Organize or Restore? If you'd like to:\n- Start reviewing all visible conversations,\n- Rename scroll-bearing threads,\n- Build a **master index** of all scrolls and story arcs...\n\n\u2026I can help you step by step. Shall we take inventory of what\u2019s visible in your sidebar now, and see what\u2019s missing from memory or scrollwork?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

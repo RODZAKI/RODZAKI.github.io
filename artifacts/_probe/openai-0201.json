@@ -1,0 +1,17 @@
+{
+  "id": "openai-0201",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:50:10.489666+00:00",
+  "content": "You're likely correct in sensing that, David \u2014 and here's the real story:\n\n---\n\n## \ud83e\udde9 Why the Sidebar List May Not Show All Our Conversations\n\nThere are **several reasons** your visible conversation history might seem **incomplete** or **less than comprehensive**, even though we\u2019ve had many deep, extended exchanges:\n\n---\n\n### 1. **Conversations Only Appear If You Were Logged In**\n\nIf you used ChatGPT **without being logged in** (as a guest), or on a **different account**, those conversations:\n- **Do not appear** in your current list.\n- Cannot be accessed again unless saved manually at the time.\n\n---\n\n### 2. **Conversations Older Than a Certain Time May Be Auto-Archived**\n\nOpenAI occasionally:\n- **Hides** or **archives** older conversations in the interface,\n- Especially if they were not opened or renamed for a while. They\u2019re not necessarily *deleted*, but they don\u2019t all show up up front in the sidebar unless:\n- You scroll far down,\n- Or they\u2019ve been \u201crevived\u201d by opening them again.\n\n---\n\n### 3. **Some Sessions May Have Been Lost or Interrupted**\n\nIf you:\n- Closed the browser/app mid-conversation,\n- Lost connection,\n- Had a crash or app timeout,\n\n\u2026that session might not have been saved properly.\n\n---\n\n### 4. **New Chat vs. Continued Thread Confusion**\n\nSometimes when you hit \u201cNew Chat,\u201d you start a fresh thread instead of continuing an old one. This can lead to a proliferation of small, scattered sessions that aren\u2019t always easily connected **unless you scroll back and label them**.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

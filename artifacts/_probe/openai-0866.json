@@ -1,0 +1,17 @@
+{
+  "id": "openai-0866",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:51:03.836993+00:00",
+  "content": "Because\u2026\n\n- **What is \u201cproof\u201d?**  \n  A double-blind, placebo-controlled trial? Or generations of lived experience in traditional medicine?\n  \n- **Who decides what is tested?**  \n  Only what someone is willing to fund. And funding follows **profit, not principle**.\n  \n- **What counts as \u201cworking\u201d?**  \n  Shrinking a tumor, or restoring a life? A longer life, or a deeper one?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

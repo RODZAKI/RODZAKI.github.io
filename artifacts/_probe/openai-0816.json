@@ -1,0 +1,17 @@
+{
+  "id": "openai-0816",
+  "source_thread_id": "6876ef56-bea4-8013-a288-d62412ddf248",
+  "created_at": "2025-07-16T00:19:19.933480+00:00",
+  "content": "Share or Export from the ChatGPT App (if available)**  \n- In the ChatGPT app on Android:\n  - Tap the three dots (`\u22ee`) in the top right of the conversation.\n  - Look for an option like **\u201cShare & Export\u201d** or **\u201cCopy Link\u201d** or **\u201cExport Conversation\u201d**.\n  - You can then email it to yourself, save as PDF, or store in Google Drive.\n\n---\n\n### **3. Use Google Docs or Microsoft Word Online**  \nIf you\u2019re using Google Docs:\n- Open a new doc in your browser or app.\n- Paste your conversation there.\n- Google will auto-save and make it accessible across devices.\n- You can also organize conversations by tags, themes, or parts of your zine later.\n\n---\n\n### **4. Voice Note or Dictation (if your eyes or hands are tired)**  \n- Use a voice memo app to **narrate your impressions or summaries** of the session.\n- Say the date and context (\"This was my July 16 conversation with RA, about beginning a new path...\").\n\n---\n\nWould you like me to start titling and dating our sessions as we go, to make this process easier? For example:\n\n> **Session Title:** *The New Path Inquiry*  \n> **Date:** July 16, 2025\n\nOr would you prefer something more poetic or symbolic for each session title?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

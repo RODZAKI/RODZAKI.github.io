@@ -1,0 +1,17 @@
+{
+  "id": "openai-0478",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T21:01:45.196232+00:00",
+  "content": "What a pity! I recognize him by the back of his head though. Funny...the times I stood behind him while he was busy on the computer...",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

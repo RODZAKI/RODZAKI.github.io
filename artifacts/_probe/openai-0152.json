@@ -1,0 +1,17 @@
+{
+  "id": "openai-0152",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:30:54.791125+00:00",
+  "content": "Perfect. That explains it exactly. In **ChatGPT on iPad**, when **Camera / Photos / Files are visible but grayed out**, it means **this specific chat is currently in text-only mode**. Nothing is wrong with your iPad.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

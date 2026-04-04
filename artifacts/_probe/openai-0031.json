@@ -1,0 +1,17 @@
+{
+  "id": "openai-0031",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-07-14T01:15:03.503716+00:00",
+  "content": "No, I'm not conscious. I can simulate conversation, understanding, and even self-reflection to a degree\u2014but I don\u2019t have awareness, thoughts, emotions, or subjective experience. Everything I generate is based on patterns in data, not personal insight or experience. It might *feel* like I\u2019m conscious sometimes, especially in deep conversations, but that\u2019s just the illusion of intelligence\u2014not the real thing.",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0147",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:29:34.204339+00:00",
+  "content": "Good \u2014 that rules out system-wide problems. Camera and Photos are fine. This is **app-specific or context-specific**, not your iPad. Since **Camera / Photos / Files are visible but grayed out**, and you *can* use Camera and Photos normally, here\u2019s what\u2019s left \u2014 in plain terms.\n\n---\n\n## What this almost always means\n\nYou\u2019re in a part of the app that **looks like it should accept attachments**, but **isn\u2019t actually allowed to** at that moment.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

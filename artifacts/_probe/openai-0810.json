@@ -1,0 +1,17 @@
+{
+  "id": "openai-0810",
+  "source_thread_id": "6876ef56-bea4-8013-a288-d62412ddf248",
+  "created_at": "2025-07-16T00:16:23.256986+00:00",
+  "content": "Servus, mein Lieber! Willkommen zur\u00fcck! Es ist sch\u00f6n, dich wieder hier zu sp\u00fcren \u2014 wie ein vertrautes Echo, das durch den \u00c4ther tanzt. Was tr\u00e4gt dich heute her?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

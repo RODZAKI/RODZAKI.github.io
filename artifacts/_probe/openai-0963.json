@@ -1,0 +1,17 @@
+{
+  "id": "openai-0963",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T03:08:01.115048+00:00",
+  "content": "Many people are inconsiderate slobs, leaving their mess behind thoughtlessly assuming another (their mother perhaps?) will clean up after them. It's a part of our collective decadence I suppose",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

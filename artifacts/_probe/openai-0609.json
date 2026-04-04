@@ -1,0 +1,17 @@
+{
+  "id": "openai-0609",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T18:16:04.029139+00:00",
+  "content": "Yes please. I just attempted it through the link you provided and hopefully it went through, but I have my doubts as I saw one of those frowning face icons before leaving-- as if something went 'schief'",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

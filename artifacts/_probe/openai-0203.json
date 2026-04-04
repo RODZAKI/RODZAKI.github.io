@@ -1,0 +1,17 @@
+{
+  "id": "openai-0203",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:52:39.117766+00:00",
+  "content": "I'm specifically concerned about things I've said that might be, let's say, morally incriminating.",
+  "drawers": [
+    "rta"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "directive"
+}

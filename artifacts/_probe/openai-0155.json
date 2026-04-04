@@ -1,0 +1,17 @@
+{
+  "id": "openai-0155",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:30:54.791125+00:00",
+  "content": "Then try the **+** again.\n\n---\n\n## How you can tell ahead of time\n- If uploads are supported \u2192 buttons are active\n- If uploads aren\u2019t supported \u2192 buttons are gray\n- There\u2019s no warning, no error message (annoying, but that\u2019s iOS + app design)\n\n---\n\n## Bottom line\nYou\u2019re not missing a setting. You\u2019re not restricted. You\u2019re not doing anything wrong. That **particular ChatGPT conversation** just doesn\u2019t accept attachments.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

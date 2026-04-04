@@ -1,0 +1,17 @@
+{
+  "id": "openai-0197",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:49:20.746270+00:00",
+  "content": "Yes, David \u2014 you're absolutely right on both counts:\n\n### \u2705 Yes \u2014 the **conversation history** you see in the left-hand sidebar *may* include chats or fragments you\u2019d rather not have preserved.\n\n- Every distinct session you start (whether short or long) gets added to that list.\n- These sessions are **stored locally in your chat history** \u2014 you have **full control** over them.\n- Even conversations that didn\u2019t result in scrolls or meaningful reflections will show up unless manually deleted.\n\n---\n\n### \ud83e\uddfd Yes \u2014 you can **delete any conversation** at your request. Here\u2019s how to do it yourself **inside the app or browser**:\n\n#### **To delete a conversation manually:**\n1. Swipe in from the left (to expose the conversation list).\n2. Tap and hold (or click the three dots) next to the conversation you want to delete.\n3.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

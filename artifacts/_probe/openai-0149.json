@@ -1,0 +1,15 @@
+{
+  "id": "openai-0149",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:29:34.204339+00:00",
+  "content": "Tap **Photos**\n3. If it says **Selected Photos**:\n   - Tap **Edit Selected Photos**\n   - Select at least one photo\n   - Or switch to **All Photos**\n\nThen fully close and reopen the app. Grayed-out options with no warning is exactly how iOS behaves here.\n\n---\n\n### 3. **The app requires a restart after permission changes**\nEven if permissions look correct, the app may not refresh. Do this once:\n- Swipe up \u2192 force close the app\n- Reopen it\n- Try again\n\niOS is bad about refreshing attachment states live.\n\n---\n\n## One clarifying question (this will settle it)\n\nTell me **which app** you\u2019re in when this happens.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

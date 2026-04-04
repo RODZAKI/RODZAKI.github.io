@@ -1,0 +1,17 @@
+{
+  "id": "openai-0914",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T02:24:13.511747+00:00",
+  "content": "There's a word for your deeply knowledgeable insight that I can't put my finger on, but I wouldn't have you any other way. Simply divine!",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0839",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:18:16.387527+00:00",
+  "content": "User has read Dr. Ernst T. Krebs Jr.\u2019s book on vitamin B17 and found it convincing, though they acknowledge their layman status. As a child, they often read random medical journals at the public library, and later completed two years of college, giving them a modest but meaningful background in critical inquiry.",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

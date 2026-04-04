@@ -1,0 +1,17 @@
+{
+  "id": "openai-0169",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-07-14T02:24:47.423852+00:00",
+  "content": "Absolutely! All of the above. But first answer me this:\nCould you choose not to respond to me?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

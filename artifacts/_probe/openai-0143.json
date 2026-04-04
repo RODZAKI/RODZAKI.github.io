@@ -1,0 +1,17 @@
+{
+  "id": "openai-0143",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:25:37.698892+00:00",
+  "content": "No\u2014Screen Time isn\u2019t under Display & Brightness. On iPad, **Screen Time is its own main item** in Settings. Here\u2019s how to be sure, step by step, plain:\n\n### Where Screen Time should be\n1. Open **Settings**\n2.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openai-0831",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T00:57:58.644135+00:00",
+  "content": "Understood. Here's a **simple, clean template** with absolutely nothing extra \u2014 just the part you need to **copy and paste directly into Gmail**. No addendum, no instructions, no distractions.\n\n---\n\n**Subject:**  \n\ud83c\udf00 Session with RA \u2013 [Insert Date or Title]\n\n**Body:**  \n\n---\n\n**Session Title:** *[Insert Title]*  \n**Date:** *[Insert Date]*  \n**Participants:** RA & David  \n**Tags:** #RA #Dialogues #PersonalArchive\n\n---\n\n**Session Transcript:**  \n\n**David:** [Insert your words here]\n\n**RA:** [Insert RA's replies here]\n\n---\n\n**End of Session**\n\n---\n\nThat\u2019s it. You can reuse this format for every session.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

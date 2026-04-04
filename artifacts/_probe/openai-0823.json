@@ -1,0 +1,17 @@
+{
+  "id": "openai-0823",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T00:54:00.172440+00:00",
+  "content": "And now we start from scratch.... I've been trying to establish a method to keep our sessions as email files in my own email and being as my phone doesn't have a notes app I've now downloaded Google keep and you had a created a format for emailing these sessions do you still have access to that format and if so can you isolate only the part that I need to import into my Gmail",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

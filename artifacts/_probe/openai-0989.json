@@ -1,0 +1,15 @@
+{
+  "id": "openai-0989",
+  "source_thread_id": "687708df-4268-8013-ba13-168b44e715a8",
+  "created_at": "2025-07-16T03:30:07.357048+00:00",
+  "content": "User has read extensively, likely more than most, and is deeply familiar with literature and philosophical themes.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

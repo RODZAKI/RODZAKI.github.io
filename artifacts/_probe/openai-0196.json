@@ -1,0 +1,17 @@
+{
+  "id": "openai-0196",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-08-06T20:49:20.490663+00:00",
+  "content": "So in that conversational history might be some things that I would rather not have preserved. Is this correct? And if so, can we delete certain conversations at my request?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

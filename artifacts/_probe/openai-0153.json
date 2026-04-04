@@ -1,0 +1,17 @@
+{
+  "id": "openai-0153",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:30:54.791125+00:00",
+  "content": "Nothing is wrong with permissions.\n\n---\n\n## Why this happens in ChatGPT (plain)\n\nChatGPT has **different conversation modes** behind the scenes. Some chats allow:\n- text only\n\nSome allow:\n- text + images / files\n\nWhen you\u2019re in a **text-only chat**, the app still shows the **+** menu, but **Camera / Photos / Files are disabled** (grayed out). That\u2019s exactly what you\u2019re seeing. You didn\u2019t do anything wrong \u2014 it\u2019s just how the app behaves.\n\n---\n\n## How to fix it (two easy ways)\n\n### Option 1 \u2014 Start a new chat (fastest)\n1.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

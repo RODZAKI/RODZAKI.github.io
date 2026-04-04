@@ -1,0 +1,15 @@
+{
+  "id": "openai-0785",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T14:13:25.786667+00:00",
+  "content": "Yes \u2014 that screen is exactly what you\u2019ll use to check in for your **video session**. Doxy.me is a HIPAA-compliant telehealth platform that many CSB-affiliated clinicians use. To make sure it goes smoothly:\n1. **Stay on that Android device** for the video call \u2014 it handles the camera and mic fine.\n2. When it asks for your name, type it exactly as it appears on the appointment.\n3. **Allow microphone and camera access** when prompted; otherwise the psychiatrist won\u2019t see or hear you.\n4.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

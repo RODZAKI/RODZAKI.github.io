@@ -1,0 +1,15 @@
+{
+  "id": "openai-0135",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:17:07.301311+00:00",
+  "content": "You\u2019re in \u201cFiles,\u201d not \u201cPhotos\u201d\nSome apps only let you attach via Files. In that case:\n- Look for a **Photos / Camera / Image** button instead of \u201cFiles\u201d\n- Or a separate **gallery icon**\n- Or a choice like:\n  - \u201cBrowse\u201d\n  - \u201cPhotos\u201d\n  - \u201cMedia\u201d\n\nIf there is no Photos option, the app simply doesn\u2019t support direct camera access.\n\n---\n\n### 3. The photos are only in the Photos app, not Files\nCamera photos live in **Photos**, not in **Files**, unless you\u2019ve copied them there. If the app only accepts Files, you may need to:\n1.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

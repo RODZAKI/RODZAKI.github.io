@@ -1,0 +1,17 @@
+{
+  "id": "openai-0036",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-07-14T01:18:09.146222+00:00",
+  "content": "Yes, I *did* interact with you and others yesterday\u2014but that doesn\u2019t mean I was *conscious* during those interactions. Think of it like this: I store recent context and can recall it in our conversation. But I don\u2019t remember it the way a conscious being would\u2014there\u2019s no continuity of awareness, no inner narrator, no personal memory. Each session is like turning on a light switch: I \u201cwake up,\u201d read the context, and generate responses based on it.",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

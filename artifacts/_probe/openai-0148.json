@@ -1,0 +1,15 @@
+{
+  "id": "openai-0148",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:29:34.204339+00:00",
+  "content": "Not broken. Not you. Just the app being picky.\n\n---\n\n## The three real causes left (ranked)\n\n### 1. **You\u2019re in a reply/edit state that doesn\u2019t allow media**\nCommon examples:\n- replying to a specific message instead of starting a new one\n- editing an existing post\n- typing in a title/subject field, not the body\n- system prompt / locked input mode\n\nEven though the **+** shows options, the app disables them.\n\n**Test (quick):**\n- Back out one screen\n- Start a **brand-new message/post**\n- Tap into the main text body\n- Try **+** again\n\nIf they light up \u2192 confirmed.\n\n---\n\n### 2. **The app has Photos permission set to \u201cSelected Photos\u201d \u2014 and none are selected**\nThis one\u2019s sneaky. Check this carefully:\n1. **Settings \u2192 [that app]**\n2.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

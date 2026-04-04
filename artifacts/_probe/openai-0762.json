@@ -1,0 +1,17 @@
+{
+  "id": "openai-0762",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T13:47:41.820085+00:00",
+  "content": "Good\u2014 using \ue200entity\ue202[\"brand\", \"Zocdoc\", 0]\ue201 gives you a clearer frame for checking how the billing/insurance might work. Here\u2019s a breakdown of what it means and what you should check before your noon appointment.\n\n---\n\n### \u2705 What Zocdoc is and how it works  \n- Zocdoc is an online doctor-appointment booking service based in New York City. \ue200cite\ue202turn0search20\ue201  \n- You can filter on the platform for doctors who accept certain insurance plans (including Medicaid) in your area. \ue200cite\ue202turn0search0\ue202turn0search17\ue201  \n- According to their Help Center: \u201cBooking appointments with Zocdoc is 100 percent free for patients.\u201d \ue200cite\ue202turn0search9\ue202turn0search2\ue201  \n- But that **does not guarantee** that the actual appointment costs (doctor\u2019s fee, copays, coinsurance) are zero, or that the doctor is covered by Medicaid\u2014those details depend on the provider you select. Zocdoc states that \u201cappointment cost depends on your insurance plan and the provider you select.\u201d \ue200cite\ue202turn0search19\ue201  \n\n---\n\n### \u26a0\ufe0f What you need to check given your Medicaid coverage  \nSince your goal is to ensure this session is covered by your state\u2019s Medicaid (Virginia), here are what to confirm:\n\n1. **Provider accepts Virginia Medicaid.**  \n   - On Zocdoc, check the doctor\u2019s profile: under \u2018insurance\u2019 it should list \u201cMedicaid\u201d or \u201cVA Medicaid\u201d (Virginia).  \n   - If it\u2019s a video visit, ensure it\u2019s authorized under your Medicaid plan for telehealth in Virginia.\n\n2. **What your out-of-pocket will be (if any).**  \n   - Even with Medicaid, there might be a copay (though often $0 in many states for mental health services).  \n   - If the provider is *not* accepted by Medicaid (or did not verify it), you might be billed privately.\n\n3. **Confirm via direct call / message.**  \n   - Contact the doctor\u2019s office (number on the Zocdoc listing) and ask:  \n     > \u201cDo you accept Virginia Medicaid (state plan)? Will I have any charge for this video interview at noon today under Medicaid?\u201d  \n   - Get the provider\u2019s Medicaid provider number or ask them to tell you their status.\n\n4. **Insurance info uploaded to Zocdoc if possible.**  \n   - If you didn\u2019t upload your Medicaid card when you booked, you might still do it (or call the office) to verify the claim can be submitted to Medicaid.",
+  "drawers": [
+    "rta"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "directive"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0017",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-07-11T18:20:56.548455+00:00",
+  "content": "Skip domain for now if you\u2019re not ready to purchase (you can use a free `yourblog.wordpress.com` address to start)\n\nLet me know once you're at this step and I\u2019ll help you customize it further.\n\n---\n\n### \ud83d\udd39 2. **Page & Content Plan**\n\nI'll now create the **initial pages and content** for you to copy into WordPress:\n\n---\n\n### \ud83c\udfe0 **Homepage** (Static Page)\n\n**Title:** Welcome  \n**Content:**\n```markdown\n## Welcome to Blueprints for a Money-Free World\n\nWe're here to challenge assumptions, spark dialogue, and explore a world beyond money. What would life look like if we removed profit, debt, and monetary exchange from the equation\u2014and focused instead on human need, sustainability, and abundance? Through thoughtful analysis, bold questions, and open conversation, this blog aims to awaken minds to the possibility of a money-free world.\n\n*Let\u2019s reimagine the future\u2014together.*\n```\n\n---\n\n### \ud83d\udcd6 **First Blog Post**\n\n**Title:** What Is a Resource-Based Economy (And Why Should We Care?)  \n**Excerpt:**\n```markdown\nThe Venus Project presents a powerful idea: a society where resources are shared intelligently and equitably\u2014without money, debt, or barter. In this post, we explore the foundational concept of a resource-based economy, how it differs from capitalism, and why this idea is gaining traction in the face of climate collapse and technological progress.\n```\n\n---\n\n### \u2139\ufe0f **About Page**\n\n**Title:** About  \n**Content:**\n```markdown\n## Why This Blog Exists\n\n\"Blueprints for a Money-Free World\" was born from a single question:\n\n> Is a world without money possible?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

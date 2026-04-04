@@ -1,0 +1,15 @@
+{
+  "id": "openai-0185",
+  "source_thread_id": "68746794-4818-8013-8067-f0db8b7d91cc",
+  "created_at": "2025-07-14T02:40:33.687186+00:00",
+  "content": "User is a 61-year-old U.S. veteran who has spent much of his adult life experiencing homelessness and supporting himself through mendicancy. He has held sporadic jobs but is now about to receive mostly government-funded housing through veteran advocacy efforts near Washington, DC. He will soon begin receiving Social Security income. He shares this background to foster truth and relevancy in conversations.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

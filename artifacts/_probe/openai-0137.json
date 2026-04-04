@@ -1,0 +1,17 @@
+{
+  "id": "openai-0137",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:17:07.301311+00:00",
+  "content": "Pick a location (e.g. On My iPad \u2192 Documents)\n\nThen they\u2019ll show up in the Files picker.\n\n---\n\n## Quick test to confirm the cause\n\nTry this:\n- Open **Photos**\n- Pick any photo\n- Tap **Share**\n- See if the app you\u2019re using appears in the share list\n\nIf it does \u2192 permission issue or picker mismatch  \nIf it doesn\u2019t \u2192 app limitation\n\n---\n\n## Bottom line (plain)\n\nNothing\u2019s \u201cwrong\u201d with your iPad. It\u2019s one of these:\n- permissions not granted\n- wrong picker (Files vs Photos)\n- app doesn\u2019t support camera files directly\n\nTell me:\n- which app you\u2019re in\n- what you\u2019re trying to attach (photo, screenshot, video)\n\nand I\u2019ll give you the exact clicks\u2014no wandering.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

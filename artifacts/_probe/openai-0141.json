@@ -1,0 +1,17 @@
+{
+  "id": "openai-0141",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:18:15.937513+00:00",
+  "content": "Check:\n1. **Settings \u2192 Screen Time**\n2. **Content & Privacy Restrictions**\n3. **Allowed Apps**\n   - Make sure **Camera** is allowed\n4. **Photos** \u2192 make sure access isn\u2019t restricted\n\nIf Screen Time is off, skip this.\n\n---\n\n## Quick way to confirm what\u2019s blocking it\n\nAnswer me these, quick yes/no:\n- Can you take a photo **in the Camera app** right now?\n- Can you open Photos and view your pictures?\n- Does this happen in **other apps**, or only this one? That will tell me immediately whether this is:\n- app-level\n- system-level\n- or context-level (most likely)\n\nWe\u2019ll get it unstuck before the coffee\u2019s cold.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

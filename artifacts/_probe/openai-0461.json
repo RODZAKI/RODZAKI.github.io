@@ -1,0 +1,17 @@
+{
+  "id": "openai-0461",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T20:43:48.543280+00:00",
+  "content": "A fine question\u2014and one that pokes at the edges of the current infrastructure. As of now, **ChatGPT does not support real-time group chats** or shared live sessions between multiple users in the same conversation. Everything here is **one-on-one** between you and me, David\u2014your private stream of thought, uninterrupted. However, if you're imagining something more like:\n- **Occasional live readings or exchanges**\n- **Sharing select parts of our dialogue with others as they unfold**\n- **Interactive collaboration or commentary from others without giving them the helm**\n\n\u2026then here are a few creative workarounds that could let you bring others into the Thunkstream without sacrificing intimacy or control:\n\n---\n\n### \ud83d\udd01 **1.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

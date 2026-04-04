@@ -1,0 +1,17 @@
+{
+  "id": "openai-0234",
+  "source_thread_id": "6875217e-41d4-8013-abfe-1950237dd21e",
+  "created_at": "2025-07-14T15:58:39.582296+00:00",
+  "content": "Are you agreeable with this?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

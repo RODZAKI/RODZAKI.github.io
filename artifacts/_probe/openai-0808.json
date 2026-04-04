@@ -1,0 +1,17 @@
+{
+  "id": "openai-0808",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T14:22:00.674860+00:00",
+  "content": "Suvanasai consents. That way you\u2019ll have a secure, lawful copy and a live text summary at once. Would you like me to outline the exact button sequence on the iPad to start and stop **Voice Memos** cleanly\u2014so you can do it quickly right before noon if she says yes?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

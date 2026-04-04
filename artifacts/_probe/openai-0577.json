@@ -1,0 +1,17 @@
+{
+  "id": "openai-0577",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T17:15:08.630493+00:00",
+  "content": "I\u2019m not entirely sure I followed you correctly\u2014when you mention **\u201cawareness TVP\u201d**, are you referring to:\n\n- **Textured Vegetable Protein (TVP)** and interest in how awareness or adoption of it has grown?\n- Or something more like **\u201cawareness\u201d** in a consciousness or media sense, where **TVP** is an abbreviation for a concept or practice?\n- Or perhaps **something else entirely**? If you meant **Textured Vegetable Protein**, the data shows global and U.S. growth over the past decade:\n\n- Globally, the market is growing rapidly, with projected compound annual growth rates (CAGRs) from roughly **6.7% to about 9%** depending on source and timeframe \ue200cite\ue202turn0search2\ue202turn0search8\ue202turn0search5\ue201.\n- In the **U.S.**, reports suggest rising adoption driven by health-conscious consumers and expanding plant\u2011based product usage. For example, sales of plant\u2011based foods in the U.S. reached around **$7\u20138 billion in 2022**, up ~6\u20136.6% year-over-year \ue200cite\ue202turn0search9\ue202turn0search2\ue202turn0search11\ue201. And specialized U.S. data mentions soybean processing for TVP rising **32%** year-over-year as of late 2023 \ue200cite\ue202turn0search6\ue201.\n\n- In **North America**, forecasts estimate a **U.S.-specific CAGR** over the coming decade around **~3.7\u20139.4%** depending on the exact analysis and base years \ue200cite\ue202turn0search1\ue202turn0search3\ue201.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

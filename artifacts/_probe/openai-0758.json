@@ -1,0 +1,17 @@
+{
+  "id": "openai-0758",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T13:45:19.117796+00:00",
+  "content": "That\u2019s a very sensible thing to double-check before the call. Here\u2019s how to think about it:\n\n---\n\n### 1. **How these online psychiatric interviews are usually billed**\nIf you booked the session yourself through a link (for example, via a clinic\u2019s website or a tele-psychiatry platform), it generally goes one of three ways:\n1. **Medicaid-contracted provider** \u2013 no out-of-pocket cost; Medicaid covers the visit.\n2. **Private pay platform** \u2013 you entered a credit/debit card during sign-up; they\u2019ll charge you directly (often $100\u2013$250 unless they state \u201cMedicaid accepted\u201d).\n3. **Community or county mental-health service** \u2013 still covered by Medicaid, even if done over video. Because you said you don\u2019t recall exactly how you were connected, it could easily be #1 or #3 \u2014 both of which **would be fully covered**.\n\n---\n\n### 2. **How to verify before noon**\nDo this right now (takes about 3\u20134 minutes):\n1. Open the confirmation email or text for the appointment.\n2.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

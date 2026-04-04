@@ -1,0 +1,17 @@
+{
+  "id": "openai-0018",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-07-11T18:20:56.548455+00:00",
+  "content": "This blog explores post-monetary ideas such as the Venus Project, resource-based economies, open-source culture, and decentralized cooperation. It's not about utopias\u2014it's about possibilities. We\u2019re here to question the assumptions of scarcity and reimagine what a truly sustainable and humane society could look like.\n```\n\n---\n\n### \u2753 **FAQ Page**\n\n**Title:** FAQ  \n**Content:**\n```markdown\n### Isn't a money-free world just a utopia? Not necessarily.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

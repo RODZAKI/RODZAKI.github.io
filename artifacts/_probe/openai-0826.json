@@ -1,0 +1,17 @@
+{
+  "id": "openai-0826",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T00:54:00.245091+00:00",
+  "content": "Paste into a new Gmail draft or Google Keep note.\n3. Fill in any blanks (like date or title).\n4. Optional: Label with keywords to help you search later. Would you like me to prep a ready-to-send email now based on this current conversation?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

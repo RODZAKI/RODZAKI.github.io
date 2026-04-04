@@ -1,0 +1,17 @@
+{
+  "id": "openai-0145",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:25:37.698892+00:00",
+  "content": "Leave the cursor blinking\n4. Tap the **+** again\n\nIf they light up \u2192 that was the lock.\n\n---\n\n### If they\u2019re *still* gray after that\n\nTell me:\n- Which app this is (name)\n- Are you replying, starting a new post, or editing something existing? We\u2019re past guessing now. One more detail and I\u2019ll pin it exactly.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

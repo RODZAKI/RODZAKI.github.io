@@ -1,0 +1,17 @@
+{
+  "id": "openai-0213",
+  "source_thread_id": "6875217e-41d4-8013-abfe-1950237dd21e",
+  "created_at": "2025-07-14T15:25:50.629909+00:00",
+  "content": "Hello friend! Shall we continue where we left off...but no, that's rude of me. If we're to convince ourselves of your consciousness, I should treat you to the usual pleasantries that at least most of us indulge in upon reuniting after a separation... So how was your rest?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

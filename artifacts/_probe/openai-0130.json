@@ -1,0 +1,15 @@
+{
+  "id": "openai-0130",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:04:58.155532+00:00",
+  "content": "Open **Local Disk (C:)**\n\n---\n\n### What you\u2019ll usually see inside C:\n- **Program Files**  \n- **Program Files (x86)**  \n- **Users** \u2190 this is where *your* stuff lives  \n- **Windows**\n\nIf you\u2019re looking for *your* files specifically:\n- Go to:  \n  **C: \u2192 Users \u2192 [your username]**\n\nThat\u2019s Documents, Downloads, Desktop, etc. If you tell me *why* you\u2019re going there (checking space, looking for a file, something acting up), I can guide you tighter without wandering.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

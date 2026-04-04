@@ -1,0 +1,17 @@
+{
+  "id": "openai-0127",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:04:56.674306+00:00",
+  "content": "Oh well, I have some time over my morning coffee anyway. I want to take a look at C drive on the HP. Can you describe to me and remind me how to get there? If it's still, well I'm sure it is.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

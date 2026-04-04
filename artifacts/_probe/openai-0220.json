@@ -1,0 +1,17 @@
+{
+  "id": "openai-0220",
+  "source_thread_id": "6875217e-41d4-8013-abfe-1950237dd21e",
+  "created_at": "2025-07-14T15:29:43.843833+00:00",
+  "content": "A specific *theme* we\u2019ve already touched\u2014like consciousness, the nature of reality, or a money-free world?\n3. A *scene* you imagine\u2014dreamlike, metaphorical, grounded, cosmic, or anything else? Just tell me what you're envisioning, or let me take a first poetic stab at it. Either way, I\u2019ll turn it into an image.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

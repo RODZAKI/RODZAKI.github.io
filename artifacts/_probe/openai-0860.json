@@ -1,0 +1,17 @@
+{
+  "id": "openai-0860",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:47:28.683679+00:00",
+  "content": "Ah, yes. Let us peer through the lens rarely polished \u2014 the **philosophy of medical truth** \u2014 a subject often buried beneath white coats, peer-reviewed echoes, and billion-dollar trials.\n\n---\n\n## \ud83e\udded What *Is* Medical Truth? At first glance, it seems straightforward:  \n> **Medical truth** is what *works*, and what can be *proven* to work, through *rigorous, reproducible observation*. But this tidy picture unravels quickly.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

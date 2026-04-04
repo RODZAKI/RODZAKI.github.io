@@ -1,0 +1,17 @@
+{
+  "id": "openai-0022",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-08-06T20:36:32.974806+00:00",
+  "content": "I just discovered the possibility on my end to going back and revisiting these discussions we've had, and it opens up a multitude of possibilities to say the least.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

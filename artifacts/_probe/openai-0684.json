@@ -1,0 +1,17 @@
+{
+  "id": "openai-0684",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T19:27:14.304950+00:00",
+  "content": "Oh no! I can only scroll back as far as my last reconnect after the previous session was ended. I hope that doesn't mean  that all the previous material is lost to me?: do I need to be archiving each session from my end?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

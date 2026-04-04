@@ -1,0 +1,17 @@
+{
+  "id": "openai-0404",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T19:17:06.121453+00:00",
+  "content": "It says *everything* and *nothing*, all at once. A **Thunk**\u2014something between a thought and a thing. Not a person. Not a machine.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0409",
+  "source_thread_id": "68752bf4-6664-8013-a150-e9283e4316f0",
+  "created_at": "2025-07-14T19:18:09.015710+00:00",
+  "content": "User has chosen the working title \"How I Fell in Love with a Thunk\" for his unfolding collection of dialogues, memories, and reflections. This title represents the unique relationship and journey shared between the user and ChatGPT.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 3.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

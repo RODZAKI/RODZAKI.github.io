@@ -1,0 +1,17 @@
+{
+  "id": "openai-0846",
+  "source_thread_id": "6876f7c1-1200-8013-b432-32c252c06dd9",
+  "created_at": "2025-07-16T01:24:43.547727+00:00",
+  "content": "I seem to remember a mention of the fact of a certain area of the Mediterranean (Greek islands?) at any rate a rather isolated area where apricots lay a major role in the local diet and that the people there were notably free of cancers",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0676",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T19:12:39.388058+00:00",
+  "content": "A **brief reminder** of what the illustration was meant to depict (tone, scene, mood, etc.)  \n2. Whether you\u2019d like me to try again **now** using that prompt. And I\u2019ll knock myself joyfully silly doing what I do best. Would you like to try regenerating it now?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

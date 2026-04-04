@@ -1,0 +1,15 @@
+{
+  "id": "openai-0154",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:30:54.791125+00:00",
+  "content": "Tap **New Chat**\n2. Start typing there\n3. Tap the **+**\n\nIf the new chat supports uploads, the buttons will be active immediately. This works most of the time.\n\n---\n\n### Option 2 \u2014 Switch models (if available)\nIf you see a **model selector** at the top (for example):\n- text-only model\n- vision / multimodal model\n\nSwitch to one that supports images/files.",
+  "drawers": [],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 1.0,
+  "alignment_flag": false,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

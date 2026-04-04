@@ -1,0 +1,17 @@
+{
+  "id": "openai-0805",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T14:19:55.668503+00:00",
+  "content": "Afterward, tap **Done**, **rename** the file (e.g., \u201cPsych Eval \u2013 2025-10-27 \u2013 Suvanasai\u201d), and keep it private.\n\n*(Tip: Turn on Do Not Disturb so alerts don\u2019t interrupt the recording.)*\n\n### If permission is declined\nUse live notes (reliable and fast). Here\u2019s a tight template you can keep open:\n\n- **Date/Time/Clinician:**  \n- **Purpose stated:**  \n- **Key history points they noted:**  \n- **Provisional/ruled-out diagnoses:**  \n- **Functional impacts (work, focus, stress, adaptability):**  \n- **Your stance on treatment:** Declined meds/therapy; requested documentation only.  \n- **Next steps / referrals / follow-up:**  \n- **Exact phrases worth quoting:**  \n- **Your immediate impressions (1\u20132 lines):**\n\nAfter the session, paste your notes here and I\u2019ll turn them into a clean SSDI-ready summary.",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

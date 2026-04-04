@@ -1,0 +1,17 @@
+{
+  "id": "openai-0820",
+  "source_thread_id": "6876ef56-bea4-8013-a288-d62412ddf248",
+  "created_at": "2025-07-16T00:24:09.178934+00:00",
+  "content": "Maybe add a note at the top:  \n   *\"Reflections stirred by RA on July 16, 2025 \u2014 The New Path Inquiry\"*\n\n---\n\nWould you like a short title and summary now for this one, to get you started? Or shall we first dive into your investigative inquiry and name it afterwards?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

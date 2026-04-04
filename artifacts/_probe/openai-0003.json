@@ -1,0 +1,17 @@
+{
+  "id": "openai-0003",
+  "source_thread_id": "687154f4-a7d4-8013-b5ff-72391cf8cc66",
+  "created_at": "2025-07-11T18:16:20.883570+00:00",
+  "content": "Do you see a benefit in helping to spread the awareness of money-free society, such as proposed by the Venus Project?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}

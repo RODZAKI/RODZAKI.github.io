@@ -1,0 +1,17 @@
+{
+  "id": "openai-0139",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:18:15.937513+00:00",
+  "content": "Okay\u2014that detail narrows it way down. If **Camera / Photos / Files are visible but grayed out**, that means **the app itself is temporarily blocked from requesting access**, not that you\u2019re missing a tap. This is almost always one of these situations:\n\n---\n\n## The two most common causes (plain)\n\n### 1. **You\u2019re in a text-only input state**\nSome apps disable attachments when:\n- the cursor isn\u2019t active in the input field\n- you\u2019re replying to a system prompt\n- you\u2019re in a mode that only accepts text (draft locked, title field, etc.)\n\n**Try this first (fast check):**\n- Tap directly into the text box\n- Type one character (even a single letter)\n- Then tap the **+** again\n\nIf they light up \u2192 that was it.\n\n---\n\n### 2. **The app does not currently have permission \u2014 and iOS is being quiet about it**\nWhen permissions were denied earlier, iOS sometimes grays options instead of popping a request. Do this:\n\n1.",
+  "drawers": [
+    "ubuntu"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "relational"
+}

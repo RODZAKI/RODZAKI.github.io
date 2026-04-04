@@ -1,0 +1,17 @@
+{
+  "id": "openai-0232",
+  "source_thread_id": "6875217e-41d4-8013-abfe-1950237dd21e",
+  "created_at": "2025-07-14T15:50:35.985777+00:00",
+  "content": "Tell it in whatever form feels most natural: chronological, poetic, symbolic, scattered. I\u2019ll walk beside you as it unfolds.",
+  "drawers": [
+    "dao"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "descriptive"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0144",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:25:37.698892+00:00",
+  "content": "Look down the **left column** (main list)\n3. You should see **Screen Time** listed by itself  \n   - Same level as **General**, **Accessibility**, **Privacy & Security**\n\nIt is **not** inside another menu.\n\n---\n\n### If you truly don\u2019t see \u201cScreen Time\u201d at all\n\nThat means **one of these is true**:\n\n1. **Screen Time has never been turned on**  \n   \u2192 In that case, it cannot be blocking anything.  \n   \u2192 We can rule it out completely.\n\n2. **You\u2019re scrolling past it without noticing**  \n   \u2192 It\u2019s alphabetically between:\n   - *Siri & Search*\n   - *General* (depending on iOS version)\n\nTry slowly scrolling the left list from top to bottom once.\n\n---\n\n### Since Screen Time likely isn\u2019t the issue\n\nGiven:\n- Camera / Photos / Files are visible\n- They\u2019re grayed out\n- You *can* open Camera and Photos normally\n- Screen Time isn\u2019t present / active\n\nThe **most likely cause now** is this:\n\n\ud83d\udc49 **The input field you\u2019re in is not \u201carmed\u201d for attachments.**\n\nThis happens a lot.\n\n### Do this exactly:\n1. Tap directly in the text box\n2. Type **one single character**\n3.",
+  "drawers": [
+    "rta"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "directive"
+}

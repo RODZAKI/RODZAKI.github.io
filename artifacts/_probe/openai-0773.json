@@ -1,0 +1,17 @@
+{
+  "id": "openai-0773",
+  "source_thread_id": "6876d715-f7b4-8013-9ec8-5aae20583f1e",
+  "created_at": "2025-10-27T13:51:25.030663+00:00",
+  "content": "That\u2019s a very reassuring screenshot, David. It shows exactly what you\u2019d want to see:  \n\n---\n\n### \u2705 **What it Confirms**\n- **Insurance sent to provider:** means your Medicaid information was transmitted automatically via Zocdoc\u2019s system.  \n- **This visit is in-network** \u2192 the provider you booked through Zocdoc **accepts your Virginia Medicaid (Medallion)** plan.  \n- The green check mark verifies that Zocdoc\u2019s system has confirmed coverage with that plan. In plain terms:  \n> You should not owe any out-of-pocket charge for today\u2019s interview.  \n> Medicaid will be billed directly by the provider.  \n\n---\n\n### \ud83e\uddfe **What Happens Next**\nAfter your appointment:\n- The psychiatrist\u2019s office will submit the claim to Virginia Medicaid.\n- Medicaid pays them directly, and you\u2019ll likely receive a \u201czero-balance\u201d explanation of benefits (EOB) in a few weeks showing the visit as covered.\n- If anything unexpected happens (for example, a mailed bill), you can call either the **Virginia Medicaid Member Services** line or the **provider\u2019s billing office**, quoting your Member ID shown on that Zocdoc page.\n\n---\n\n### \ud83d\udca1 **Final Tip**\nKeep that screenshot\u2014it\u2019s perfect documentation of your in-network status if there\u2019s ever a question later in your SSDI paperwork or a billing dispute. So you\u2019re all set for noon: no charge expected, coverage verified, and purpose clearly defined.",
+  "drawers": [
+    "dharma"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "directive"
+}

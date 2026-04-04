@@ -1,0 +1,17 @@
+{
+  "id": "openai-0158",
+  "source_thread_id": "68745a16-e094-8013-8d84-73a1c743a699",
+  "created_at": "2025-12-25T12:32:54.129324+00:00",
+  "content": "Good \u2014 that lines up exactly with how the app behaves sometimes. What likely happened is:\n- the app got \u201cstuck\u201d in a text-only state in that one thread  \n- starting a **new chat** forced it to refresh the attachment capability  \n- once refreshed, the older threads inherited the fix\n\nThat\u2019s a known quirk. Nothing you did caused it, and nothing\u2019s wrong now. If it ever happens again, the quick reset is:\n- start a new chat **or**\n- fully close and reopen the app\n\nEither one usually clears it.",
+  "drawers": [
+    "maat"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "evaluative"
+}

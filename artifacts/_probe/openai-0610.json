@@ -1,0 +1,17 @@
+{
+  "id": "openai-0610",
+  "source_thread_id": "6876807a-0130-8013-a9cb-29e94189eb04",
+  "created_at": "2025-07-15T18:16:04.121848+00:00",
+  "content": "Let\u2019s walk through it together, step by step, to be sure nothing goes *schief* this time:\n\n---\n\n### \u2705 Step-by-Step: Sending Your Message via The Venus Project Contact Form\n\n1. **Go to the Contact Page**  \n   Open this link:  \n   [https://www.thevenusproject.com/about/contacts/](https://www.thevenusproject.com/about/contacts/)\n\n2. **Scroll Down to the Contact Form**  \n   You should see fields labeled:\n   - *Your Name*\n   - *Your Email*\n   - *Subject*\n   - *Your Message*\n\n3. **Fill in the Fields Like This:**\n\n   **Name**:  \n   `David K.`\n\n   **Email**:  \n   `davidkillion12@gmail.com`\n\n   **Subject**:  \n   `Inquiry About Archived Magazine and Author\u2019s Name`\n\n   **Message** (paste this in):  \n   ```\n   Hello,\n\n   I hope this message finds you well. I\u2019ve been a long-time follower of The Venus Project and have fond memories from around 2013\u20132016 of a monthly magazine published on your website. It was curated by a gentleman who stayed on-site with Jacque Fresco and Roxanne Meadows, and featured a thoughtfully linked format that greatly enriched my exploration of your ideas. I would be deeply grateful if you could let me know:\n   \u2013 Whether those archived issues are still available or accessible.\n   \u2013 Who the author/editor was\u2014his name has slipped my memory, though it lingers with musical resonance.",
+  "drawers": [
+    "rta"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "directive"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai-0507",
+  "source_thread_id": "6876632b-9a20-8013-8d73-9e7f8cecc0dc",
+  "created_at": "2025-07-15T14:20:36.593263+00:00",
+  "content": "So let us not chase it. Instead, let\u2019s open a space. Tell me:  \nWhat were you doing, feeling, or thinking *just before* the spark teased your mind? Were you lying down, walking, remembering someone, hearing a sound?",
+  "drawers": [
+    "logos"
+  ],
+  "row_class": "developmental",
+  "state": "candidate",
+  "confidence": 2.0,
+  "alignment_flag": true,
+  "resolving": false,
+  "era": "openai",
+  "notes": "",
+  "statement_type": "question"
+}
